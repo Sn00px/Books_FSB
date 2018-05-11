@@ -1,0 +1,134 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[croatian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage{amsmath,amsfonts,amssymb,mathrsfs}
+\usepackage{fancyhdr,makeidx}
+\usepackage{dcolumn,multirow,eucal,hhline,subcaption}
+\usepackage{pgfplots,pgfplotstable,colortbl,array}
+\usepackage[unicode, hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage{
+epstopdf,
+graphicx,tikz,
+%pgflibraryshapes,
+color,caption,
+listings,
+dcolumn,
+multirow,
+array,
+booktabs,
+picture,
+upgreek,
+wrapfig,      
+cancel,
+placeins,
+url,
+verbatim,
+media9,
+float,
+incgraph
+}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[croatian]{nomencl}
+\makenomenclature
+\usepgfplotslibrary{units}
+\usetikzlibrary{pgfplots.units}
+\usetikzlibrary{angles,calc,decorations.pathmorphing,patterns}
+\usetikzlibrary{decorations.pathmorphing,decorations.pathreplacing}
+\pgfplotstableset{precision=10,set thousands separator={}}
+\usepackage{nicefrac}
+\hoffset -30 pt
+\voffset -50 pt
+\textheight = 650 pt
+\textwidth = 450 pt
+\sloppy
+\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+\usepgfplotslibrary{external}
+\usetikzlibrary{pgfplots.external}
+\usepgfplotslibrary{external}
+\usepackage{lmodern,textcomp}
+\usepackage{multimedia}
+\headheight = 14 pt
+\headwidth = 17 cm
+\pagestyle{fancy}
+
+
+\newcommand{\tikzAngleOfLine}{\tikz@AngleOfLine} %crtanje kuteva
+  \def\tikz@AngleOfLine(#1)(#2)#3{%
+  \pgfmathanglebetweenpoints{%
+    \pgfpointanchor{#1}{center}}{%
+    \pgfpointanchor{#2}{center}}
+  \pgfmathsetmacro{#3}{\pgfmathresult}%
+  }
+
+
+\fancyfoot[R]{\thepage}
+\fancyhead[L]{Marijan Jasak dipl. ing}
+\fancyhead[R]{Analiza vrijednosti i njena primjena}
+\fancyfoot[L]{}
+\fancypagestyle{fancypage}{
+    \fancyhf{}
+    \footrulewidth=20pt
+    %\renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+}
+\cfoot[]{}
+\renewcommand{\thefigure}{\arabic{section}.\arabic{subsection}.\arabic{figure}}
+\makeindex
+\numberwithin{figure}{section}
+
+\setlength\parindent{24pt}
+\begin{document}
+
+\begin{titlepage}
+\begin{titlepage}
+  \null\vfill
+
+  \begin{center}
+
+  {\huge\bfseries Analiza vrijednosti \\ i njena primjena}
+  \vskip 2cm
+  
+  \end{center}
+
+\vfill
+
+
+\begin{tabular}[t]{c}
+Marijan Jasak dipl. ing.\\ sour "Rade Končar" \\ Zagreb
+\end{tabular}
+\hfill
+\end{titlepage}
+\end{titlepage}
+\section*{Analiza vrijednosti i njena primjena}
+Živimo u doba naglog razvoja znanosti. Znanosti, koja dovodi do novih materijala i tehnologija, a time i do novih načina proizvodnje. Na taj način se otvaraju fantastične mogučnosti usavršavanja postojećih proizvoda. Dodamo li tome bujnu ljudsku maštu, otvaraju se daljnje perspektive i stvaranja novih proizvoda. Funkcije tih proizvoda ovise o našim, ljudskim, potrebama i intuiciji predlagaća za potrebe sutradašnjice.\par
+Danas već možemo proizvesti skoro sve što je netko zamislio. Ali cilj proizvodnje nije u tome da se nešto proizvodipod svaku cijenu, nego:
+\begin{center}
+POTREBNO JE PROIZVESTI PROIZVOD UZ MINIMALNE TROŠKOVE!
+\end{center}
+\noindent Tako proizvod treba:
+\begin{itemize}
+	\item u potpunosti ispuniti funkcije zbog kojih se proizvodi
+	\item biti kvalitetno postojan
+	\item udovoljiti zahtjevima na tržištu po izgledu savremenosti i količini
+	\item biti jeftiniji od konkurentskih proizvoda iste funkcije i kvalitete.
+\end{itemize}
+\noindent Udovolji li proizvod ove postavke, održat će se na tržištu. Ako su i vlastiti troškovi proizvodnje manji od cijene koju diktira tržište, proizvod stvara i akumulaciju~(Slika \ref{Slika1}). \par
+Djelovati na troškove proizvodnje je moguće i na samom početku stvaranja, kako ideje o proizvodu, tako i o načinu proizvodnje. \par
+Kod prozivodnje se misli na sve faze razvoja proizvoda počevši od ideje, preko konstrukcije do lansiranja proizvoda na tržište. U tu grupu spada i izrada tehničko ekonomskih alaniza postoječih proizvoda za iznalaženje najboljeg proizvodng nivoa. \par
+Kod proizvodnje se misli na sve faze eventualnog projektiranja i izgradje nove tvornice, koja će proizvoditi predviđeni proizvod, odnosno, otkrivati mogučnosti smanjenja vlastitih troškova proizvodnje u postoječoj proizvodnji. Traženje najpovoljnijeg riješenja proizvodnje nekog proizvoda nije mali i jednostavan zadatak. To je kompleksni problem, koji se praktiči mjenja iz dana u dan. Jer, ONO ŠTO JE JUČER BILO NAJBOLJE, DANAS JE JOŠ DOBRO, A SUTRA VIŠE NEĆE ZADOVOLJAVATI!
+
+\begin{figure}
+\centering
+\input{formiranje_cijene} 
+\caption{Formiranje cijene proizvoda na tržištu}\label{Slika1}
+\end{figure}
+
+
+
+
+\end{document}

@@ -1,0 +1,45 @@
+\begin{picture}(0,0)%
+\includegraphics{formiranje_cijene}%
+\end{picture}%
+\setlength{\unitlength}{4144sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(7278,6324)(-41,-7273)
+\put(3151,-2581){\makebox(0,0)[b]{\smash{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}SPORAZUM O CIJENI}%
+}}}}
+\put(631,-6991){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,1}DOBITI}%
+}}}}
+\put(631,-2941){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,1}CIJENU}%
+}}}}
+\put(676,-1321){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,1}PROIZVODAČ}%
+}}}}
+\put( 91,-2131){\makebox(0,0)[lb]{\smash{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}FORMIRA}%
+}}}}
+\put( 46,-3976){\makebox(0,0)[lb]{\smash{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}IZ}%
+}}}}
+\put(4546,-3661){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{1,0,0}PROIZVODIMA KONKURENCIJE}%
+}}}}
+\put(4546,-4381){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{1,0,0}INTENZIVNOSTI SVOJE POTREBE}%
+}}}}
+\put(4546,-5011){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{1,0,0}KVALITETI PONUDENOG ARTIKLA}%
+}}}}
+\put(4546,-5731){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{1,0,0}POUZDANOSTI PONUDENOG ARTIKLA}%
+}}}}
+\put(4546,-6361){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{1,0,0}PRESTIZNOM ZNAČAJU ARTIKLA}%
+}}}}
+\put(4546,-2761){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{1,0,0}PREDODŽBU O CIJENI}%
+}}}}
+\put( 46,-4696){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,1}NEOPHODNO POTREBNIH TROŠKOVA}%
+}}}}
+\put( 46,-5821){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,1}UKALKULIRANOG DOHOTKA}%
+}}}}
+\put(4591,-2041){\makebox(0,0)[lb]{\smash{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}STVARA}%
+}}}}
+\put(5041,-1321){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{1,0,0}POTROSAČ}%
+}}}}
+\end{picture}%
