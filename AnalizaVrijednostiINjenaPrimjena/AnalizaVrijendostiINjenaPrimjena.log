@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.12)  14 MAY 2018 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.12)  14 MAY 2018 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,25 +1873,34 @@ File: poslovnamapa.pdf Graphic file (type pdf)
 <use poslovnamapa.pdf>
 Package pdftex.def Info: poslovnamapa.pdf used on input line 2.
 (pdftex.def)             Requested size: 423.58147pt x 76.2848pt.
-) [6 <./poslovnamapa.pdf>]
-Package atenddvi Info: Last page = 8.
- [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 268.
+) [6 <./poslovnamapa.pdf>] [7]
 
-(./AnalizaVrijendostiINjenaPrimjena.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 268.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 298.
+
+
+Overfull \hbox (20.31813pt too wide) in paragraph at lines 300--318
+ [][] 
+ []
+
+[8] [9]
+Package atenddvi Info: Last page = 11.
+ [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 332.
+ (./AnalizaVrijendostiINjenaPrimjena.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 332.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
  ) 
 Here is how much of TeX's memory you used:
- 43751 strings out of 493029
- 963413 string characters out of 6136234
- 1081021 words of memory out of 5000000
+ 43758 strings out of 493029
+ 963468 string characters out of 6136234
+ 1082021 words of memory out of 5000000
  46546 multiletter control sequences out of 15000+600000
  40436 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1900,11 +1909,11 @@ Here is how much of TeX's memory you used:
 ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr8.pfb>
-Output written on AnalizaVrijendostiINjenaPrimjena.pdf (8 pages, 102114 bytes).
-
+Output written on AnalizaVrijendostiINjenaPrimjena.pdf (11 pages, 110719 bytes)
+.
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 33 named destinations out of 1000 (max. 500000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 40 named destinations out of 1000 (max. 500000)
  27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
