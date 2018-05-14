@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  11 MAY 2018 15:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.12)  14 MAY 2018 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1692,7 +1692,11 @@ Package: multimedia 2012/05/02 ver 0.02
 
 
 Writing index file AnalizaVrijendostiINjenaPrimjena.idx
-(./AnalizaVrijendostiINjenaPrimjena.aux)
+(./AnalizaVrijendostiINjenaPrimjena.aux
+
+LaTeX Warning: Label `Slika1' multiply defined.
+
+)
 \openout1 = `AnalizaVrijendostiINjenaPrimjena.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -1713,8 +1717,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 85.
@@ -1853,34 +1856,55 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 \end{document}
-                     [1]
-Package atenddvi Info: Last page = 3.
- [2 <./formiranje_cijene.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 134.
+l.130 \FloatBarrier
+                    [1] [2 <./formiranje_cijene.pdf>] [3]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 189.
+
+
+Overfull \hbox (26.71782pt too wide) in paragraph at lines 192--202
+ [][] 
+ []
+
+[4] [5] (./poslovnamapa <poslovnamapa.pdf, id=63, 423.5825pt x 76.285pt>
+File: poslovnamapa.pdf Graphic file (type pdf)
+
+<use poslovnamapa.pdf>
+Package pdftex.def Info: poslovnamapa.pdf used on input line 2.
+(pdftex.def)             Requested size: 423.58147pt x 76.2848pt.
+) [6 <./poslovnamapa.pdf>]
+Package atenddvi Info: Last page = 8.
+ [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 268.
 
 (./AnalizaVrijendostiINjenaPrimjena.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 268.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
- 43713 strings out of 493029
- 963037 string characters out of 6136235
- 1079021 words of memory out of 5000000
- 46539 multiletter control sequences out of 15000+600000
- 37438 words of font info for 47 fonts, out of 8000000 for 9000
+ 43751 strings out of 493029
+ 963413 string characters out of 6136234
+ 1081021 words of memory out of 5000000
+ 46546 multiletter control sequences out of 15000+600000
+ 40436 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,77p,10410b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,77p,10410b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr8.pfb>
-Output written on AnalizaVrijendostiINjenaPrimjena.pdf (3 pages, 82758 bytes).
+Output written on AnalizaVrijendostiINjenaPrimjena.pdf (8 pages, 102114 bytes).
+
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 100 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 33 named destinations out of 1000 (max. 500000)
+ 27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
