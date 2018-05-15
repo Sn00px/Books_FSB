@@ -1,19 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  11 MAY 2018 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.12)  15 MAY 2018 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**formiranje_cijene.tex
+**shema.tex
 
 ! Emergency stop.
-<*> formiranje_cijene.tex
-                         
+<*> shema.tex
+             
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
  3 strings out of 493029
- 119 string characters out of 6136235
- 53075 words of memory out of 5000000
+ 107 string characters out of 6136234
+ 53319 words of memory out of 5000000
  3641 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

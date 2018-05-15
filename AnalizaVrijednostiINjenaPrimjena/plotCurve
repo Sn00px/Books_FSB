@@ -1,0 +1,14 @@
+set title "ABC ANALIZA"
+set xlabel "Redni broj"
+set ylabel "%"
+set xrange [0:15]
+set yrange [0:100]
+set grid
+set xtics 0,1,15
+set ytics 0,10,100
+set key off
+set term postscript eps color colortext "Helvetica" 24
+set output 'abcAnaliza.eps' 
+set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 1.5   # --- blue
+plot 'data.dat' with linespoints ls 1
+

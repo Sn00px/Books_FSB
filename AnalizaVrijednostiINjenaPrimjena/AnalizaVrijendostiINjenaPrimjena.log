@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.12)  14 MAY 2018 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.15)  15 MAY 2018 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -663,6 +663,9 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip43
@@ -1699,44 +1702,44 @@ LaTeX Warning: Label `Slika1' multiply defined.
 )
 \openout1 = `AnalizaVrijendostiINjenaPrimjena.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 85.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 86.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \symgns@font=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 85.
-Package gensymb Info: Math companion symbols declared on input line 85.
-LaTeX Info: Redefining \degree on input line 85.
-LaTeX Info: Redefining \celsius on input line 85.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 86.
+Package gensymb Info: Math companion symbols declared on input line 86.
+LaTeX Info: Redefining \degree on input line 86.
+LaTeX Info: Redefining \celsius on input line 86.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 85.
-LaTeX Info: Redefining \ohm on input line 85.
-Package gensymb Info: Using \textohm for \ohm on input line 85.
-Package gensymb Info: Using \textmu for \micro on input line 85.
+erthousand on input line 86.
+LaTeX Info: Redefining \ohm on input line 86.
+Package gensymb Info: Using \textohm for \ohm on input line 86.
+Package gensymb Info: Using \textmu for \micro on input line 86.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1763,10 +1766,10 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 85.
+ on input line 86.
 
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 85.
+Package hyperref Info: Link coloring OFF on input line 86.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1775,59 +1778,59 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 85.
+LaTeX Info: Redefining \selectfont on input line 86.
 \c@lstlisting=\count313
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 102.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 101.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 102.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 101
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 102
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 101
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 102
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 101.
+(Font)              <12> on input line 102.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 101.
+(Font)              <8> on input line 102.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 101.
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+(Font)              <6> on input line 102.
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 101.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 101.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 102.
 
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
@@ -1842,7 +1845,7 @@ File: formiranje_cijene.pdf Graphic file (type pdf)
 Package pdftex.def Info: formiranje_cijene.pdf used on input line 2.
 (pdftex.def)             Requested size: 460.72012pt x 400.49527pt.
 )
-Overfull \hbox (10.20557pt too wide) in paragraph at lines 3--128
+Overfull \hbox (10.20557pt too wide) in paragraph at lines 3--129
  [][][] 
  []
 
@@ -1856,14 +1859,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \FloatBarrier
+l.131 \FloatBarrier
                     [1] [2 <./formiranje_cijene.pdf>] [3]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 189.
+               Default added (so using `tbp') on input line 190.
 
 
-Overfull \hbox (26.71782pt too wide) in paragraph at lines 192--202
+Overfull \hbox (26.71782pt too wide) in paragraph at lines 193--203
  [][] 
  []
 
@@ -1873,47 +1876,135 @@ File: poslovnamapa.pdf Graphic file (type pdf)
 <use poslovnamapa.pdf>
 Package pdftex.def Info: poslovnamapa.pdf used on input line 2.
 (pdftex.def)             Requested size: 423.58147pt x 76.2848pt.
-) [6 <./poslovnamapa.pdf>] [7]
+) [6 <./poslovnamapa.pdf>]
+Package epstopdf Info: Source file: <abcAnaliza.eps>
+(epstopdf)                    date: 2018-05-15 19:51:27
+(epstopdf)                    size: 26101 bytes
+(epstopdf)             Output file: <abcAnaliza-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-15 19:51:34
+(epstopdf)                    size: 7819 bytes
+(epstopdf)             Command: <repstopdf --outfile=abcAnaliza-eps-converted-t
+o.pdf abcAnaliza.eps>
+(epstopdf)             \includegraphics on input line 257.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 298.
+<abcAnaliza-eps-converted-to.pdf, id=72, 361.35pt x 252.945pt>
+File: abcAnaliza-eps-converted-to.pdf Graphic file (type pdf)
 
+<use abcAnaliza-eps-converted-to.pdf>
+Package pdftex.def Info: abcAnaliza-eps-converted-to.pdf used on input line 257
+.
+(pdftex.def)             Requested size: 478.00812pt x 334.61018pt.
 
-Overfull \hbox (20.31813pt too wide) in paragraph at lines 300--318
+Overfull \hbox (28.00812pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-[8] [9]
-Package atenddvi Info: Last page = 11.
- [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 332.
+[7] [8 <./abcAnaliza-eps-converted-to.pdf>] [9] (./shema
+<shema.pdf, id=93, 670.505pt x 411.5375pt>
+File: shema.pdf Graphic file (type pdf)
+ <use shema.pdf>
+Package pdftex.def Info: shema.pdf used on input line 2.
+(pdftex.def)             Requested size: 670.50337pt x 411.5365pt.
+)
+Overfull \hbox (20.5166pt too wide) in paragraph at lines 3--278
+[][][] 
+ []
+
+[10 <./shema.pdf>] (./vijak <vijak.pdf, id=101, 87.32625pt x 154.5775pt>
+File: vijak.pdf Graphic file (type pdf)
+
+<use vijak.pdf>
+Package pdftex.def Info: vijak.pdf used on input line 2.
+(pdftex.def)             Requested size: 87.32603pt x 154.5771pt.
+)
+Underfull \hbox (badness 1436) in paragraph at lines 295--303
+[]\T1/lmr/bx/n/12 Vijak M3x6 JUS M.81.200 \T1/lmr/m/n/12 svi-je-tlo po-nik-lan.
+ Na-bavna ci-jena je 0,65
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 295--303
+\T1/lmr/m/n/12 din/kom a iz-ra-žuje se po na-rudºbi. Go-di²-nja po-treba je 170
+ 000 kom.
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 318.
+
+
+Overfull \hbox (20.31813pt too wide) in paragraph at lines 320--338
+ [][] 
+ []
+
+[11
+
+
+ <./vijak.pdf>] [12]
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
+put line 344.
+
+(./vijakx <vijakx.pdf, id=118, 87.32625pt x 121.45375pt>
+File: vijakx.pdf Graphic file (type pdf)
+ <use vijakx.pdf>
+Package pdftex.def Info: vijakx.pdf used on input line 2.
+(pdftex.def)             Requested size: 87.32603pt x 121.45343pt.
+)
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 359
+.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Warning: Command \v invalid in math mode on input line 359.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 359.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 359.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+Package atenddvi Info: Last page = 14.
+[13 <./vijakx.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 398.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 398.
  (./AnalizaVrijendostiINjenaPrimjena.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 332.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 398.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 398.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 398.
  ) 
 Here is how much of TeX's memory you used:
- 43758 strings out of 493029
- 963468 string characters out of 6136234
- 1082021 words of memory out of 5000000
- 46546 multiletter control sequences out of 15000+600000
- 40436 words of font info for 48 fonts, out of 8000000 for 9000
+ 43841 strings out of 493029
+ 964885 string characters out of 6136234
+ 1082177 words of memory out of 5000000
+ 46603 multiletter control sequences out of 15000+600000
+ 48608 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,77p,10410b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmr8.pfb>
-Output written on AnalizaVrijendostiINjenaPrimjena.pdf (11 pages, 110719 bytes)
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on AnalizaVrijendostiINjenaPrimjena.pdf (14 pages, 149436 bytes)
 .
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 40 named destinations out of 1000 (max. 500000)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 47 words of extra memory for PDF output out of 10000 (max. 10000000)
 
