@@ -1,0 +1,278 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[croatian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage{lscape}
+\usepackage{amsmath,amsfonts,amssymb,mathrsfs}
+\usepackage{fancyhdr,makeidx}
+\usepackage{dcolumn,multirow,eucal,hhline,subcaption}
+\usepackage{pgfplots,pgfplotstable,colortbl,array}
+\usepackage[unicode, hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage{
+epstopdf,
+graphicx,tikz,
+%pgflibraryshapes,
+color,caption,
+listings,
+dcolumn,
+multirow,
+array,
+booktabs,
+picture,
+upgreek,
+wrapfig,      
+cancel,
+placeins,
+url,
+verbatim,
+media9,
+float,
+incgraph
+}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[croatian]{nomencl}
+\makenomenclature
+\usepgfplotslibrary{units}
+\usetikzlibrary{pgfplots.units}
+\usetikzlibrary{angles,calc,decorations.pathmorphing,patterns}
+\usetikzlibrary{decorations.pathmorphing,decorations.pathreplacing}
+\pgfplotstableset{precision=10,set thousands separator={}}
+\usepackage{nicefrac}
+\hoffset -30 pt
+\voffset -50 pt
+\textheight = 650 pt
+\textwidth = 450 pt
+\sloppy
+\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+\usepgfplotslibrary{external}
+\usetikzlibrary{pgfplots.external}
+\usepgfplotslibrary{external}
+\usepackage{lmodern,textcomp}
+\usepackage{multimedia}
+\headheight = 14 pt
+\headwidth = 17 cm
+\pagestyle{fancy}
+
+
+\newcommand{\tikzAngleOfLine}{\tikz@AngleOfLine} %crtanje kuteva
+  \def\tikz@AngleOfLine(#1)(#2)#3{%
+  \pgfmathanglebetweenpoints{%
+    \pgfpointanchor{#1}{center}}{%
+    \pgfpointanchor{#2}{center}}
+  \pgfmathsetmacro{#3}{\pgfmathresult}%
+  }
+
+
+\fancyfoot[R]{\thepage}
+\fancypagestyle{fancypage}{
+    \fancyhf{}
+    \footrulewidth=20pt
+    %\renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+}
+\cfoot[]{}
+\renewcommand{\thefigure}{\arabic{section}.\arabic{subsection}.\arabic{figure}}
+\makeindex
+\numberwithin{figure}{section}
+
+\setlength\parindent{24pt}
+\begin{document}
+
+\begin{titlepage}
+\begin{titlepage}
+  
+
+  \begin{center}
+
+  {\huge\bfseries Obrada metala}
+  \vskip 2cm
+  
+  \end{center}
+
+\end{titlepage}
+\end{titlepage}
+
+\section{Teorija rezanja metala}
+\subsection{Alati za rad skidanjem strugotine}
+Obrađivanje skidanjem strugotine, kao np.: rezanje, tokarenje, struganje, glodanje, brušenje, provlačenje, grecanje, vrši se raznim alatima. Jednom to može biti \textbf{nož} s jednom oštricom (tokarenje, blanjanje), drugi puta \textbf{svrdlo} koje na sebi nosi dvije osnovne oštrice, treči puta alat sa više oštrica koje odjednom skidaju strugotinu mora, kao i ostali zahvatiti, odgovarati nekim zakonitostima. Te zakonitosti prvi je počeo proučavati amerikanac F.W.Taylor krajem prošlog stoljeća.\par
+Svaki alat, koji koristimo pri skidanju strugotina, kao što smo vidjeli, sastoji se of jedne ili više oštrica. To nas dovodi do zaključka, da analogijom tu zakonitost prenesemo na sve druge.\par
+Osnovna oštrica alata za rezanje bazira se na principu klina. Znači, moramo proučiti djelovanje klina. Zbog toga mi ćemo se zadržati na jednom alatu, a to je \textbf{tokarski nož}, te ćemo na njemu proučiti sve.
+\subsection{Geometrijski oblici oštrice alata i elementi oštrine}
+Rekli smo da je temeljni oblik svakog alata za rezanje klin. To vrijedi kod dljeta, kod oštrice škara, kod turpije, tokarskog noža, glodala itd. \par
+Prvo da se upoznamo opčenito s tokarskim nožem i njegovim elementima rezanja i plohama.
+
+%SLIKA TOKARSKOG NOŽA ||||| A1
+Osnovni elementi su:
+\begin{itemize}
+\item glavna oštrica
+\item pomoćna oštrica
+\item noža
+\end{itemize}
+Od površina koje trebamo razlikovati na nožu su
+\begin{itemize}
+\item prednja površina
+\item stražnja površina
+\item pomočna stražnja površina
+\end{itemize}
+Prije nego što upoznamo detalje noža, spomenimo i sile koje se javljaju na nožu. To su:
+\begin{itemize}
+\item $\mathsf{P}$ - vertikalna sila- sila protivna rezanju
+\item $\mathsf{P_{v}}$ - sila posmaka - sila protivna uzdužnom posmaku
+\item $\mathsf{P_{r}}$ - natražni pritisak - sila protivna poprečnom posmaku, a nastoji otisnuti nož od predmeta
+\end{itemize}
+Sada ćemo se upoznati malo detaljnije s jednim nožem za tokarenje, nožem koji se najčešće koristi.
+
+%SLIKE KUTEVA REZANJA TOKARSKOG NOŽA ||||| A4
+
+Analizirajući presjek x-x razlikujemo:
+\begin{itemize}
+\item $\alpha$ - stražnji ili slobodni kut - između stražnje površine i površine rezanja. 
+\item $\beta$ - kut oštrenja ili kut klina - kut između prednje i stražnje površine.
+\item $\gamma$ - prednji kut, kut između prednje površine i okomice na površinu rezanja. Proizlazi da je $\alpha$ + $\beta$ + $\gamma$ = $90^{\circ}$
+\item $\delta$ - kut rezanja - on je suma $\alpha$ + $\beta$.
+\item $\epsilon$ - kut šiljka noža ili čeoni kut, to je kut između stražnje i pomočne stražnje površine.
+\item $\kappa$ - kut namještanja noža je kut između površine rezanja i glavne oštrice.
+\item $\lambda$ - kut nadvišenja - kut između glavne oštrice i površine u ravnini rezanja koja proizlazi kroz vrh noža.
+\item $\tau$ - natražni kut - koji se pojavljuje kod noževa za odrezivanje.
+\end{itemize}
+Evo nekoliko osnovnih primjera brušenja tokarskih noževa.
+
+%SLIKE BRUŠENJA TOKARSKIH NOŽEVA |||| A/5
+
+Položaj noža prema tokarenom predmetu može također djelovati na promjene osnovnih kuteva rezanja $\alpha$, $\beta$, $\delta$, dok nam kut $\beta$ ostaje konstantan
+
+
+%SLIKA KONSTANTNOG KUTA BETA |||| A/6
+
+
+Kod unutarnjeg tokarenja situacija je obratna. To nas upučuje da je važno paziti kako je postavlja nož kod obrade. 
+\subsection{Proces rezanja i formiranja strugotine}
+Prilikom skidanja strugotine sudjeluje niz faktora koji definiraju oblik strugotine. U te faktore možemo svrstati:
+\begin{itemize}
+\item vrstu materijala koji se obrađuje
+\item vrstu materijala od kojeg je nož
+\item brzinu rezanja i 
+\item presjek strugotina
+\end{itemize}
+Postoje tri osnovna tipa strugotine:
+\begin{enumerate}
+%SLIKA
+\item \textbf{Kidana - lomljena strugotina}\\
+Materijal se najprije sabije na prednjoj površini noža, a zatim se zbog povečanog pritiska odlomi. Nakon toga proces se opet ponavlja. \\
+Kidana - lomljena strugotina nastaje kada je prednji kut mani od $10^{\circ}$, a zatim kod tvrdih materijala i kada se radi s preniskim brzinama rezanja. U tako formiranoj strugotini ne nastaju plastične deformacije. Oštrica noža se grije do $600^{\circ}$C i to nejednoliko. Kako se pritisak mijenja, mijenja se i zagrijavanje oštrice što dovodi do velikog kolebanja temperature. Kod takovog obnlika strugotine podmazivanje noža mnogo ne pomaže. Takav oblik strugotine javlja se kod ljevanjog željeza.
+%SLIKA
+\item \textbf{Rezana ili odrezna strugotina}\\
+Ovakav oblik strugotine nastaje kod prednjeg kuta $\gamma < 17^{\circ}$ i kod male dubine rezanja. Taj oblik strugotine je prijelazni oblik od kidane na trakastu strugotinu. Oblik strugotine je povoljan jer nije preduga i ne smeta pri radu. 
+%SLIKA
+\item \textbf{Trakasta ili ljuštena strugotina}\\
+Ovakav oblik strugotine nastaje kod velikih brzina rezanja, male dubine i malog posmaka i kod prednjeg kuta $\gamma<30^{\circ}$. Materijal se tari o prednju površinu noža i odlazi kao neprekinuta strugotina. Pritisak na nož je jednolikiji, što daje i jednoličniju temperaturu oštrice od približno $200^{\circ}$C. Kolebanje temperature noža su u granicama od $20^{\circ}$. dobrim podmazivanjem oštrice pri rezanju može se produžiti vijek rada noža, jer takovo podmazivanje pogoduje stvaranju povišene oštrice koja štedi oštricu. To svojstvo nam veoma važno kod rada na automatima.
+\end{enumerate}
+\subsection{Hrapavost obrađene površine}
+Kvaliteta obrađene površine ovisi o režimima rada i o izboru noža. Razlikujemo dvije osnovne forme noževa i to:
+\begin{itemize}
+\item noževi za grubu obradu
+\item noževi za finu obradu
+\end{itemize}
+Noževi za grubu obradu moraju biti izabrani tako da omoguće maksimalno moguće skidanje strugotina. Sa takovim noževima možemo postići prosječnu hrapavost  $9 - 11\:\mu m$. Noževi za finu obradu već imaju posebne oblike raznih oštrica, te uz dobro izabrane režime rada mogu dati kvalitetu površine of $6-9 \mu m$. Općenito uzevši, tokarski nož za vanjsku obradu možemo prvi moment podijeliti na lijeve i desne noževe. Dali je nož lijevi ili desni oderđujemo na sljedeći način. Uzmemo ga u ruku tako, daoštrica bude okrenuta prema našem tijelu i to prema gore. Strana na kojoj se nalazi glavna rezna oštrica vrijedi kao oznaka (lijevi, desni).\par
+Druga podjela noževa za tokarenje može biti:
+\begin{itemize}
+\item noževi za vanjsko tokarenje.
+\item noževi za unutarnje tokarenje
+\item razni fazonski noževi za vanjsko ili unutarnje tokarenje a tu spadaju i noževi za rezanje raznih vrsta nareza, raznih oblika utora itd.
+\end{itemize}
+Pregled noževa za vanjsko tokarenje
+%SLIKA
+\begin{enumerate}
+\item - desni savijeni nož za čeono grubo obrađivanje
+\item - desni savijeni nož za čeono obrađivanje uglova
+\item - desni ravni nož za uzdužno grubo obrađivanje
+\item - desni savijeni nož za uzdužno grubo obrađivanje
+\item - nož za fino obrađivanje, šiljati
+\item - nož za fino obrađivanje
+\item - nož za utore
+\item - nož za odrezivanje
+\item - ravni nož za poprečno tokarenje
+\end{enumerate}
+Već smo više puta spominjali termine \textbf{dubina}, \textbf{posmak}, \textbf{presjek strugotine}. Svi ovi termini, veoma se ćesto koriste, kada se govori o skidanju strugotina. Da se sada upoznamo i s tim tako važnim podatcima.
+%SLIKA
+\begin{itemize}
+\item Dubina rezanja - t - je dubina prodiranja noža u materijal i mjeri se u milimetrima
+\item Posmak noža - s - mm/okretaj - to je pomak noža duž osi obrađivanog predmeta za svaki okretaj
+\item Presjek strugotine - f - mm$^2$ - možemo ga smatrati umnoškom posmaka \textbf{s} i dubine rezanja \textbf{t}; to bi bio teoretski presjek. Stvarni presjek je manji za neskinuti ostatak, koji ovisi o posmaku noža, o kutevima glavne i sporedne oštrice, te o zaobljenosti vrha noža.
+\end{itemize}
+Analizirajući sliku, veličina neskinutog ostatka naglo raste s porastom posmaka, a isto tako je vidljivo da naglo pada s porastom zaobljenja vrha noža. Jedan od oblika noža koji ostavlja veoma mali ostatak je oblik koji predlaže Taylor. Zbog velike zaobljenosti vrha ostatak je minimalan. No jako zaobljeni noževi imaju cca $15\%$ veće sile rezanja od običnih noževa.
+%SLIKA
+Specifična opterećenja duž ovih oštrica su dosta nejednolika. Zbog takove forme otežana je proizvodnja takovih noževa i međufazno prebrušavanje što dovodi do rijeđe primjene ovakovih oblika noževa. 
+\subsubsection*{Sile na nožu}
+U početku smo se već upoznali sa silama, koje se javljaju na nožu. Kod toga razlikujemo:
+\begin{itemize}
+\item $\mathsf{P}$ - vertikalnu silu - silu protivnu rezanju
+\item $\mathsf{P_{v}}$ - sila posmaka - sila protivna uzdužnom posmaku
+\item $\mathsf{P_{r}}$ - natražni pritisak - sila protivna poprečnom posmaku nastoji otisnuti nož od predmeta
+\end{itemize}
+Za nas je najinteresantnija vertikalna sila $\mathsf{P}$, jer je ona znatno veća od drugih dviju sila. Odprilike možemo uzeti da je omjer sila na nožu $\mathsf{P}$ : $\mathsf{P_{v}}$ : $\mathsf{P_{r}}$ = $5$ : $2$ : $1$. Iz toga je vidljivo da nam dimenzioniranje drška noža dovoljno uzeti samo vertikalnu silu $\mathsf{P}$. \par
+Na veličinu vertikalne sile djeluju mnogi faktori. Kao najutjecajnije smatramo čvrstoću obrađivanog materijala i presjek strugotine. Povezanost ovih dviju varijabli prikazat ćemo u dijagramu.
+%DIJAGRAM
+Takova zakonitost sile $\mathsf{P}$ navodi nas da ju možemo brzo i jednostavno odrediti formulom:
+\begin{equation}
+\mathsf{P} = A \cdot f \cdot \sigma_{z}\:.
+\end{equation}
+Gdje je $A$ faktor proporcionalnosti ovisan o materijalu, $f$ presjek strugotine ($s\cdot t$)  i $\sigma_{z}$ čvrstoća materijala na vlak. \par
+Eksperimentalno su dobiveni podatci za faktor proporcionalnosti i on se kreće:
+\begin{itemize}
+\item A = $2,5 - 3,5$ za čelične materijale
+\item A = $4,5 - 5,5$ za lijevano željezo
+\item A = $3 - 4$ za A8 i A8-legure.
+\end{itemize} 
+Na veličinu sile rezanja ne utjeće samo čvrstoća materijala i presjek strugotine nego još i
+\begin{itemize}
+\item oblik presjeka strugotine koju može imati različite omjere posmaka i dubine rezanja, a može i oštrica biti zaobljena pa je presjek skidane strugotine duž oštrice raznolik.
+\item o kutu klina - oštrenja $\beta$
+\item o kutui namještanja noža $\kappa$
+\item o brzini
+\item o hlađenju i mazanju - kod lomljene strugotine sistemom mazanja nemožemo smanjiti silu.
+\item o unutaranjim naprezanjima u materijalu koji obrađujemo.
+\end{itemize} 
+Snaga potrebna za stvaranje strugotine, troši se najvećim dijelom na rada deformacije strugotine ($75\%$), zatim na rad rezanja ($15\%$) i na rad trenja ($10\%$).
+Da bi sve ove faktore uzeli u obzir pri određivanju sile rezanja koristimo se formulom:
+\begin{equation}
+\mathsf{P} = f \cdot k_{s}\:,
+\end{equation}
+gdje je $f$ presjek strugotine, a $k_{s}$ koeficijent otpora rezanja. Koeficijent $k_{s}$ određuje se eksperimentalno ili približno prema nekim formulama.
+Za točno definiranje sile rezanja pri nekim uvjetima uz odabrane režime i oblik noža, moguće je jedino saznati kroz eksperimente.
+\subsubsection{Radnja rezanja}
+Kod uzdužnog tokarenja, od triju sila koje se pojavljuju na nožu potrebno je savladati vertikalnu silu $\mathsf{P}$ i horizontalnu silu posmaka $\mathsf{P_{v}}$. Da bi odredili radnju rezanja uz poznavanje tih sila trebamo znati i brzinu rezanja $v$ i brzinu posmaka $v_{s}$ (m/min). Iz tih podataka dobivamo
+\begin{equation}
+N_{rez} = \mathsf{P} \cdot \frac{v}{60 \cdot 75} + \mathsf{P_{r}} \cdot \frac{v_{s}}{60 \cdot 75}
+\end{equation}
+Pošto je $\mathsf{P_{r}}$ 2 do 3 puta manja od $\mathsf{P}$ a $v_{s}$ i preko 100 puta manja od $v$, možemo drugi član ove formule zanemariti, te nam preostaje
+\begin{equation}
+N_{rez} = \frac{\mathsf{P} \cdot v}{4500}
+\end{equation}
+Da bio saznali potrebnu snagu za vršenje tokarenja, potrebno je uz radnju savladati i ostale otpore koji se javljau u tokarskom stroju. Mjerenja su pokazala da je ukupna potrebna snaga stroja za $50\%$ veća od radnje rezanja što nam daje 
+\begin{equation}
+N_{tot} =1.5 \cdot N_{rez} = \frac{\mathsf{P} \cdot v}{3000}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
