@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.15)  17 MAY 2018 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  17 MAY 2018 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1859,24 +1859,37 @@ Package Fancyhdr Warning: \headheight is too small (14.49998pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
-Package atenddvi Info: Last page = 18.
- [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 572.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 572.
- (./ObradaMetala.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 572.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 572.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 572.
+[16] [17] [18] [19]
+Package atenddvi Info: Last page = 21.
+ [20] [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 687.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 687.
+ (./ObradaMetala.aux
+
+Package atenddvi Warning: Rerun LaTeX, last page has changed.
+
+*************************************************
+* media9 warning: "rerun"
+* 
+* Rerun to get internal references right!
+*************************************************
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 687.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 687.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 687.
  ) 
 Here is how much of TeX's memory you used:
- 43871 strings out of 493029
- 964614 string characters out of 6136234
- 1080117 words of memory out of 5000000
- 46597 multiletter control sequences out of 15000+600000
+ 43902 strings out of 493029
+ 964940 string characters out of 6136235
+ 1088118 words of memory out of 5000000
+ 46608 multiletter control sequences out of 15000+600000
  54643 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,77p,10390b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,77p,10390b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -1888,10 +1901,10 @@ share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmsy8.pfb>
-Output written on ObradaMetala.pdf (18 pages, 210761 bytes).
+Output written on ObradaMetala.pdf (22 pages, 222775 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 101 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
