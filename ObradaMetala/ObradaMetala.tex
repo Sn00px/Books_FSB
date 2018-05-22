@@ -889,5 +889,404 @@ n_{r} = \frac{i}{z}
 \item z - 25 zubi -> $n_{r}$ = $\displaystyle{\frac{i}{z}}$ = $\displaystyle{\frac{40}{25}}$ = 1, $\displaystyle{\frac{3}{5}}$ ili jedan okretaj i još $\displaystyle{\frac{3}{5}}$ a to možemo na ploči s 15 rupa dodati još 9 rupa da bi prošli $\displaystyle{\frac{3}{5}}$ kruga
 \item z - 110 zubi -> $\displaystyle{\frac{i}{z}}$ = $\displaystyle{\frac{40}{110}}$ = $\displaystyle{\frac{4}{11}}$ = $\displaystyle{\frac{12}{33}}$ što znači da na ploči od 33 rupe moramo odbrojiti po 12 rupa da bi izveli kretanje predmeta za $\displaystyle{\frac{1}{110}}$
 \end{enumerate}
-Da bi sredili npr. 53, 69, 125, 137 ili drugi broj zubi, nemoguće nam je kdo toga toga izraditi taj broj zubiju s unaprijed navedenim diobenim pločama. Kod izrade tih brojeva, krositimo se tkz. \textbf{diferencijalnom metodom dijeljenja}.
+Da bi sredili npr. 53, 69, 125, 137 ili drugi broj zubi, nemoguće nam je kdo toga toga izraditi taj broj zubiju s unaprijed navedenim diobenim pločama. Kod izrade tih brojeva, krositimo se tkz. \textbf{diferencijalnom metodom dijeljenja}. Princip te metode se sastoji u tome, da se odabere neki bliski x broj, koji se da diobom izvesti. Nastala diferencija, takvim prijelazom na približan broj zubi ostvaruje se ispravljanjem na taj način, da vreteno pužnog kola, za vrijeme diobe, zakreće diobenu ploču, preko posebno uključenih zupčanika, da se nadoknadi odgovarajuče diferencije.
+%SLIKA
+Broj zakreta ručice određuje se
+\begin{equation}
+n_{r} = \frac{i}{x} = \frac{40}{x}
+\end{equation}
+A omjer zupčanika koji vrše korekciju diobene ploče je
+\begin{equation}
+k = \frac{i}{x}(x-z) = \frac{40}{x}(x-z)\:,
+\end{equation}
+gdje je z stvarni broj zubi, dok je x pomoćni broj zubi. Za $x>z$, izlazi k pozitivan, tada se diobeni ploča za vrijeme okretanja ručice zakreće u istom smjeru u kojem i ručica, a za k negativan diobena ploča se okreće u suprotnom pravcu od smjera zakrtanja ručice.
+Primjer za z = 127 zubi, te x = 128 odabrani.
+\begin{equation}
+n_{x} = \frac{i}{x} = \frac{40}{128} = \frac{5}{16}\:,
+\end{equation} 
+na kraju od 16 rupa prelazimo na 5
+\begin{equation}
+k = \frac{z_{1}}{z_{2}} = \frac{40}{128} (128-127) = \frac{40}{128} = \frac{30}{96}
+\end{equation}
+Za prijenos odobreno zupčanika 30 i 96. Za diobeno dijeljenje se uz diobenu glavu uzimajući garnitura zupčanika i to 24, 24, 28, 28, 30, 32, 39, 40, 44,48, 48, 56, 64, 72, 76, 86, 98, 100, 127.\par
+Diferencijalno dijeljenje može se primjeniti samo kod izrade zupčanika i glodala s ravnim zubima. Kod izrade kosih ili spiralnih zubi osovina pužnog kola vezana je uz vretena stola glodalice da se osigura potrebno zakretanje.\par
+Raznim kombinacijama možemo izraditi na glodalicama i najkompliciranje izvedbe zupčanika ili kakvih drugih djelova.
+\subsection{Režimi obrade}
+Kod glodanja, kao osnova za određivanje ekonomskih brzina uzima se količina stisnutog materijala u jedinici vremena.\par
+Ekonomskih brzina rezanja ovisi veoma mnogo o složenosti oblika glodala. Što je veća dimenzija glodala, što je oblik kompliciraniji, trebalo bi da glodalo dulje traje između dva brušenja. To trajanje između dva prebrušivanja kreće se u granicama od 1 do 8 sati, tj. korsite se $^{\nu}$60, $^{\nu}$180, $^{\nu}$240, $^{\nu}$480.
+Jasno je da se veličina brzine rezanja korigira u ovisnosti od 
+\begin{itemize}
+\item obrađivanog materijala
+\item vrste obrade tj. kvaliteti površine
+\item kvaliteti glodala
+\end{itemize}
+Sve to utječe i na izbor i veličinu posmaka.
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{3}{*}{Odabrani materijal} & \multicolumn{4}{c|}{Brzina rezanja u m/min}                              \\ \cline{2-5} 
+                                    & \multicolumn{2}{c|}{Brzorezni čelik} & \multicolumn{2}{c|}{Tvrdi metali} \\ \cline{2-5} 
+                                    & grubo             & fino             & grubo           & fino            \\ \hline
+Obrađeni Če i Če-lijev              & 8-15              & 15-25            & 30-80           & 90-100          \\ \hline
+Lijevano željezo                    & 8-12              & 12-20            & 50-80           & 80-100          \\ \hline
+Bronca i mjed                       & 20-25             & 30-50            & 90-120          & do 300          \\ \hline
+Laki metali                         & 400-1200          & 600-1500         & -               & -               \\ \hline
+\end{tabular}
+\end{table}
+\FloatBarrier
+Dubina rezanja kreće se od 1-15 mm a posmaci od 0,02-0,25 mm/zubu.
+\section{Kovanje}
+Kovanje je obrada metala bez skidanja strugotina. Može se vršiti u toplom ili hladnom stanju, ovisno o vrsti materijala. Princip kovanja je da se materijal podvrgne djelovanju vanjskih sila koje u njemu izazovu naprezanja između granice elastičnosti i granice loma. Kada na predmet djeluje neka sila, i kada ona prestane djelovati, predmet zadrži novi oblik.\par
+Kod kovanja nam se pojavljuju sile koje možemo proanalizirati na sljedeći način. Udarimo čekićem mase G [kg] koji ima brzinu v [m/s] po predmetu, u momentu sraza čekić koji ima kinetičku energiju
+%SLIKA
+\begin{equation}
+\frac{m\cdot v^{2}}{2} = \frac{G\cdot v^{2}}{2 \cdot g}\:,
+\end{equation}
+i na nju predaje na izvršenje deformacije, tj. kinetička se energija pretvara u rad. Pod  djelovanjem sile P dolazi do popuštanja predmeta, koji se zbog toga smanji. Dakle sila P je prešla put S a to je upravo rdnja izazvana kinetičkom energijom čekića pa možemo zapisati
+\begin{equation}
+\frac{m\cdot v^{2}}{2 \cdot g} = P\cdot S\:.
+\end{equation}
+Sva konetička energija se ne pretvori u izvršenje radnje deformiranja. Jedan dio se gubi zbog popuštanja podloge i čekića (bata) dok se drugi dio gubi ne savladavanje elastičnih sila. Zbog toga se kao  stupanj djelovanja bata uzima 
+\begin{equation}
+\eta = \frac{G'}{G + G_{1}}
+\end{equation}
+Obično se uzima da je težina nakovnja 10 do 20 puta veća od težine čekića a kroz to se dobia $\eta = 0,91-0,75$.\par 
+Jedan jaki udarac monogo je efikasniji od mnogo manjih a to se odma vidi kada djelujemo na predmet istih dimenzija jednom s batom a drugi puta s mnogo udaraca.
+%SLIKA
+Potrebna sila za obrikovanje, zavisi od veličine tlačne površine F, čvrstoći materijala $\sigma$ i iskustvenom koeficijentu $\phi$. Što nam daje izraz
+\begin{equation}
+p = F\cdot \sigma \cdot \phi \:,
+\end{equation}
+gdje $\phi$ ide do 10 kod udarnog djelovanja čekićem a $\phi = 2 - 1,4$ kod polakog pritiskivanja (prešanja). Za obradu predmeta u ukovnju uzet ćemo dvostruke vrijednosti koeficijenta $\phi$.\par 
+Želimo li neki veliki predmet obraditi kovanjem, primjenom ručnih alata i čekića to je nemoguće, jer rukom možemo proizvesti samo manje neznatne sile. Za kovanje predmeta teških nekoliko tona, moramo koristiti mehaničke naprave i strojeve. Te uređaje možemo podjeliti na:
+\begin{itemize}
+\item \textbf{mehaničke čekiće} - kod kojih udarce stvaraju maljevi i
+\item \textbf{mehaničke preše za kovanje} - kod kojih se putem hidraulike stvraju sila. Kod toga mi vršimo deformacije više gnječenjem nego udaranjem.
+\end{itemize}
+\par
+\textbf{Mehaničke čekiće} koji mogu imati transmisijski pogon, zatim parni ili zračni pogon, električni pogon itd. možemo dalje podijeliti.
+\begin{enumerate}
+\item Batovi s kosim udarnim plohama - koji su obično učvršćeni na polugi i emitiranju ručno udaranje.
+\item Batovi s paralelnim udarnim plohama koji se mogu dalje podijeliti na 
+\begin{itemize}
+\item udarni batovi - kod kojih se malj diže a zati pada vlastitom težinom na predmet koji se obrađuje kovanjem
+\item mehanički čekići - koji rade pomoću jake opruge
+\item mehanički čekići - koji rade pomoću komprimiranog zraka
+\item mehaniči čekići koji rade parom.
+\end{itemize}
+\item Preše za kovanje možemo međusobno podijeliti na 
+\begin{itemize}
+\item UDarne preše - a to su one koje imaju neposredan pogon. U tu grupu ubrajamo vretenaste ploče koje mogu biti ručne i frikcione, ekscentar preče te strojevi za kovanje uže namjene
+\item Preše s posrednim pogonom - hidrauličkim pogonom.
+\end{itemize}
+\end{enumerate}
+\subsection{Glavne kovačke operacije}
+Konad koji želimo obraditi kovanjem, prvo zagrijavamo na temperaturu kovanja. Nakon zagrijavanja očistimo ga od okuine, zahvatimo klještima, stavimo na nakovanj i onda kujemo. Kovanje mogu izvoditi i više ljudi s time da u određenom ritmu udaraju jedan za drugim po predmetu. Kod kovanja većih predmeta koriste se mehanički uređaj (čekići i preše). Masovna proizvodnja kovanih predmeta izvodi se u ukovnjima u na naročitim kovačkim strojevima.\par
+Kod kovanja razlikujemo nekoliko glavnih operacija:
+\begin{itemize}
+\item \textbf{Iskivanje} je najobičniji kovački posao, kojim se kovani predmet stanji, rastrgne, iskuje ili raširi. Kod tog kovanja komad se istovremeno stanji i rastegne po dužini i širini. U tu grupu obrade spada i kucanje posuda.
+%SLIKE
+\item \textbf{Sabijanje} je postupak obradom izkivanja. To je nagomilavanje materijala na jednom mjestu, koje je prethodno zagrijemo. To je udaranje materijala u u zdužnom smjeru. To je veoma skup i neprikladan postupak pa ga se nastoji izbjeći.
+\item \textbf{Savijanje} - ako se neka šipka savija, na tom mjestu nastupit će suženje i smanjenje presjeka, Zbog toga se šipke koje savijamo prvo sabiju a zatim saviju, I ovdje se savijanje može obavljati oko nekog okruglog profila, a izvodi se ručno kod tanjih šipki.
+\item \textbf{Odsjecanje} se vrši ili čekićem u obliku dljeta ili trokutastim alatima pogodnim za tu vrtu kovanja.
+%SLIKA
+\item \textbf{Probijanje} se vrši pomoću probijača. Prvo se s jedne strane probijačem napravi rupa do dubine 2/3 od debljine materijala koju probijamo. Zatim se predmet okene i preostali dio materijala se izbije. Za velike rupe to se izvodi odgovarajućim komadom.
+\item \textbf{Sukanje} naziva se još i uvijanje. Komad se zagrije na mjesto koje želimo zakrenuti, učvrstimo ga u škripac i zakrenemo za željeni kut.
+\item \textbf{Zavarivanje} je postupak kojim se mogu spajati materijali s veoma malo sumpora a nešto više mangana. Prije zavarivanja, dijelovi koji se žele zavariti oripreme se u određeni najpogodniji oblik, zatim se zagriju za cca 1200$^{\circ}$ brzo približe, pospu dezoksidantom i vještim udarcima zavare.
+\item \textbf{Natiskivanje} je navlačenje prstenova na osovine. Prsten se agrije na visoku temperaturu dase može bez velikih problema navući na osovinu. Nakon hlađenja ostvaren je željeni čvrsti spoj.
+\item \textbf{Stično svarivanje} mora predhoditi proces zadebljanja krajeva. Nakon zagdijavanja  i stičnog spoja obavezo moramo izvesti prokivanje zavarenog spoja. Ovaj način nam ne garantira kvalitetu i puzdan spoj.
+%SLIKA
+\item \textbf{Preklopno svarivanje}, kod preklopnog svarivanja spojne dijelove izvedemo na način prikazanom skicom. Ovakav spoj nam daje bolji i pouzdaniji šav.
+%SLIKA
+\item \textbf{Obuhvatno svarivanje}, ovaj način spoja primjenjuje se kod svarivanja raznoradnih materijala i kod velikih presjeka.
+%SLIKA
+\end{itemize}
+\subsection{Kovanje u ukovnjima}
+Da bi izradili seriju istih komada sa što manjim odstupanjima koristimo se postupkom kovanja u ukovnjima. Ukovnji su vrste kalupa, ali od materijala koji mogu izdržati sile kovanja. Ukovnji se obično rade od lijevanog čelika a za manje komade i manje serije od lijevanog željeza.\par
+Veličina šupljine ukovanja je veća za cca 1,2\% a to je zbog stezanja materijala kada se on ohladi s temperaturom okoline. Kad konstrukcija ukovnja treba se voditi računa o višku materijala koji se umeće u kalup. Taj višak materijala treba biti zgodno raspodjeljen i da se pretvori u neku vrstu srha odakle ga je moguće jednostavno odstraniti, a nesmeta izgledu.
+%SLIKA
+Kod kovanja u ukovnjima, predmet se prvo iskuje na približan oblik, a zatim se u ukovnju izvrši konačno što manje vrijeme, pa se zbog toga u neke ukovnje ugrađuju izbacivači. Ako bi predmet zaostao dulje vrijeme u kalupu, zbog prijelaza topline s predmeta na stijene kalupa došlo bi do otkaljivanja površine kalupa. (primjeri - horvat I str. 561. - 565.)
+\subsubsection{Tempreture kovanja}
+Temperature kovanja ovise o vrsti materijala i njegovom sastavu i o načinu na koji se kuje, da li je to komplicirani predmet ili ne, te o opremi s kojim kovanje se vršilo. Najpovoljnije temperature kovanja kreću se u granicama za mekani čelik 900 - 1300$^{\circ}$C, čelik do 0,3$\%$C 870 - 1150$^{\circ}$C, niskolegirani konst. čelik 830 - 1070$^{\circ}$C, nelegirani alatni čelici 770 - 920$^{\circ}$C, bakar 700 - 960$^{\circ}$C, aluminij 200 - 500$^{\circ}$C.
+\section{Izvlačenje}
+Izvlačenje, kao metoda obrade materijala, spada u grupu obrada bez skidanja struganja. Materijali, koje obrađujemo proživaljavaju plastične deformacije, ali nesmiju doći u područje loma. Oni moraju biti veoma žilavi. U te materijale spadaju čelici s malo ugljika, a osobito limovi koji su  predviđeni upravo za duboka izvlačenja. Limovi za duboko izvlačenje termički su obrađena a to nazivamo dekapiranjem. Postoje limovi koji su jednom, dvaput pa čak i četiri puta dekapirani. Ovi posljednji su namjenjeni za najkompliciranija izvlačenja. Materijali za izvlačenje su još limovi Au i Al. Prema JUS limovi za izvlačenje nose oznake (Č.0145 P2 - do Č.0148 P4)\par  
+Najstariji način izvlačenja bilo je formiranje posuđa od Cu-lima \textbf{kuckanjem}. Izrađivali su se najrazličitiji predmeti, a danas je ta metoda, koju zahtjeva industrijska proizvodnja, je \textbf{izvlačenje}. Postupak izvlačenja zasniva se na činjenici, da materijal podaje kada ga se optereti iznad granice elastičnosti. Neki predmet je kuckanjem mogao dobiti nakon dugotrajnog i strpljivog rada a s ovim postupkom moguće je to isto izvesti, ako ne u jednom onda u nekoliko radnih operacija. \par
+%SLIKA
+Čitav uređaj za izvlačenje učvršćen je na radnom stolu preše, koja je namjenjena za duboka izvlačenja. To mogu biti hidrauličke ili ekscentar preše. Uređaj se sastoji od žiga i matice koji određuju oblik predmeta. U sklopu postoji i pridržač lima koji sprečava klizanje lima i time osigurava plastičnu deformaciju predmeta. \par
+Postupak izvlačenja teče u određenim koracima a ovu su otprilike ovakvi:
+\begin{itemize}
+\item izrezivanje platine iz koje se najerava raditi predmet
+\item izrada prikojene platine, to dolazi u obzir ako želimo izbječi velike zaostatke materijala na rubovima, recimo četvrtastih posuda. 
+%SLIKA
+\item Višestepeno izvlačenje, jer odnos smanjenja promjera platine i nastale kolote nesmije biti manji od 0,48
+\item nakon konačnog izvlačenja moramo rubove posude obrezati da doijemo željeni oblik, koji može biti ko smije dalje obrađivati.
+\end{itemize}
+Ako se izvlače posebno duboke posude, potrebno je međufazno poluproizvod izžariti da se odstrani krtost nastala višekratnom deformacijom.\par
+Želimo li predmet kruškolikog oblika, nemožemo to izvesti metalnim žigom. Kod toga se koristimo, unaprijed formiranom matricom, a žig je modificiran, a tečenje izvodimo gumom, tekućinom ili čeličnim kuglicama. Pod djelovanjem vanjske, pomoćno sredstvo zauzima unutarnje konture matrice i na taj način formira oblik. Nakon prestanka djelovanja, moguće je izvući i izvaditi to sredstvo iz formirane posude. \par
+Primjena dugokog izvlačenja u industrijske svrhe je u današnje doba sve značajnija. Dolazi u obzir u svim granama metaloprerađivačke industrije, Iako je lim za duboka izvlačenja znatnije skuplji, princip rebara veoma efikasno ukrutiti da je čitav proizvod jeftiniji.\par
+U našem poduzeću se duboko izvlačenje koristi 
+\begin{itemize}
+\item za izradu kalota električnih grijača vode, limenih djelova pegli, električnih lonaca itd. u tvornici u Samoboru.
+\item za izradu dijelova štednjaka, ugostiteljske opreme, izradu sudopera od nehrđajučeg čelika na Žitnjaku
+\item za izradu dna hidrofora u Samoboru
+\item u proizvodnji dijelova frižidera u Bitoli itd.
+\end{itemize}
+\section{Valjanje}
+Valjanje je način oblikovanja, koji se temelji na plastičnoj deformaciji materijala. Valjanje za izradu u hladnom stanju a također i  u toplom, gnječenom stanju.\par
+Valjanje je neprekinuti postupak za smanjivanje presjeka i ujedno produljenje komada koji formiramo. U užem smislu, valjanje je oblikovanje usijanog komada, prolazom između dva valjka, koji su večinom horizontalni, a koji se okreću u suprotnom smjeru. Razmotrimo sile koje se javjaju kod valjanja.\par
+%SLIKA
+Sila N, je sila pritiska nastal zbog deformacije predmeta. Tu silu možemo podjeliti na horizontalnu silu u vrtikalnom smjeru. Vrtikalna sila pritiska, koju moraju prenositi ležaji valjka dok horizontalna sila trenja $\mu N cos \alpha$. Da bi se proces valjanja odvijao noramlno sila trenja mora biti veća od sile koja želi predmet izbaciti nazad te možemo postaviti jednadžbu.
+\begin{equation}
+\mu N\cdot cos \alpha > N sin \alpha -> \mu > tg \alpha\:,
+\end{equation} 
+ako za $\mu = tg\rho$ to se naziva kut trenja uvedemo u jednađbu izlazi daje $\rho>\alpha$ tj. da je kut trenja veći od ulaznog kuta $\alpha$.\par
+Kod valjanja se omjer h i h$_{1}$ nesmije prekoračiti pa on izgleda ovako
+\begin{equation}
+h_{1}=0,9 - 0,6 h\:.
+\end{equation}
+\section{Savijanje}
+\subsection{Savijanje limova}
+U svakodnevnom životu susrećemo se s najraznovrsnije svinutim konturama od lima. Tu spadaju svi mogući oblici počevši od okruglih do najkompliciranih fazonskih savijanja. \par
+Ploča lima možemo okruglo saviti na dva najjednsotavnija načina, koji se temelje na principu valjaka.
+\begin{enumerate}
+\item Savijanje s tri valjaka \\
+Kod ovog načina savijanja imamo tri valjka koji rotiraju oko svoje uzdužne osi i omogučuju prolaz lima između njih. Ako gornji valjak utisnemo prema dolje dobit ćemo zakrivljenu površinu. Minimalni promjer cilindra diktira promjerom gornjeg valjka. Veliki nedostatak ovog sistema je u tome što se rubovi, tj. početak i kraj moraju predsaviti da bi se dobila sila što bolja cilindrična ploha.
+\item Savijanje s 4 ili više valjaka \\
+Kod ovog načina savijanja izbjegnut je nedostatak presvijanja krajeva. Pomoćni bočni valjci omogučavaju savijanje cilindrične plohe bez predsavijanja to je velika prednost. Istina da su ovakvi strojevi nešto komliciraniji i skuplji ali svojim prednostima to pokrivaju.
+\end{enumerate}
+Da bi ploću rubno savili do nekog kuta, danas su još u primjeni dva načina. Prvi način je veoma star ali još uvijek veoma efikasan. Naime, radi se ovdje da se lim stegne u dvije čeljusti i zatim se sa zakretnom gredom izvrši savijanje do željenog kuta. Tom metodom se ručno mogu savijati razi limovi obojenih metala. Nedostatak ove metode je u tome što nemožemo izvršiti savijanje nekoliko rubova blizu jedan drugome. Da bi iz lima savili neko profil, možda i zatvorenog oblika, koristimo se tkz. \textbf{abkant prešama}. To su preše posebnog oblka, kod kojih se u gornji pokretni dio mogu ugraditi alati - tkz. noževi i pomoću njih izvodimo savijanje. Uz nož na stol preše učvršćuje se prizma, kao drugi dio alata za formiranje. Dužina tih noževa je različita a kreće se i do reda veličine 8 m. O snazi preše ovise kako debeli limovi se mogu saviti. Rad s abkant prešom je jednostavan i veoma produktivan pa se sada one sve više i više koriste.\par
+Da bi se profilno savili ploču lima, kod koje ima više veoma plitkih oblika možemo umjesto veoma skupog pripusivanja žiga u matricu, koristiti samo matricu, a umjesto žiga uzimamo odgovoarajućutvrdu gumu. Pod djelovanjem sile prešanja guma će djelomičnoformulirati lim koji je stisnut između gume i matrice. Kadkad se na taj način u tvornici na Žitnjaku izrađuju radne ploče za kuhanje a postupak se naziva Tohr-metal koji ima instaliranu prešu snage 5000 t.
+\subsubsection{Savijanje punih šiki i profila}
+Savijanje punih šipki, koje mogu biti okrugle, pravokutne ili nekog drugog oblika moguće je izvesti na nama već poznatim strojevima za savijanje limova. Mogu se korstiti strojevi s tri ili četiti valjka. Za pravokutne i kvadratne profile savijanje se izvodi na ravnim dijelovima valjka, dok za profilno formirane šipke i profile trebamo imati odgovarajuće kanale da bi ih mogli saviti.\par
+Ako se radi o čestom savijanju profila, postoje uređaji namjenjeni isključivo za tu vrstu savijanja. Princip rada je obet putem triju pokretnih valjaka koji imaju najrazličitije kanale, za različite profile. Postavljeni su okomito na površinu poda ili vertikalno.
+%SLIKA
+\subsubsection*{Primjer}
+Redosljed operacija kod savianja profila.
+%SLIKA
+%SLIKA
+\subsubsection{Savijanje cijevi}
+Savijanje cijevi zahtjeva posebnu tehnologiju i to zbog deformacije cijevi na mjestima savijanja. to dolazi kod savijanja cijevi na manjem radijusu, kod malih promjera, dok je to problem kod svih cijevi iznad 50 mm promjera. Da bi se izbjegle deformacije cijevi na mjestima savijanja potrebno je to spriječiti pomoćnim sredstvima. Najjednostavniji način je ispunjavanje cijevi nestlačivim sredsvom, koje će zadržati puni profil cijevi. Za to se koristi, kod manjih cijevi pijesak. Pijesak se naspe u cijev i sa obje strane dobro začepi, zatim se izvrši savijanje bilo ručno bilo u nekom uređaju. \par
+Kod savijanja cijevi večeg promjera, umijeto pijeska koriste se druge tehnike.
+%SLIKA
+Pomoću podatljivih elemenata vezanih jedan za drugim a to mogu biti čelične kuglice ili neki drugi sferni oblici koji se savijaju zajedno sa cijevima. Kod savijanja plašteva cilindara mogu se pojaviti greške i to:
+\begin{enumerate}
+\item Krajevi nisu predsaviti na potreban radius, nego mogu zaostati ravni. Zbog toga je potrebno koji puta, ako je potreban točan oblik saviti čitav cilindar preklopna, pa preklop odrezati i na taj način dobiti čisti krug.
+\item Može se dogoditi da se cilindar, zbog unutarnjih naprezanja lima i razlićite debljine lima spiralno savije. Ovakvu grešku ispravljamo pomoću posebno konstruiranih sprava, koje nam pri sastavljanju tu grešku korigiraju.
+\item Svaki predmet bilo kakve obrade ne zaostane uvijek u predviđenom položaju. To se događa također s cilindrično savijenim plaštevima. Kod toga je potrebno kod prihvatnog varenja uzdužnog šava osiguratu optimalni razmak už čitavog vara. Za takvo održavanje koriste se specijalne spravice - naprave s ojima možemo to  održavati.
+\end{enumerate}
+\section{Rezanje}
+Odsjecanje materijala razdvajanjem, bez skidanja strugotina, spada u područje obrade, koje se može vršiti noževim raznihoblika, ana specijalnim mašinama za odsjecanje (škarama) ili specijalnim alatom na prešama. Pod djelovanjem vanjskih sila pogonskog mehanizma u matrijalu se stvaraju naprezanja koja prelaze čvrstoću materijala, zbog čega dolazi do razdvajanja materijala. \par
+Kod odrezivanja, razlikujemo tri faze razdvajanja materijala:
+%ZA SVAKU FAZU IMAMO SLIKU
+\begin{enumerate}
+\item Faza elastične deformacije, kada deformacija nastala pod djelovanjem sile F, nakon prestanka iste nestaje
+\item Faza plastične deformacije, kad se u predmet pojavilo naprezanje veće od glanice popuštanja
+\item Prekid materijala, kada se u predmetu pojavi naprezanje veće od čvrstoće materijala. 
+\end{enumerate}
+Da bi odredili veličinu sile reanja proanalizirati ćemo to na noževima koji se kreću paralelno a imaju i paralelne oštrice.
+%SLIKA!!
+Matrijal nam je pravokutnog presjeka širine b i debljine s. Ravnina A-A je ravnina odjsecanja (idealno). U početku procesa rezanja, noževi prodru u površinu predmetaa dubinu z. To se naziva i apsolutna dubina prodiranja. Nakon toga dolazimo do procesa smicanja ili samog odrezivanja. Zbog postepenog prodiranja noža u površinu predmeta, sila F se pomalo seli iz ravnina A-A ovisno o veličini $\alpha$ od ravnine odsjecanja i stvara moment $M = F \cdot a$. Zbog nastanka tog momenta, dolazi do naginjanja samog predmta. Naginjanje izaziva njastojanje bočne sile Fr, a ono će rasti tako dugo dok se moment sile rezanje ne izjednaći s momentom bočne silepa će ravnoteža biti uspostavljenja kada će biti $F\cdot a = Fr \cdot c$. Razvojem jednadžbe došlo bi se do približnog rezutata tg$\gamma\approx\frac{z}{2 s}$. Kut $\gamma$ naziva se kut zakreta materijala. Maksimalna vrijednost sile na škarama ovisi o jačini materijala na smicanje i o apsolutnoj dubini prodiranja noža te to izgleda ovako
+\begin{equation}
+F_{m} = \bigg(\frac{s}{cos\gamma}\tau_{m}\cdot b\bigg)\:[Kp]\:.
+\end{equation}
+Za paralelene noževe ta formula poprima vrijednost
+\begin{equation}
+F_{max} = \tau_{m}\cdot b \cdot s\:[Kp]\:.
+\end{equation}
+Ovako izračunata sila razanja povečava se za 20-40\% zbog:
+\begin{itemize}
+\item tupljenja reznih ivica  moževa
+\item eventualnog povečanja zračnosti među noževima
+\item neravnomjernsti debljine materijala koji se odsjeca
+\item ostalih nedostataka koji se mogu dogodoti u eksploataciji.
+\end{itemize}
+\begin{equation}
+F_{M} = 1,3 F_{max}
+\end{equation}
+Ukoliko škare nisu opremljene držačem lima, onda se pojavljuje zakretanje materijala, koje izražavamo kutem $\gamma$ a on iznosi $\gamma = 10^{\circ} - 20^{\circ}$ ili bočna sila $F_{t} = (0,18 - 0,36)F$. Kod škara s držačima lima stanje je $\gamma = 5^{\circ}-10^{\circ}$ a $F_{t} = (0,09 - 0,18)F$. Veličina instalirane snage u uređaju za rezanje ovisi o načinu na koji se odsjecanje vrši. Mi razlikujemo više tehnika i načina odrezivanja, koji imaju svaki svojih prednosti i mana a i posebnih namjena. Kao prvi i najpoznatiji su 
+\begin{enumerate}
+\item Ravni paralelni ili ravni nagnuti noževi
+%SLIKA
+\begin{itemize}
+\item kod paralelnog odsijecanja $\phi = 2-6^{\circ}$
+\item kod kosog odsjecanje $\phi = 7-12^{\circ}$
+\item kut klina $\beta = 75-85^{\circ}$
+\item stražnji kut $\alpha = 2-3^{\circ}$
+\item prednji kut $\gamma = 3-12^{\circ}$
+\item račnost među noževima $f=0,05-0,02$ mm 
+\end{itemize}
+Ovakvi uređaji se koriste za izrezivanje ploča limova u djelove i to samo racne rezove
+\item Kružni noževi s paralelnim korizontalnim osima
+\begin{itemize}
+\item Kut zahvata $2\phi<12^{\circ}$
+\item Prekrivanje kružih noževa  $u = (0,2-0,3)s$
+\item Dimenzije noževa za $s>10$ mm je D = (25-30)s, a h = (50 - 90) mm dok za $s<3$ mm je D = (35 - 50)s, a h = (20 - 25) mm
+\end{itemize}
+Primjenjuje se za osdjecanje ploča u trake i za izrazivanje kružnih plotina do s = 30 mm.
+\item Kružni noževi s gornjom horizontalnom i donjom kosom osi
+\begin{itemize}
+\item Kut nagiba osovine $\epsilon = 30-40^{\circ}$
+\item Dimenzije noževa \\
+s$<$10 mm, D = 20 s, h = 50 - 80 mm\\
+s$<$3 mm, D = 28 s, h = 15 - 20 mm
+\end{itemize}
+ Koriste se za rezanje ploča u trake te za izrezivanje okruglih prestenova do debljine 30 mm. 
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \end{document}
