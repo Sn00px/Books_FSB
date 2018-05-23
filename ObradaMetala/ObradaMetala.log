@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.15)  22 MAY 2018 21:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  23 MAY 2018 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1695,7 +1695,11 @@ Package: multimedia 2012/05/02 ver 0.02
 
 
 Writing index file ObradaMetala.idx
-(./ObradaMetala.aux)
+(./ObradaMetala.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+)
 \openout1 = `ObradaMetala.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -1839,80 +1843,94 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 ...mberline {5.8}Brusevi}{25}{subsection.5.8}
+l.42 ...mberline {5.9}Brusevi}{26}{subsection.5.9}
                                                    [1
 
-])
+] [2])
 \tf@toc=\write6
 \openout6 = `ObradaMetala.toc'.
 
- [2]
+ [3]
 LaTeX Font Info:    Try loading font information for OT1+lmss on input line 125
 .
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [3
+) [4
 
-] [4] [5] [6] [7] [8] [9] [10]
+] [5] [6] [7] [8] [9] [10]
 [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-[26]
+[26] [27]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] [28] [29] [30]
+[28] [29] [30] [31]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 877.
 
-[31]
+[32]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32] [33] [34] [35] [36] [37] [38] [39] [40]
+[33] [34] [35] [36] [37] [38] [39] [40] [41]
 Underfull \hbox (badness 10000) in paragraph at lines 1155--1157
 
  []
 
-[41] [42]
-Package atenddvi Info: Last page = 44.
- [43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1334.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1334.
- (./ObradaMetala.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1334.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1334.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1334.
+[42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52] [53] [54]
+Package atenddvi Info: Last page = 56.
+ [55] [56] [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1440.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1440.
+ (./ObradaMetala.aux
+
+Package atenddvi Warning: Rerun LaTeX, last page has changed.
+
+*************************************************
+* media9 warning: "rerun"
+* 
+* Rerun to get internal references right!
+*************************************************
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1440.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1440.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1440.
  ) 
 Here is how much of TeX's memory you used:
- 44030 strings out of 493029
- 966114 string characters out of 6136234
- 1088117 words of memory out of 5000000
- 46636 multiletter control sequences out of 15000+600000
+ 44109 strings out of 493029
+ 966820 string characters out of 6136235
+ 1088118 words of memory out of 5000000
+ 46659 multiletter control sequences out of 15000+600000
  58905 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,20n,77p,10390b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsubsection.5.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
-athsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fon
-ts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
-b>
-Output written on ObradaMetala.pdf (44 pages, 316409 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/f
+onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb>
+Output written on ObradaMetala.pdf (58 pages, 356673 bytes).
 PDF statistics:
- 734 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 217 named destinations out of 1000 (max. 500000)
- 505 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 923 PDF objects out of 1000 (max. 8388607)
+ 839 compressed objects within 9 object streams
+ 273 named destinations out of 1000 (max. 500000)
+ 657 words of extra memory for PDF output out of 10000 (max. 10000000)
 
