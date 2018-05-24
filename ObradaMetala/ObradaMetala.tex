@@ -78,7 +78,7 @@ incgraph
 \renewcommand{\thefigure}{\arabic{section}.\arabic{subsection}.\arabic{figure}}
 \makeindex
 \numberwithin{figure}{section}
-
+\graphicspath{ {./Dino/} }
 \setlength\parindent{24pt}
 \begin{document}
 
@@ -100,25 +100,29 @@ incgraph
 \clearpage
 \section{Teorija rezanja metala}
 \subsection{Alati za rad skidanjem strugotine}
-Obrađivanje skidanjem strugotine, kao np.: rezanje, tokarenje, struganje, glodanje, brušenje, provlačenje, grecanje, vrši se raznim alatima. Jednom to može biti \textbf{nož} s jednom oštricom (tokarenje, blanjanje), drugi puta \textbf{svrdlo} koje na sebi nosi dvije osnovne oštrice, treči puta alat sa više oštrica koje odjednom skidaju strugotinu mora, kao i ostali zahvatiti, odgovarati nekim zakonitostima. Te zakonitosti prvi je počeo proučavati amerikanac F.W.Taylor krajem prošlog stoljeća.\par
-Svaki alat, koji koristimo pri skidanju strugotina, kao što smo vidjeli, sastoji se of jedne ili više oštrica. To nas dovodi do zaključka, da analogijom tu zakonitost prenesemo na sve druge.\par
+Obrađivanje skidanjem strugotine, kao np.: rezanje, tokarenje, struganje, glodanje, brušenje, provlačenje, grecanje, vrši se raznim alatima. Jednom to može biti \textbf{nož} s jednom oštricom (tokarenje, blanjanje), drugi puta \textbf{svrdlo} koje na sebi nosi dvije osnovne oštrice, treči puta alat sa više oštrica koje odjednom skidaju strugotinu (turpija, brusna ploča). \par 
+Skidanje strugotina mora, kao i ostali zahvati, odgovarati nekim zakonitostima. Te zakonitosti prvi je počeo proučavati amerikanac F.W.Taylor krajem prošlog stoljeća.\par
+Svaki alat, koji koristimo pri skidanju strugotina, kao što smo vidjeli, sastoji se od jedne ili više oštrica. To nas dovodi do zaključka, da analogijom tu zakonitost prenesemo na sve druge.\par
 Osnovna oštrica alata za rezanje bazira se na principu klina. Znači, moramo proučiti djelovanje klina. Zbog toga mi ćemo se zadržati na jednom alatu, a to je \textbf{tokarski nož}, te ćemo na njemu proučiti sve.
 \subsection{Geometrijski oblici oštrice alata i elementi oštrine}
 Rekli smo da je temeljni oblik svakog alata za rezanje klin. To vrijedi kod dljeta, kod oštrice škara, kod turpije, tokarskog noža, glodala itd. \par
 Prvo da se upoznamo opčenito s tokarskim nožem i njegovim elementima rezanja i plohama.
-
-%SLIKA TOKARSKOG NOŽA ||||| A1
-Osnovni elementi su:
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{image_01.png}
+\end{figure}
+\FloatBarrier
+\noindent Osnovni elementi su:
 \begin{itemize}
 \item glavna oštrica
 \item pomoćna oštrica
-\item noža
+\item noža.
 \end{itemize}
 Od površina koje trebamo razlikovati na nožu su
 \begin{itemize}
 \item prednja površina
 \item stražnja površina
-\item pomočna stražnja površina
+\item pomočna stražnja površina.
 \end{itemize}
 Prije nego što upoznamo detalje noža, spomenimo i sile koje se javljaju na nožu. To su:
 \begin{itemize}
@@ -127,30 +131,32 @@ Prije nego što upoznamo detalje noža, spomenimo i sile koje se javljaju na no�
 \item $\mathsf{P_{r}}$ - natražni pritisak - sila protivna poprečnom posmaku, a nastoji otisnuti nož od predmeta
 \end{itemize}
 Sada ćemo se upoznati malo detaljnije s jednim nožem za tokarenje, nožem koji se najčešće koristi.
-
-%SLIKE KUTEVA REZANJA TOKARSKOG NOŽA ||||| A4
-
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{image_02.png}
+\end{figure}
+\FloatBarrier
 Analizirajući presjek x-x razlikujemo:
 \begin{itemize}
 \item $\alpha$ - stražnji ili slobodni kut - između stražnje površine i površine rezanja. 
 \item $\beta$ - kut oštrenja ili kut klina - kut između prednje i stražnje površine.
 \item $\gamma$ - prednji kut, kut između prednje površine i okomice na površinu rezanja. Proizlazi da je $\alpha$ + $\beta$ + $\gamma$ = $90^{\circ}$
 \item $\delta$ - kut rezanja - on je suma $\alpha$ + $\beta$.
-\item $\epsilon$ - kut šiljka noža ili čeoni kut, to je kut između stražnje i pomočne stražnje površine.
-\item $\kappa$ - kut namještanja noža je kut između površine rezanja i glavne oštrice.
-\item $\lambda$ - kut nadvišenja - kut između glavne oštrice i površine u ravnini rezanja koja proizlazi kroz vrh noža.
+\item $\epsilon$ - kut šiljka noža ili čeoni kut, to je kut između stražnje i pomočne stražnje površine
+\item $\kappa$ - kut namještanja noža je kut između površine rezanja i glavne oštrice
+\item $\lambda$ - kut nadvišenja - kut između glavne oštrice i površine u ravnini rezanja koja proizlazi kroz vrh noža
 \item $\tau$ - natražni kut - koji se pojavljuje kod noževa za odrezivanje.
 \end{itemize}
 Evo nekoliko osnovnih primjera brušenja tokarskih noževa.
-
-%SLIKE BRUŠENJA TOKARSKIH NOŽEVA |||| A/5
-
-Položaj noža prema tokarenom predmetu može također djelovati na promjene osnovnih kuteva rezanja $\alpha$, $\beta$, $\delta$, dok nam kut $\beta$ ostaje konstantan
-
-
-%SLIKA KONSTANTNOG KUTA BETA |||| A/6
-
-
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{image_03.png}
+\end{figure}
+\FloatBarrier
+Položaj noža prema tokarenom predmetu može također djelovati na promjene osnovnih kuteva rezanja $\alpha$, $\beta$, $\delta$, dok nam kut $\beta$ ostaje konstantan.
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{image_04.png}
+\end{figure}
+\FloatBarrier
 Kod unutarnjeg tokarenja situacija je obratna. To nas upučuje da je važno paziti kako je postavlja nož kod obrade. 
 \subsection{Proces rezanja i formiranja strugotine}
 Prilikom skidanja strugotine sudjeluje niz faktora koji definiraju oblik strugotine. U te faktore možemo svrstati:
@@ -158,21 +164,30 @@ Prilikom skidanja strugotine sudjeluje niz faktora koji definiraju oblik strugot
 \item vrstu materijala koji se obrađuje
 \item vrstu materijala od kojeg je nož
 \item brzinu rezanja i 
-\item presjek strugotina
+\item presjek strugotina.
 \end{itemize}
 Postoje tri osnovna tipa strugotine:
-\begin{enumerate}
-%SLIKA
-\item \textbf{Kidana - lomljena strugotina}\\
-Materijal se najprije sabije na prednjoj površini noža, a zatim se zbog povečanog pritiska odlomi. Nakon toga proces se opet ponavlja. \\
-Kidana - lomljena strugotina nastaje kada je prednji kut mani od $10^{\circ}$, a zatim kod tvrdih materijala i kada se radi s preniskim brzinama rezanja. U tako formiranoj strugotini ne nastaju plastične deformacije. Oštrica noža se grije do $600^{\circ}$C i to nejednoliko. Kako se pritisak mijenja, mijenja se i zagrijavanje oštrice što dovodi do velikog kolebanja temperature. Kod takovog obnlika strugotine podmazivanje noža mnogo ne pomaže. Takav oblik strugotine javlja se kod ljevanjog željeza.
-%SLIKA
-\item \textbf{Rezana ili odrezna strugotina}\\
+\subsubsection*{Kidane-lomljene strugotine}
+\begin{wrapfigure}{l}{0.25\linewidth}
+\centering
+\includegraphics[width=0.25\textwidth]{image_05-1.png}
+\end{wrapfigure}
+\FloatBarrier
+Materijal se najprije sabije na prednjoj površini noža, a zatim se zbog povečanog pritiska odlomi. Nakon toga proces se opet ponavlja.
+Kidana - lomljena strugotina nastaje kada je prednji kut manji od $10^{\circ}$, a zatim kod tvrdih materijala i kada se radi s preniskim brzinama rezanja. U tako formiranoj strugotini ne nastaju plastične deformacije. Oštrica noža se grije do $600^{\circ}$C i to nejednoliko. Kako se pritisak mijenja, mijenja se i zagrijavanje oštrice što dovodi do velikog kolebanja temperature. Kod takovog obnlika strugotine podmazivanje noža mnogo ne pomaže. Takav oblik strugotine javlja se kod ljevanog željeza.
+\subsubsection*{Rezana ili odrezna strugotina}
+\begin{wrapfigure}{l}{0.25\linewidth}
+\centering
+\vspace{-0.5cm}
+\includegraphics[width=0.25\textwidth]{image_05-2.png}
+\vspace{-3cm}
+\end{wrapfigure}
+\FloatBarrier
 Ovakav oblik strugotine nastaje kod prednjeg kuta $\gamma < 17^{\circ}$ i kod male dubine rezanja. Taj oblik strugotine je prijelazni oblik od kidane na trakastu strugotinu. Oblik strugotine je povoljan jer nije preduga i ne smeta pri radu. 
 %SLIKA
-\item \textbf{Trakasta ili ljuštena strugotina}\\
+\vspace{1cm}
+\subsubsection*{Trakasta ili ljuštena strugotina}
 Ovakav oblik strugotine nastaje kod velikih brzina rezanja, male dubine i malog posmaka i kod prednjeg kuta $\gamma<30^{\circ}$. Materijal se tari o prednju površinu noža i odlazi kao neprekinuta strugotina. Pritisak na nož je jednolikiji, što daje i jednoličniju temperaturu oštrice od približno $200^{\circ}$C. Kolebanje temperature noža su u granicama od $20^{\circ}$. dobrim podmazivanjem oštrice pri rezanju može se produžiti vijek rada noža, jer takovo podmazivanje pogoduje stvaranju povišene oštrice koja štedi oštricu. To svojstvo nam veoma važno kod rada na automatima.
-\end{enumerate}
 \subsection{Hrapavost obrađene površine}
 Kvaliteta obrađene površine ovisi o režimima rada i o izboru noža. Razlikujemo dvije osnovne forme noževa i to:
 \begin{itemize}
@@ -1422,14 +1437,71 @@ Kovinske prevlake na predmet možemo najeti na
 \textbf{Kositrenje} se izvodi sličnim postupkom kao i cinčanje. Kositrenje se najviše koristi za zaštitu limova od koji se rade konzerve. Sloj kositra mora biti potpun i homogen. Katkada se željezni predmeti prvo pobakre a zatim pokositre.\par
 Jedan od posljednjih postupaka kovinskih prevlaka je tkz. \textbf{kemijsko hladno niklanje - KANIGEN postupak}. Ovaj postupak daje bolju površinu od tvrdog kromiranja a monogo je jeftiniji. Postupak je u SAD zaštićen s 50 patenata a zaštita se izvodi u Jugoslavenskom poduzeću koje je odkupilo licencu. \par
 Zaštita lakihkovina Al i magnezija (Mg) od korozije može se izvesti nekim od unaprijed spomenutih postupaka. Oksidne kožice, koje se pojavljuju na površinama dobra zaštita od korozije ali ih je potrebno ojačati. Aluminijski predmeti se na zraku presvlače oksidnim slojem debljine 9,3 $\mu$m. Da bi pojačali slojeve možemo to ostvariti kemijskim ili elektrolitskim načinom.
-
-
-
-
-
-
-
-
+\section{Razni postupci bez oštrica}
+Razni postupci bez ođtrica, zasnovani su na skidanju strugotine \textbf{izravnim djelovanjem raznih oblika erozije}. Tu spadaju mehanički, električki, elektrokemijski, kemijski i još neki vidovi energije. Rako te postupke dijelimo na većinom nove, ali nekonvencionalne postupke erozije, te ih dijelimo na:
+\begin{enumerate}
+\item Mehaničke postupke
+\item Električke postupke koji mogu biti 
+\begin{itemize}
+\item elektrolučna erozija
+\item elektroimplusna erozija (iskrenje) [EDM]
+\end{itemize}
+Ovim postupkom mogu se obrađivati vanjske i unutarnje površine
+\item \textbf{Elektrokemijski postupci} [ECM] kod kojih razlikujemo postupke gdje se elektroda giba i tu spada
+\begin{itemize}
+\item elektrolitsko brušenje i honovanje
+\item elektrodubljenje i blanjanje
+\end{itemize}
+Ta dva postupka nazivaju se zajedničkim imenom \textbf{eliziranje} - tj. anodno mehanički postupci. Za razliku gibajućih elektroda, postoje mirujuće elektrode koje se nazivaju \textbf{polieliziranje} ili čisti anodni postupak. U tu grupu spada postupak - elektrolitskog poliranja.
+\item \textbf{Kemijski postupci} [CM] su opet u stvari elektrokemijski postupci ali bez primjene vanjskih izvora električne energije. Tu spadaju
+\begin{itemize}
+\item kemijsko poliranje
+\item površinska i reljefna obrada jetkanjem
+\end{itemize}
+\item \textbf{Novi postupci} - u tu glupu spadaju razni izvori i vidovi energije.
+\begin{itemize}
+\item \textbf{Elektronska obrada iz elektronskih generatora} to su uređaji koji primjenjuju energiju elektronskog zračenja. [EBM]
+\item \textbf{Fotonska obrada laserom} - laser je uređaj koji pojačava energiju svijetla koristeći kod toga radijaciju uzbuđenih, podesnih kristala npr. rubina. [EOM]
+\item Obrada iz plasna gorača, tj. visokogrijanim i intenzivno joniziranim plinovima upravljanih magnetskim poljima.
+\item \textbf{Foto-kemijski postupak} izrade sitnih tankih i veoma točnih predmeta. Predmeti se obično rade iz folija. Princip je sljedeći. U velikom mjerilu se izradi niz slika proizvoda. To se točno u mjerilu preslika i koristi kao negativ. Folija se prelije posebnom kemikalijom zatim se pomoću filma osvijetli površina, a pod utijecajem tog svijetla dolazi do kemijskog razaranja folije na mijestima gdje je osvijetnjena.
+\end{itemize}
+\end{enumerate}
+\subsubsection{Mehanički postupci}
+U ovu grupu obrade spada primjena alata bez izravnih oštrica. Tu se željena obrada metala ostvaruje pretvorbom energije između podesnog alata i komada kojeg režemo. Preko tog alatapretvaramo mehaničku energiju uz sudjelovanje trenja u toplinu koju vrši proces rezanja.\par
+Alat je u večini slučajeva srazmjerno velika ploča. debljine od svega nekoliko mm iz odgovarajučeg vatrostalnog materijala. Na obradu ploće nalaze se sitini zupci koji izazivaju povećano trenje između alata i predemta koji se obrađuje. Kod toga je važno konstatirati da je obodna brzina u večini slučajeva iznad 100 m/sek. \par
+Ovaj postupak se koristi za rezanje profila i češće cijevi, dokle po dimenzijama večih komada ali istovremeno manjeg presjeka.
+\subsubsection{Električni postupci}
+Osnovni princip ove metode obrade je korištenje električnih lukova, odnosno iskara između dva vodljiva predmeta. Pojava elektroerozije može se podijeliti u tri faze koje slijede jedna za drugom u vanredno karatkim vremenskim intervalima
+\begin{itemize}
+\item elektronska emisija pod djelovanjem nametnutog elektičnog polja
+\item lančana reakcija jonizacijom napadnutih čestica
+\item udarni efekt ubrzanih elektrona koji silnim elekomehaničkim udarom izaziva termičke reakcije, a sve je pojačano djelovanjem elektromagnetskog polja.
+\end{itemize}
+Gustoča struje kod ovog postupka je 10$^{4}$ - 10$^{6}$ A/cm$^{2}$ a temperatura u koncentriranoj jezgri zbivanja od 6000 do 11000$^{\circ}$C a prema autorima i 50000$^{\circ}$C.\par
+Izvori električnog potencijala su generatori i to
+\begin{enumerate}
+\item LUČNI GENERATORI
+\item AUTOIMPULSNI GENERATORI -ili relaksacioni generatori, koji imaju u vlastitom krugu kondenzator
+\item ELEKTROIMPULSNI ili impulsni generator koji umjesto kondenzatora imaju poseban upravljački uređaj za impulse određenog karaktera.
+\end{enumerate}
+\subsubsection{Elektrokemijski postupci}
+Ovi postupci su zasnovani na poznatom Faraday-evom principu elektrolize. Kod toga se pomoću vanjskog izvora istosmjerne struje kroz elektrolit, vrši obrada \textbf{anodnim rastvaranjem ili katodnim izlučivanjem}.
+\subsubsection{Kemijski postupci}
+Baziraju se na kemijskom nagrizanju materijala u kupkama bez stvarnog izvora struje. Kao kemijsko sredstvo za nagrizanje dolaze u obzir jaka oksidaciona sredstva kao npr. dušična kiselina HNO$_{3}$, fosforna kiselina H$_{3}$PO$_{4}$, octana kiselina CH$_{3}$COOH. Koriste se i kombinacije tih drugih kemijskih sredstava. \par
+Kod kemijskog nagrizanja, dijelove koji trebaju ostati nenagriženi prelrivaju se plastičnim maskama. Dubina nagrizanja ovisi o vremenu držanja predmeta u kupki.
+\subsection{Još nekoliko metoda za skidanje strugotina}
+\begin{enumerate}
+\item Tokarska obrada rotirajućim nožem \\
+Rotacijom noža, od momenta do momenta u zahvat dolazi novi dio alata, a prethodni se ohladi dok ponovno dođe u zahvat. Takovi noževi su znatno dugotrajniji a povrđina predmeta je kvalitetnija uz veće brzine rezanja. Izdašnjost ove obrade je 5 do 7 puta veća od klasične.
+\item Obrada uz niskofrekventne oscilacije \\
+Iako nam je trakasta ili kontinuirana strugotina povoljna s obzirom  na kvalitetu površine, ona nam stvara velike probleme kod rada automata, jer nam smeta. Za rad na automatima koriste se materijali s viškom sumpora, koji čini strugotinu krutom pa se lomi. Ako se nožu dadu niskofrekventne oscilacije u smjeru napredovanja, dolazi do stanjenja strugotine, koja se sama lomi u smjeru odlaženja.
+\item Obrada visokofrekventnim oscilacijama\\
+Dodavanjem visokofrekventnih oscilacija od 10 - 30 kHz sitnih amplituda izazvane ultrazvučnim oscilatorima i to u tangencijalnom smjeru, poboljšana je kvaliteta površine, smanjene sile rezanja i povečana trajnost oštrice. Ovaj princip koristi se kod tokarskih noževa i kod glodala a razio se u SSSR-u.
+\item Obrada pri povišenim temperaturama\\
+Kod povišenih temperatura, materijali postaju plastičniji lakše se obrađuju. Postignuto je da se zagriju samo tanki slojevi koj se skidaju da toplina ne prodre duboko u predmet. Tim postupkom se obrađuju inaće nepovoljni materijali za obradu i postiže se i 100$\%$ povećenje [roduktivnosti.
+\item Obrada eksternim brzinama\\
+Da bi se povećala produktivnost, davno je poznato i težilo se povećanju brzina. Ali to je bilo ograničeno s materijalima reznih alata, koji nisu dozvoljavali veća zagrijavanja. Prelazom na brzine rezanja od 5 - 70 km/min, koje se postižu balističko energetskim postupcima, s brzoreznim čelicima moguće je ostvariti obradu. Kod tako velikih brzina rezanja javljaju se nove osebine, koje su dosada bile nepoznate, kao npr. debljina odlazeće strugotine je manja od postavljane, a brzina veća od brzine rada.
+\end{enumerate}
 
 
 
