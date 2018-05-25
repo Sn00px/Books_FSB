@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.15)  15 MAY 2018 20:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.15)  25 MAY 2018 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1911,100 +1911,117 @@ Overfull \hbox (20.5166pt too wide) in paragraph at lines 3--278
 [][][] 
  []
 
-[10 <./shema.pdf>] (./vijak <vijak.pdf, id=101, 87.32625pt x 154.5775pt>
-File: vijak.pdf Graphic file (type pdf)
+[10 <./shema.pdf>]
+<../ObradaMetala/Dino/image_62.png, id=101, 1888.05376pt x 3091.55pt>
+File: ../ObradaMetala/Dino/image_62.png Graphic file (type png)
 
-<use vijak.pdf>
+<use ../ObradaMetala/Dino/image_62.png>
+Package pdftex.def Info: ../ObradaMetala/Dino/image_62.png used on input line 2
+84.
+(pdftex.def)             Requested size: 415.37311pt x 680.14311pt.
+
+
+LaTeX Warning: Float too large for page by 30.14311pt on input line 285.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <../ObradaMetala/Dino/image_62.png>] (./vijak
+<vijak.pdf, id=109, 87.32625pt x 154.5775pt>
+File: vijak.pdf Graphic file (type pdf)
+ <use vijak.pdf>
 Package pdftex.def Info: vijak.pdf used on input line 2.
 (pdftex.def)             Requested size: 87.32603pt x 154.5771pt.
 )
-Underfull \hbox (badness 1436) in paragraph at lines 295--303
+Underfull \hbox (badness 1436) in paragraph at lines 300--308
 []\T1/lmr/bx/n/12 Vijak M3x6 JUS M.81.200 \T1/lmr/m/n/12 svi-je-tlo po-nik-lan.
  Na-bavna ci-jena je 0,65
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 295--303
+Underfull \hbox (badness 4429) in paragraph at lines 300--308
 \T1/lmr/m/n/12 din/kom a iz-ra-žuje se po na-rudºbi. Go-di²-nja po-treba je 170
  000 kom.
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 318.
+               Default added (so using `tbp') on input line 323.
 
 
-Overfull \hbox (20.31813pt too wide) in paragraph at lines 320--338
+Overfull \hbox (20.31813pt too wide) in paragraph at lines 325--343
  [][] 
  []
 
-[11
+[12
 
 
- <./vijak.pdf>] [12]
+
+
+ <./vijak.pdf>] [13]
 
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 344.
+put line 349.
 
-(./vijakx <vijakx.pdf, id=118, 87.32625pt x 121.45375pt>
+(./vijakx <vijakx.pdf, id=127, 87.32625pt x 121.45375pt>
 File: vijakx.pdf Graphic file (type pdf)
  <use vijakx.pdf>
 Package pdftex.def Info: vijakx.pdf used on input line 2.
 (pdftex.def)             Requested size: 87.32603pt x 121.45343pt.
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 359
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 364
 .
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Warning: Command \v invalid in math mode on input line 359.
+LaTeX Warning: Command \v invalid in math mode on input line 364.
 
 
-LaTeX Warning: Command \v invalid in math mode on input line 359.
+LaTeX Warning: Command \v invalid in math mode on input line 364.
 
 
-LaTeX Warning: Command \v invalid in math mode on input line 359.
+LaTeX Warning: Command \v invalid in math mode on input line 364.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-Package atenddvi Info: Last page = 14.
-[13 <./vijakx.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 398.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 398.
+Package atenddvi Info: Last page = 15.
+[14 <./vijakx.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 403.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 403.
  (./AnalizaVrijendostiINjenaPrimjena.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 398.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 398.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 403.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 403.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 398.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
  ) 
 Here is how much of TeX's memory you used:
- 43841 strings out of 493029
- 964885 string characters out of 6136234
+ 43849 strings out of 493029
+ 965093 string characters out of 6136234
  1082177 words of memory out of 5000000
- 46603 multiletter control sequences out of 15000+600000
+ 46607 multiletter control sequences out of 15000+600000
  48608 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,77p,10410b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on AnalizaVrijendostiINjenaPrimjena.pdf (14 pages, 149436 bytes)
-.
+Output written on AnalizaVrijendostiINjenaPrimjena.pdf (15 pages, 8283939 bytes
+).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 47 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
