@@ -78,7 +78,7 @@ incgraph
 \renewcommand{\thefigure}{\arabic{section}.\arabic{subsection}.\arabic{figure}}
 \makeindex
 \numberwithin{figure}{section}
-
+\graphicspath{ {./Dino/} }
 \setlength\parindent{24pt}
 \begin{document}
 
@@ -100,25 +100,29 @@ incgraph
 \clearpage
 \section{Teorija rezanja metala}
 \subsection{Alati za rad skidanjem strugotine}
-Obrađivanje skidanjem strugotine, kao np.: rezanje, tokarenje, struganje, glodanje, brušenje, provlačenje, grecanje, vrši se raznim alatima. Jednom to može biti \textbf{nož} s jednom oštricom (tokarenje, blanjanje), drugi puta \textbf{svrdlo} koje na sebi nosi dvije osnovne oštrice, treči puta alat sa više oštrica koje odjednom skidaju strugotinu mora, kao i ostali zahvatiti, odgovarati nekim zakonitostima. Te zakonitosti prvi je počeo proučavati amerikanac F.W.Taylor krajem prošlog stoljeća.\par
-Svaki alat, koji koristimo pri skidanju strugotina, kao što smo vidjeli, sastoji se of jedne ili više oštrica. To nas dovodi do zaključka, da analogijom tu zakonitost prenesemo na sve druge.\par
+Obrađivanje skidanjem strugotine, kao np.: rezanje, tokarenje, struganje, glodanje, brušenje, provlačenje, grecanje, vrši se raznim alatima. Jednom to može biti \textbf{nož} s jednom oštricom (tokarenje, blanjanje), drugi puta \textbf{svrdlo} koje na sebi nosi dvije osnovne oštrice, treči puta alat sa više oštrica koje odjednom skidaju strugotinu (turpija, brusna ploča). \par 
+Skidanje strugotina mora, kao i ostali zahvati, odgovarati nekim zakonitostima. Te zakonitosti prvi je počeo proučavati amerikanac F.W.Taylor krajem prošlog stoljeća.\par
+Svaki alat, koji koristimo pri skidanju strugotina, kao što smo vidjeli, sastoji se od jedne ili više oštrica. To nas dovodi do zaključka, da analogijom tu zakonitost prenesemo na sve druge.\par
 Osnovna oštrica alata za rezanje bazira se na principu klina. Znači, moramo proučiti djelovanje klina. Zbog toga mi ćemo se zadržati na jednom alatu, a to je \textbf{tokarski nož}, te ćemo na njemu proučiti sve.
 \subsection{Geometrijski oblici oštrice alata i elementi oštrine}
 Rekli smo da je temeljni oblik svakog alata za rezanje klin. To vrijedi kod dljeta, kod oštrice škara, kod turpije, tokarskog noža, glodala itd. \par
 Prvo da se upoznamo opčenito s tokarskim nožem i njegovim elementima rezanja i plohama.
-
-%SLIKA TOKARSKOG NOŽA ||||| A1
-Osnovni elementi su:
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{image_01.png}
+\end{figure}
+\FloatBarrier
+\noindent Osnovni elementi su:
 \begin{itemize}
 \item glavna oštrica
 \item pomoćna oštrica
-\item noža
+\item noža.
 \end{itemize}
 Od površina koje trebamo razlikovati na nožu su
 \begin{itemize}
 \item prednja površina
 \item stražnja površina
-\item pomočna stražnja površina
+\item pomočna stražnja površina.
 \end{itemize}
 Prije nego što upoznamo detalje noža, spomenimo i sile koje se javljaju na nožu. To su:
 \begin{itemize}
@@ -127,30 +131,32 @@ Prije nego što upoznamo detalje noža, spomenimo i sile koje se javljaju na no�
 \item $\mathsf{P_{r}}$ - natražni pritisak - sila protivna poprečnom posmaku, a nastoji otisnuti nož od predmeta
 \end{itemize}
 Sada ćemo se upoznati malo detaljnije s jednim nožem za tokarenje, nožem koji se najčešće koristi.
-
-%SLIKE KUTEVA REZANJA TOKARSKOG NOŽA ||||| A4
-
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{image_02.png}
+\end{figure}
+\FloatBarrier
 Analizirajući presjek x-x razlikujemo:
 \begin{itemize}
 \item $\alpha$ - stražnji ili slobodni kut - između stražnje površine i površine rezanja. 
 \item $\beta$ - kut oštrenja ili kut klina - kut između prednje i stražnje površine.
 \item $\gamma$ - prednji kut, kut između prednje površine i okomice na površinu rezanja. Proizlazi da je $\alpha$ + $\beta$ + $\gamma$ = $90^{\circ}$
 \item $\delta$ - kut rezanja - on je suma $\alpha$ + $\beta$.
-\item $\epsilon$ - kut šiljka noža ili čeoni kut, to je kut između stražnje i pomočne stražnje površine.
-\item $\kappa$ - kut namještanja noža je kut između površine rezanja i glavne oštrice.
-\item $\lambda$ - kut nadvišenja - kut između glavne oštrice i površine u ravnini rezanja koja proizlazi kroz vrh noža.
+\item $\epsilon$ - kut šiljka noža ili čeoni kut, to je kut između stražnje i pomočne stražnje površine
+\item $\kappa$ - kut namještanja noža je kut između površine rezanja i glavne oštrice
+\item $\lambda$ - kut nadvišenja - kut između glavne oštrice i površine u ravnini rezanja koja proizlazi kroz vrh noža
 \item $\tau$ - natražni kut - koji se pojavljuje kod noževa za odrezivanje.
 \end{itemize}
 Evo nekoliko osnovnih primjera brušenja tokarskih noževa.
-
-%SLIKE BRUŠENJA TOKARSKIH NOŽEVA |||| A/5
-
-Položaj noža prema tokarenom predmetu može također djelovati na promjene osnovnih kuteva rezanja $\alpha$, $\beta$, $\delta$, dok nam kut $\beta$ ostaje konstantan
-
-
-%SLIKA KONSTANTNOG KUTA BETA |||| A/6
-
-
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{image_03.png}
+\end{figure}
+\FloatBarrier
+Položaj noža prema tokarenom predmetu može također djelovati na promjene osnovnih kuteva rezanja $\alpha$, $\beta$, $\delta$, dok nam kut $\beta$ ostaje konstantan.
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{image_04.png}
+\end{figure}
+\FloatBarrier
 Kod unutarnjeg tokarenja situacija je obratna. To nas upučuje da je važno paziti kako je postavlja nož kod obrade. 
 \subsection{Proces rezanja i formiranja strugotine}
 Prilikom skidanja strugotine sudjeluje niz faktora koji definiraju oblik strugotine. U te faktore možemo svrstati:
@@ -158,21 +164,30 @@ Prilikom skidanja strugotine sudjeluje niz faktora koji definiraju oblik strugot
 \item vrstu materijala koji se obrađuje
 \item vrstu materijala od kojeg je nož
 \item brzinu rezanja i 
-\item presjek strugotina
+\item presjek strugotina.
 \end{itemize}
 Postoje tri osnovna tipa strugotine:
-\begin{enumerate}
-%SLIKA
-\item \textbf{Kidana - lomljena strugotina}\\
-Materijal se najprije sabije na prednjoj površini noža, a zatim se zbog povečanog pritiska odlomi. Nakon toga proces se opet ponavlja. \\
-Kidana - lomljena strugotina nastaje kada je prednji kut mani od $10^{\circ}$, a zatim kod tvrdih materijala i kada se radi s preniskim brzinama rezanja. U tako formiranoj strugotini ne nastaju plastične deformacije. Oštrica noža se grije do $600^{\circ}$C i to nejednoliko. Kako se pritisak mijenja, mijenja se i zagrijavanje oštrice što dovodi do velikog kolebanja temperature. Kod takovog obnlika strugotine podmazivanje noža mnogo ne pomaže. Takav oblik strugotine javlja se kod ljevanjog željeza.
-%SLIKA
-\item \textbf{Rezana ili odrezna strugotina}\\
+\subsubsection*{Kidane-lomljene strugotine}
+\begin{wrapfigure}{l}{0.25\linewidth}
+\centering
+\includegraphics[width=0.25\textwidth]{image_05-1.png}
+\end{wrapfigure}
+\FloatBarrier
+Materijal se najprije sabije na prednjoj površini noža, a zatim se zbog povečanog pritiska odlomi. Nakon toga proces se opet ponavlja.
+Kidana - lomljena strugotina nastaje kada je prednji kut manji od $10^{\circ}$, a zatim kod tvrdih materijala i kada se radi s preniskim brzinama rezanja. U tako formiranoj strugotini ne nastaju plastične deformacije. Oštrica noža se grije do $600^{\circ}$C i to nejednoliko. Kako se pritisak mijenja, mijenja se i zagrijavanje oštrice što dovodi do velikog kolebanja temperature. Kod takovog obnlika strugotine podmazivanje noža mnogo ne pomaže. Takav oblik strugotine javlja se kod ljevanog željeza.
+\subsubsection*{Rezana ili odrezna strugotina}
+\begin{wrapfigure}{l}{0.25\linewidth}
+\centering
+\vspace{-0.5cm}
+\includegraphics[width=0.25\textwidth]{image_05-2.png}
+\vspace{-3cm}
+\end{wrapfigure}
+\FloatBarrier
 Ovakav oblik strugotine nastaje kod prednjeg kuta $\gamma < 17^{\circ}$ i kod male dubine rezanja. Taj oblik strugotine je prijelazni oblik od kidane na trakastu strugotinu. Oblik strugotine je povoljan jer nije preduga i ne smeta pri radu. 
 %SLIKA
-\item \textbf{Trakasta ili ljuštena strugotina}\\
+\vspace{1cm}
+\subsubsection*{Trakasta ili ljuštena strugotina}
 Ovakav oblik strugotine nastaje kod velikih brzina rezanja, male dubine i malog posmaka i kod prednjeg kuta $\gamma<30^{\circ}$. Materijal se tari o prednju površinu noža i odlazi kao neprekinuta strugotina. Pritisak na nož je jednolikiji, što daje i jednoličniju temperaturu oštrice od približno $200^{\circ}$C. Kolebanje temperature noža su u granicama od $20^{\circ}$. dobrim podmazivanjem oštrice pri rezanju može se produžiti vijek rada noža, jer takovo podmazivanje pogoduje stvaranju povišene oštrice koja štedi oštricu. To svojstvo nam veoma važno kod rada na automatima.
-\end{enumerate}
 \subsection{Hrapavost obrađene površine}
 Kvaliteta obrađene površine ovisi o režimima rada i o izboru noža. Razlikujemo dvije osnovne forme noževa i to:
 \begin{itemize}
@@ -1173,155 +1188,320 @@ Nakon određivanja materijala i njegove debljine, potrebno je podesiti alat. To 
 Profile možemo rezati na posebnim uređajima konstuiranim specijalnmo za te svrhe. U stvarnosti, to su škare, koje u svojim noževima imaju razne otvore, ovisno o profilu koji mogu rezati. Postoje uređaji za rezanje profila veličine $\Psi 100$; I profil 16 itd. U takvim škarama postoje i kratke škare za rezanje manjih rezova lima.\par
 Posebna tehnika rezanja koja se sve više danas primjenjuje je tehnika \textbf{tehnika štancanja}. Tom tehnikom se postižu najveće točnosti, a problem je riješen pomoću posebno konstruiranih alata i preša. Takvim postupkom mogu se izrađivati zupčanici, precizni dosjedi itd.
 \section{Ljevanje}
-Ljevanje je postupak koji se koristi za izradu složenih predmeta. Sve kovine se ne lijevaju jednako dobro. Na kovinu, koji lijevamo postavlja se nekoliko zahtjeva
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Ljevanje je postupak koji se koristi za izradu složenih predmeta. Sve kovine se ne lijevaju jednako dobro. Na kovinu, koji lijevamo postavlja se nekoliko zahtjeva:
+\begin{itemize}
+\item da je rastavljena kovina dovoljno žitka
+\item da dobro ispunja kalup
+\item da odljevak nakon hlađenja bude pun i homogen bez šupljina
+\end{itemize}
+Dobro se daju ljevati: sivo željezo, cink, bronca, olovo i njegove legure dok se teže lijevaju aluminij i čelik. Od svih kovina najviše se lijeva sivo ljevano željezo. \par
+Ljevanje je ispunjavanje šupljine žitkom rastaljenom kovinom. Šupljina, obično u pijesku, napravimo pomoću modela. Kovina se nakon lijevanja skrutne, pa se tako dobiva predmet oblika šupljine ili modela.
+%SILKA
+Osnovni elementi jednog kalupa spremnog za lijevanje. Ovaj kalup izrađen je od pijeska, kao jedne vrste materijala, od kojeg se kalupi uopće rade. Pješćani kalupi su zasada još najekonomičniji za pojedinačno i maloserijsko lijevanje. Uopće uzev, materijala za kalup bi trebao zadovoljiti sljedeće uvijete:
+\begin{itemize}
+\item da je jeftin i lako nabavljiv
+\item da je dovoljno čvrst, da kalup izdrži bar jedno lijevanje i da je otporan na strujanje i tlak kovine kod ljevanja
+\item da se iz njega mogu izraditi glatki kalupi s točnim obrisima, što osigurava točan odljevak
+\item da je materijal dovoljno porozan da se osigura lako izlaženje plinova koji se javljaju pri ljevanju
+\item loš vodić topline, a ujedno i vatrostalan, tj. da se ne zapeče odljev. Kod kolkile je potrebno da bude dobar vodič topline.
+\item materijali jezgre pri stezanju materijala moraju omogućiti te promjene dimenzija. 
+\end{itemize}
+U prirodi nemožemo pronaći takav materijal, pa zbog toga izvodimo kojekakva mješanja da se bar djelomično približimo traženim uvijetima. U tu grupu materijala spadaju pijesak za kalupljenje, masa, ilovača, pijesak za izradu jezgre, materijali za vezanje jezgrovnog pijeska, tvari za prelake, itd.
+\subsection{Pijesak za kalupovanje}
+Kao što smo već prije naglasili, materijali za izradu kalupa su mješavina raznih prirodnih sastojaka. Tako je pijesak za kalupovanje mješavina kremenih zrnaca i gline s primjesima vapnenca, lapora, željeznog oksida, raznih spojeva kalcija, kalija, metrija i magnezija. Postotak porimjesa u lijevačkom pijesku nesmije prijeci 5 - 7$\%$.\par
+\textbf{Kremena zrnca} - (SiO$_{2}$) okrugla su ili oštrobridna, razne veličine, a čine glavni dio pijeska za kalupljenje. Prema veličini zrnaca razlikujemo finozrnati, srednjezrnati, krupnozrnati pijesak.\par
+\textbf{Glina} - zadatak je gline da uz $10 - 12\%$ vlage, obavije kremena zrnca tankom kožicom i međusobno ih povezuje. Zbog toga je piesak plastičan. Ako su zrnca glatka, potrebno je manje gline a kalupi su čvršći. Što su zrnca veća i jednoličnija, lakše propuštaju plinove koji nastaju kod lijevanja. Finozrnatim pijeskom grade se glađi kalupi ali teže propuštaju plinove. Propustljivost pijeska, odnosno kalupa povečava se tkz. bockanjem i sušenjem kalupa.\par
+\textbf{Željezni oksid} - o njegovoj količini u pijesaku ovisi boja pijeska, dali će biti žučkasti ili crvenkasti. Inače njega ima u pijesku uvijek. \par 
+\textbf{Vapnenac} se također uvijek nalazi u pijesku. On je uvijek stalan, jer pod djelovanjem topline se raspada i stvara CO$_{2}$ (ugljični dioksid) pa se zbog toga smanjuje popustljivost pijeska. Zapravo, stvara se znatno više plinova koje treba kroz pore kalupa odvesti. Po sadržaju ga dijelimo:
+\begin{itemize}
+\item kremeni pijesak sa do 2$\%$ gline
+\item mršav pijesak 2 - 8$\%$ gline
+\item polumastan pijesak 8 - 20$\%$ gline
+\item mastan pijesak 20 - 30 $\%$ gline
+\item vrlomastan pjesak 30 -50 $\%$ gline
+\end{itemize}
+\subsection{Pijesak za jezgre}
+Kao najbolji pijesak za jezgru pokazao se čisti kremeni pijesak a kao vezivo se koristi laneno ulje. Kao aterijal jezgre može se koristiti i mršavilijevački pijesak s manje od 8$\%$ gline. Osim lanenog ulja, kao dodatci za vezivo jezgre koriste se još:
+\begin{itemize}
+\item biljna ulja - pamukovo, makovo
+\item mineralna ulja - destilacijom nafte
+\item životinjska ulja - riblje ulje
+\item brašnasti dodatci - raženo, krumpirovo brašno, dekstin
+\item smolasti dodatci - kolofonij, sulfitna lužina, melasa
+\item sada se jezgre sa 15$\%$ cementa.
+\end{itemize}
+Kod izrade kalupa koriste se još neki zahvati i materijali, da se pospješi sama proizvodnja lijevanih proizvoda.\par
+Da se sprijeći zagaranje pijeska na odljevak, potrebno je kalupnu  šupljinu prevuči \textbf{prevlakom}. Kao prevlaka može se koristiti prah drvenog ugljena ili grafička prašina.\par
+Kod izrade kalupa javlja se problem lijepljenja pijeska na modele. Da bi to spriječili, prije kalupljenja naprašimo model. Za naprašivanje se koriste drveni uljen u prašini ili likopodij - crvotočina na crnogorici.
+\subsection{Podjela lijevačkog pijeska}
+Lijevački pijesak za kalupljnje možemo podijeliti na novi, stari i kaluparski pijesak.
+\begin{itemize}
+\item \textbf{Novi pijesak} - to su u stvarnosti kremena zrnca koja se kopaju u prirodi. U principu se ne korisit nego se njime regenerira i popravlja stari pijesak.
+\item \textbf{Stari pijesak} - to je višekratno korištni pijesak za izradu kalupa i u njemu veći dio gline izgori pa je došlo do oštećenja kremena zrna pijeska.
+\item \textbf{Kaluparski pijesak} - pravi se miješanjem fino posijane smjese starog pijeska, s 20 - 50$\%$ novog pijeska, uz dodatno 2 - 15 $\%$ praha kamenog ugljena i 5 - 12$\%$  vode. U tu grupu spada i modelno pijesak za popravak kola koji ima približno isti sastav samo što ima sitnija zrna i veše ugljene prašine.
+\end{itemize}
+\subsection{Pripremanje pijeska za kalupe}
+Pijesak se iskopa, nije moguće odmaha primjeniti u lijevaonicama. On je suviše vlažan i u komadima, sadrži u sebi trave, korijenja ili većih komada kamenja. Zbog toga se mora sušiti, sijati, drobiti i separirati. Sve su to zahvati koje je potrebno poduzeti s novim pijeskom da bi ga mogli dodati starom za regeneraciju. Stari pijesak treba očistiti od komadića željeza, lijevačkih čavala i ostalih sitnica koje se javljaju pri ljevanju. U manjim lijevaonicama ovo čišćenje izvodi se ručnim sijanjem, dok se kod većih lijevanica upotrebljavaju čitavi sistem uređaja za pripremu pijeska. U tu pripremu spada i mješanje s novim pijeskom.\par
+Računa se da treba 4 - 5 tona za 1 donu odljeva od sivog lijeva. To znači da za takvu proizvodnju treba svaki put 1 tona novog pijeska za 1 tonu odljevka.
+%SLIKA
+Postoji čitav niz raznih izvedbi bilo kojeg od uređaja za pripremu pijeska. Također postoje posebno konstruirani strojevi za pripremu ilovače i ostalih potrepština za lijevaonice. \par
+Da bi izradili kalup, prvo je potrebno izraditi model. Model je izrađen obično od jelovine, a može se koristiti i borovina, joha, lipovina, javor, kruška pa i grabovina. Prema nacrtu predmeta modelar izrađuje model koji mora imati određene dimenzije. Zbog stezanja odljevka, kod hlađenja, dimenzije odljevka se mijenjaju. Da to stezanje nebi prešlo određenu granicu dimenzije odljevka, potrebno je model izraditi veći. Veličina nadmjere ovisi o materijalu koji lijevamo i to:\\
+Ljevano željezo 1$\%$\\
+Temper lijev 1,6$\%$\\
+Čelični lijev 2$\%$\\
+Bijela kovina 0,5$\%$\\
+Bronca, crveni lijev, mjed 1,5$\%$\\
+Al-legure 1,1 do 1,25$\%$\\
+Modeli koji se koriste za vešekratna, npr. strojna, kalupljena izrađuju se od čvršćeg materijala pa i željeza. \par
+Da bi se model lakše izvadio iz pijeska, okomite stranice treba izvesi skošenim. Ako konstrukter ne predvidi skošenja, ona se izvode najmanje 1:100. Kod modela je važno i izvođenje aobljenja koje može slijediti kalupni pijesak, a da se ne zasipa.\par
+Kao posebno kod izrade modela mora se voditi računa o dodatku za obradu na plohama koje obrađujemo. Veličina dodatka ovisi o veličini predmeta, materijalu, načinu lijevanja (horizontalno, vodoravno). Veličina dodatka kreće se od 2 - 15 mm.\par
+\textbf{Jezgre} su dijelovi kojim se kalupe šupljine u odljevcima. Jezgre imaju na sebi izdanke za postavljanje u određene položaje u kalupu. Ti upornici se stavljaju na mjestima koja nije potrbno obrađivati nakon lijevanja. Jezgre se uvijek moraju sušiti. Time očvrsnu i postanu propusnije.\par
+\textbf{Kalupnici} su okviri bez poklopca i dno u kojima se izrađuju kalupu bilo iz pijeska ili nekog drugog materijala za kalupljenje. Veličine kalupnika odabiremo ovisno o veličini predmeta. Kalupnici mogu biti okrugli ili četvrtasti. Kalupnici mogu biti izrađeni od drveta, lijevanog željeza ili čelika, dok se sada koriste kalupnici od lakih slitina. Kalupnici se koriste u parovima, a mogu biti i trodjelni ili četverodjelni, dok se kod serijske proizvodnje i strojnog kalupljenja koriste naročiti kalupnici za kalupljenje "bez kalupnika". To su ustvari rastavni kalupnici na šarkama.\\
+Kalupovanje je postupak za izradu kalupa. Kalupovanje je moguće izvesti i ručno i to:
+\begin{itemize}
+\item podu ljevaonice sistemo mekog i tvrdog kreveta. To je kalupljenje koristi za izradu jednostavnijih predmeta, tako da se u poslu lijevaonice nabije pijesak, na odgovarajući način i izradi kalota, izvedi sistem uljevaka i kalup je gotov. Takvo kalupljenje je najjeftinije.
+\item u kalupnicima. To je najuobičajeniji način kalupovanja. Proces izrade kalupa sastoji se u nabijanju pijeska u kalupnik i oko modela. Kad se to izvede, model se izvodi, eventualno se umetnu jezgre, dotjeraju se uljevci i odušnici i kalup je spreman za daljnu pripremu prije lijevanja
+\item kalupovanje šestarenje - koji se primjenjuje pri izvođenju kalupa za rotacione predmete svih veličina. Tim postupkom se pojeftinjuje čitav odljevak, jer je vrijeme kalupljenja smanjeno, a trebamo posebno skupe i komplicirane modele. Odljevci izrađeni ovakvim postupcima veoma su točni, jer su irađeni točnim šablonama. Postupak se vrši šestarima. To su okovane daske koje se mogu okretati oko vretena a imaju obris izvodenice rotacionog tijela.
+%SLIKA
+\end{itemize}
+Drugi način kalupovanja bio bi strojno kalupovanje koje se može podijeliti na
+\begin{itemize}
+\item kalupovanje strojevima s ručnim nabijanjem.\\
+Proces nabijanja u pijeska u kalupnik ovdje se opet izvadi ručno, ali operacije odizanja kalupa od modela i njegovo prekretanje vrši se mehanički pomoću strojeva. Kod tih strojeva razlikujemo:
+\begin{itemize}
+\item strojevi za odizanje - ovdje se odiže čitav kalupnik od modela koji je učvršćen na radnoj površini
+\item stroj za spuštanje modelne ploće - ovdje se odel s modelnom ploćom spušta prema dolje a na radnoj površini ostaje kalupnik.
+\item strojevi s prekretanjem modelne ploće. Tim strojevima se kalupnik preokreće i odma spušta na posebna kolica. Taj postupak olakšava rad od prehladnih strojeva, jer olakšava problematično ručno prekretanje, koje u večini slučajeva izaziva oštećenje kalupa.
+\item strojeva provlačenja, koriste se kad visokih odljevaka kod kojih nije moguće izraditinagibe za izvlačenje modela. Ravne stijenke moraju imati i zupčanici i remenice te se kalupovanje izvodi na ovakovim strojevima. Princip rada se sastoji u tome, da se nakon nabijanja pijeska u kalupnik, model polako pomoću stroja izvuće iz kalupa.
+\end{itemize}
+\item kalupovanje strojevima za mehaničko nabijanje pijeska
+\end{itemize}
+Dosada opisani postupci kalupljenja bili su sa ručnim nabijanjem pijeska, a modeli su se vadili ili ručno ili pomoću nekog stanja. Da bi se zamijenilo ručno nabijanje pijeska, konstruirani su posebni strojevi, koji pijesak nabijaju mehanički a ujedno se koriste prije spomenuti strojevi za vođenje modela i okretanje kalupnika. Obzirom na način nabijanja razlikujemo:
+\begin{itemize}
+\item strojevi za nabijanje pijeska prešanjem. Kod prešanja je pijesak jače sabijen na površinu nego na dnu. Zato se prešanje upotrebljava samo za izvođenje plitkih kalupa. Princip prešanja je da se na kalupnik stavi okvir određene visine, za koju se pijesakmože stisnuti prešanjem, bez opasnosti za kalup. Prešanje se izvodi hidrauličkim putem preko čepa koji ulazi u okvir. Kod prešanja razvili su se postupci:
+\begin{itemize}
+\item jednostranog prešanja
+\item dvostranog prešanja
+\item višeslojnog prešanja
+\item kalupovanje bez kalupa
+\end{itemize}
+\end{itemize}
+\subsubsection{Kalupovanje strojeva za drmanje}
+Pijesak se može sabiti i drmanjem, tresenjem. Tim postupkom, čestica iznad svojom vlastitiom težinom inercijom dijeluje na česticu ispod i tako ju sabija. Zbog toga su čestice na donjim dijelovima kalupnika čvršće sabijene od čestica na povvršini. Strojevi rade s do 300 udarana na minuti i sabijaju velike količine pijeska. \par
+Čseto se koristi kominiran uređaj za stresenje i prešanje. Na taj način su dobiveni veoma kvalitetni i donekle jednoliko sabijeni kalupi.
+\subsubsection{Kalupovanje strojevima za bacanje pijeska}
+Bacanje pijeska u kalupnik moguće je izvesti. U struji zraka - tj. smjesa zraka i pijeska se dovodi u kalupnik. Zrak se odvaja, a pijesak sas vojom brzinom nabija oko modela i ispunjava kalupnik.\par
+Drugi princip bacanja pijeska izvodi se pomoću rotirajuće žlice u glavi. Svaki okretanjem žlićice zahvati se malo pijeska i bavi u kalupnik. Pošto se žlićica okreće 1200 do 1600 okretaja, dobiva  se kontinuirani mlaz koji vrlo brzo izpunjava kalupnik.\par
+Tvrdoća nabijenog pijeska kod ovih uređaja regulira se brzinom kojom pijesak dolazi u kalupnik. Veće brzine daju tvrđe nabijeni pijesak.
+\subsection{Kokilno lijevanje}
+%SLIKA
+Ako želimo neku površinu odljevka posebno tvrdu, potrebno nam je odvesti s te površine brzo toplinu. Brzo odvođenje toplinemožemo ostvariti ako taj dio kalupa izradimo od željeza, koje brzo odvodi toplinu. Takovim postupkom uz tvrdu površinu dobivamo razmjerno mekanu sredinu. Takovim postupkom se lijevaju valjci za valjanje željeza, za papir, platno, mlinove itd.
+\subsection{Centrifugalno lijevanje}
+%SLIKA
+Za lijevanje cijevi iz dužih rotirajućih dijelova koristi se tkz. centrifugalni lijev. Princip je u tome da se tekuće željezo spiralno namota u kalup od željeza, koji se vrti oko horizontale ili vertikalne osi i ujedno udaljuje od mjesta ulijevanja. Zbog centrifugalne sile, željezo je veoma gusto i bez troske. Željezni kalupi se hlade vodom da se osigura stalna temperature. Odljevci se vade u usijanom stanju pa se izžaruju, da se smanji tvrdoča, koja nastaje zbog naglog hlađenja lijevanog materijala. Cijevi proizvedene ovim postupkom čvršće su za 70$\%$ od cijevi ulijevanih u pijesak iz čega proizlazi da mogu biti i tanje. Postoje još specijalizirani centrifugalni lijevovi i to Morov postupak te ljevanje u hladne kolkile.
+\subsection{Tlačni lijev}
+Za velikoserijsku proizvodnju jednolikih predmeta koriste se tlačno lijevanje. Princip tačnog lijevanja je u tome da se rastavljeni materijal pod pritiskom ubrizga u metalni kalup ili kolkilu. Na taj način dobivaju se veoma točni predmeti  i do 0,01 mm, a osim toga mogu se izraditi i narezi i rajrazličitijih gravura. \par 
+Za tlačno lijevanje se obično koriste materijali s nižim temperatuream taljenja kao nps. Al-slitine, olovne slitine, kositrene slitine, elektron (Mg Al slitine) itd.\par 
+Materijal se prvo rastali u posebnim pećima, a pomoću posebe žlićice ili posudice ulijeva se pred klip koji nakon toga izvrši tlačenje. Ovom tehnikom mogu se lijevati predmeti do težine od nekoliko Kp, što je vezano uz snagu stroja za prešanje i pridržavanje alata. Pritiskom klipa na rastaljeni metal, koji ispunjava kalup, ovisno o proiciranoj površini kalupa, javljaju se veoma velike sile, koje mora preuzeti stroj na sebe.
+\section{Termička obrada}
+Termičkom obradom zovemo procese kod kojih koristimo toplinu za postizanje nekih promjena u materijalima. Razlikujemo dvije vrte termičke obrade i to:
+\begin{itemize}
+\item Toplinska obrada u užem smislu - kod koje se ne događaju nikakve kemijske promjene u materijalu
+\item Toplinska obrada u širem smislu - kod koje se u stanovitom smislu mijenja kemijski sastav materijala, np. cementiranje, nitriranje.
+\end{itemize}
+Razmotrit ćemo nekoliko važnih termičkih obrada, koje se međusobno nadopunjuju da bi se na koncu dobio željeni rezultat.
+\subsection{Normaliziranje}
+Nakon obavljenog kovanja, struktura u predmetu koji smo obrađivali veoma su raznolike iz više razloga. Razlike u veličini kristala, zbog nejednolikog zagrijavanja i hlađenja pojednih dijelovakovanog predmeta nedovoljno dijeluju na kaljenje, koje može slijediti kao slijedeća obrada. Da bi izjednačili veličine kristala , koristimo \textbf{normaliziranje}. Predmet zagrijavamo iznad temperature rekristaliziranja i zatim ga hladimo. Obično je to pregrijavanje za cca 30 - 40$^{\circ}$C. Nakon pregrijavanja predmeta, hladimo ga na mirnom zraku. Na taj način postižemo jednoliku veličinu kristala po presjeku predmeta. Jasno da brzina hlađenja definra veličinu kristala što je ono brže kristali su sitniji. \par
+Za dobro odabiranje temperatura normaliziranja potrebno je poznavati sastav materijala.
+\subsection{Meko žarenje}
+Nakon valjana i kovanja, čvrstoća ugljičnih čelika sa sadržajem ugljika 0,6 - 1,4 $\%$ C kreće se u granicama od 75 - 100 Kp/mm$^{2}$. Kod legiranih čelika to zna biti i više. Da bi se omogućila obrada tako tvrdih površina, potrebno je sniziti čvrtoću, a to se postiže, \textbf{mekim žarenjem}.\par
+Meko žarenje je skoro neophodno za čelik s više od 1$\%$ C, jer kod tih čelika ostaje mogućnost da višak ugljika, iznad 1$\%$ ostaje u prvobitnom stanju, tj. nemožemo utijecat na njega. Žarenje ovisi o količini ugljika i o ostalim legirnim dodatcima.\par 
+Najstariji postupak žarenja sastoji se u tome da nelegirane čelika zagrijem na cca 700$^{\circ}$C a legirane za 40$^{\circ}$C više. Materijal držimo na toj temperaturi nekoliko sati a nakon toga ga nastojimo što polakše hladiti. Ovim postupkom listići grafita prelaze u kuglice. \par
+Drugi postupak žarenja omogućuje kraće vrijeme čitavog procesa. Materijal se grije iznad temperature rekristalizacije, a zatim se hladi brzinom od 15$\%$ do 650$^{\circ}$C  a nastavak hlađenja je proizvolja. I ovdje je otrebno poznavati točan kemijski sastva materijala.\par
+Čelici s mnogo Cr i nehrđajuči čelici žare se tako da ih zagrijemo na temperaturu 800 - 850$^{\circ}$C  i zatim ih hladimo brzinom od 10$^{\circ}$/h do 680$^{\circ}$C. Dalje hlađenje ne utiječe na kvalitetu obrade.
+\subsection{Izžarivanje}
+Izžarivanje je toplinski postupak kojim otklanjamo zaostale napetosti unutar strukture nekog komada. Predmet, koji želimo ižariti, stavljamo u kutiju s koksom ili čeličnom strugotinom, te ga zagrijemo i držimo na temperaturi 500 - 600$^{\circ}$C  tokom dva sata. Hlađenje predmeta izvesti što je moguće sporije. Ovaj postupak je potrebno provesti prije svakog kaljenja, jer nam nakon kaljenja tako obrađenog predmeta zaosaju neznatne deformacije.
+\subsection{Kaljenje}
+Da bi postigli veću tvrdoću i čvrstoću materijala koristimo se termičkim postupkom kaljenja. Ovim postupkom u stvari dovodimo do rekristalizacije, povišenjem temperature, ali ne dozvoljavamo ponovnu prekristalizaciju, nego, brzim hlađenjem zadržavamo orethodno formirane kristale. Zbog brzog hlađenja, prethodno rekirstalizirani kristali zadržavaju svoj oblik te postaju veći i nepravilni. To povećanje iznosi i do 1$\%$. \par
+Kod kaljenaj je najvažniej izabrati odgovarajuće sredstvo za hlađenje. Izbor sredstva definira nam tkz. \textbf{martenzitne strukture}. Za odabiranje brizne hlađanja postoje tkz. \textit{C-dijagrami}.
+%SLIKA
+Postoji i tkz. kritična brzina, to je brzina koja tangira liniju početka pretvorbe. Kod kaljenja se mora voditi račna da se jezgra predmeta ne hladi istom brzinom kao i površina. To u stvarnosti dovodi do razlike u napetosti između površine koja je tvrđa i krta spram jezgre koja ostaje žilavija. Ove napetosti dovode od povećanja deformacija a mogu dovesti i do loma materijala. VRijeme zagrijavanja predmeta iz nekog materijala s posebnim sastavom ne ovisi samo od legiranih dodataka nego i o dimenzijama predmeta. Vemo je važno da predmet po čitavom svom presjeku poprimi istu temperaturu. Zbog toga zagrijavanje kod kaljenja možemo podijeliti na dva dijela.\par
+Jedno je zagrijavanje do temerature koju želimo ostvariti a koja poprima površinske slojeve. Drugo je vrijeme progrijavanja, vrijeme koje je potrebno da se predmet zagrije po svojem čitavom presjeku. To vrijeme ovisi o dimenzijama predmeta odnoso o najdebljim presjecima.\par 
+Vrijeme zagrijavanja ovisi i o vrsti peći u kojoj se proces zagrijavanja provodi. Predmet se najbrže može zagrijati u olovnoj kupki, a najsporije u komornoj peći.\par
+Visina temperature na kojoj izvodimo kaljenje izključivo je vezana za kenijski sastav i određuje se ovisno o njemu. U principu je to pregrijavanje iznad linije A3 - tj. iznad rekristalizacije. Kod kaljenja razlikujemo nekoliko vrsti kaljenja:
+\begin{enumerate}
+\item Kaljenje do sobne temperature. Tu predmet odjednom hladimo od temperature kaljenja do temperature okoline. Razlike u temeraturi povešine jezgre su znatne i stoga su i napetosti u tako zakaljenom predmetu znatne.
+\item Kombinirano kaljenje je kaljenje kod kojeg predmet prvo ohladimo do neke više temperature i tu ga držimo tako dugo dok čitav presjek ne poprimi istu temperaturu. Nakon toga slijedi daljnje hlađenje blažem rashladnom sredstvu. Na taj način dobivamo manje napetosti u predmetima koje kalimo.
+\item Kaljenje  u termalnoj kupki. Ovdje kao rashladno sredstvo koristimo termalne kupke čija je temperatura iznad temperature početka stvaranja martenzitne strukture. Ovisno o vremenu držanja predmeta i kupki možemo dobiti željenu strukturu, a napetosti su minimalne.
+\item Površinsko kaljenje se izvodi samo na površinama na kojima želimo imati tvrde dijelove. Na neki pogodan način zagrijemo samo površinu koju želimo zakaliti i izvodimo jedan od prehladnih načina kaljenja. Zagrijavanja dijelova površine izvode se plamenicima ili nekim induktivnum načinom.
+\end{enumerate}
+\subsection{Napuštanje}
+Da bi smanjili napetsti, koje su nastale u predmetu nakon kaljenja, a te napetosti mogu izazvati lom alata u eksploataciji, pristupamo postupku napuštanja. To je u stvarnosti ponovno zagrijavanje predmeta na temperaturu 100$^{\circ}$C do 650$^{\circ}$C ovisno o legiranim dodatcima, i hlađenje. Tim zagrijavanjem mi omogućujemo izvjesnu prekristalizaciju nekih tetragonskih kristala. To za sobom povlači smanjenje napetosti i produljivanje osnovne mjere predmeta.
+\subsection{Poboljšavanje}
+Poboljšavanje je termička obrada koaj se obavlja u dva koraka, bolje reći ona se sastoji od dviju termičkih obrada. Predmet koji poboljšavamo, prvo zakalimo a zatim napuštamo na tako visoku temperaturu da ostvarimo što veću žilavost. O stupnju napuštanja ovise nam veličina čvrstoće a može se kretati od zakaljene čvrstoće do meko žarenog stanja. Točnu granicu poboljšavanja moguće je postaviti.\\
+Npr. Cr-Ni čelik koji je nakon kaljenja napuštan na 600$^{\circ}$C ima čvrstoću 90 - 100 Kp/mm$^{2}$. Taj čelik u zakaljenom stanju uma čvrstoću 180 Kp/mm$^{2}$, a ako se kod njega postigne čvrstoća od 120 - 130 Kp/mm$^{2}$ uz znatnu žilavost možemo reći da se radi poboljšavanje. \par
+Postupku poboljšavanja podvrgavaju se dijelovi vozila, strojeva i alati (ukovnji). Kod predmeta koji su poboljšani javlja se također problem krhkosti i napetosti. Uobičajena temperatura napuštanja kreće se u granicama od 500 - 600 $^{\circ}$C. Iako nakon napuštanja predmet polako hladimo, njegova žilavost za istu čvrstoću zna pasti za 1/3.\par
+Napuštanje možemo provesti i tako da predmet sa 600$^{\circ}$C brzo ohladimo a nakon toga ga zagrijemo na 500$^{\circ}$C i hladimo ga lagano. Na taj način smanjujemo napetosti a da nismo smanjili žilavost materijala.
+\subsection{Cementiranje}
+Cementiranje je postupak kod kojeg dobivamo tanki površinski sloj visoke tvrdoće a jezgra nam staje žilava. Debljina sloja iznosi maksimalno 2 mm. \par
+Zagrijavamo predmet do temperature 800 - 950$^{\circ}$C u bogatoj atmosferi ugljika. Na taj način se obogati površinski sloj ugljikom do cca 4$\%$. Nakon toga nastavljamo s kaljenjem, koje nam daje čvrstu koru a mekanu jezgru koja ostaje žilava.\par
+Cementiranje možemo provoditi u različitim sredstvima. Kao čvrsto sredstvo koristimo drveni ugljen aki se cementrianje izvodi kod visokih temperatura. Da bi cementiranje proveli kod niskih temperatura trebamo koristiti odgovarajuće sredstvo a to je borijev karbonat ili ugljen od koža. Za cementiranje se koristi smjesa dvnog ugljenja i karbanata u  omjeru 60:40. Visina temeprature za sredstvo u kojem se izvodi cementiranje definiraju do koje će dubine prodrjeti ugljik u kolikom postotku. Za prevođenje bržeg i lakšeg cementiranja danas se pretežno koriste kupke. Za to se koriste cijanove soli. Iz tih soli, osim ugljika, u površinu se upija N (dušik). Za nelegirani čelik cementiran u Durferit soli CŠ, povezanost temperature, vremena i dubine cementiranja izgleda na tablici~\ref{my-label}.
+
+\begin{table}[!h]
+\centering
+\caption{Karakteristike cementiranja}
+\label{my-label}
+\begin{tabular}{ccc}
+Temperatura {[}$^{\circ}$C{]}   & Trajanje cementrianja {[}h{]} & Dubina cementiranja {[}mm{]} \\
+\multirow{4}{*}{850} & 1                             & 0,15                         \\
+                     & 2                             & 0,3                          \\
+                     & 3                             & 0,4                          \\
+                     & 5                             & 0,6                          \\
+\multirow{4}{*}{930} & 0,5                           & 0,3                          \\
+                     & 1                             & 0,55                         \\
+                     & 2                             & 1,1                          \\
+                     & 4                             & 1,8                         
+\end{tabular}
+\end{table}
+\FloatBarrier
+Legirani dodatci također utijeću na brzinu cementiranja. Ni smanjuje brzinu cementiranja dok Cr i Mn u manjim količinama ubrzavaju cementiranje a kod većeg sadržaja i oni usporavaju cementiranje. Ovakvim dugim zagrijavanjem predmeta na tako visokoj temepraturi dobijemo grubo zrnatu strukturu. akalimoli čelik, koji je cementiran, na temperaturi 900 $^{\circ}$C, to pogoduje za dobivanje fine strukture jezgri, dok je to previsoka temperatura za površinu koja ostaje grubo zrnata. Da bi dobili zadovoljavajuću strukturu na površini, moramo predmet zagrijati 30$^{\circ}$C iznad temperature rekristalizacije i onda ga zakaliti. Imeđu ta dva kaljenja uvodi se napuštanje na cca 600 $^{\circ}$C što nam osigurava dobru strukturu oba dva sloja. \\
+Način kaljenja i napuštanja ovisi isključivo o legiranim dodatcima pa zbog toga imamo
+\begin{itemize}
+\item jednostruko kaljenje nakon cementiranja
+\item dvosturko kaljenej s žarenjem između kaljenja i nakon drugog kaljenja napuštanja
+\item kod visoko legiranih čelika imamo nakon cementiranja kaljenje prvo u kupki a zatim hlađenje na zraku da bi ga na koncu napustili.
+\end{itemize}
+Osim unaprijed detaljno obrašđenih postupaka termičke obrade, u metalurgiji su poznati neki postupci a to su:
+\begin{itemize}
+\item \textbf{Normalno žarenje} - je postupak kojim predmete grijemo nešto iznad temperature rekristalizacije, a zatim ih hladimo na mirnom zraku
+\item \textbf{Difuzno žarenje} - kod kojega predmete grijemo znatno iznad te temeperature rekristalizacije i to kroz duže vrijeme. Predmete hladimo na bilo koji način. Rezultati takvog žarenja su jednolika koncentracija po presjeku predmeta.
+\item \textbf{Perlitizanje} - je postupak za postizanje perlitne strukture u predmetu.
+\item \textbf{Patentiranje} - termička obrada koja se primjenjuje pri proizvodnji žice. Izvodi se tako da se predmet zagrije iznad temperature rekristalizacije i zatim brzo ohladi. Kod toga razlikujemo
+\begin{itemize}
+\item kontiniurano patentiranje koje se provodi prolaznim pečima i zatim hladi u kupki temperature 400 - 500$^{\circ}$C
+\item pojedinačno gdje zagrijemo partiju po partiju i hladimo svaku za sebe
+\end{itemize}
+\item \textbf{Starenje} - kod prirodnog starenja se nakon izvjesnog vremena postiže stailnost strukture pogotovo kod lijevanih predmeta na 120$^{\circ}$C i držimo ih kroz dulje vrijeme na toj temperaturi.
+\item \textbf{Nitriranje} - je postupak kojim omogućavamo prodiranje i dufundiranje dušika u površinu čelika. Dubina pridiranja se kreće u granicama od 0,01 - 0,02 mm. Ovaj sloj je neobično tvrd a koriste se kod površinske obrade alata za obradu plastike. Naćin i principi rada isti su kao i kod cementiranja.
+\end{itemize}
+\section{Površinska zaštita}
+\subsection{Općenito o koroziji i zaštita od korozije}
+U koroziju ubrajamo sve oblike površinskog razaranja metalnih predmeta od nepoželjnih reakcija.\par
+Najpoznatija korozija je površinskakorozija, koja izaziva dijelovanje kisika, vodene pare ili vodenaste rastopine soli, u tu grupu spada i izgaranje željeza (oksidacija) koaj nastaje pod djelovanjem vrućih plinova, dakle kod povišene temeprature.\par
+Izlizivanje površine mehaničkim putem je također vrsta razaranja površine, a naziva se erozija ili habanje.\par
+Oštećene površine predmeta nastoje i kod djelovanja kavitacije. Kavitacija nastupa u momentu lokalnog pada pritiska ispod pritiska kod kojeg se stvaraju pare medija. Kad adođe do takvog stanja u mediju se stvore šupljine i one putuju kroza nj. Zatvaranje para nastupa, kad aone dođu u područje povišenog pritiska a kroz to dolazi do povišenih pritisaka i povećanju temperature što nagriza površinu. Kavitacija se pojavljuje kod propelera glisera i brodoba, turbinskih lopatica vodenih turbina itd. Korozija može biti:
+\begin{enumerate}
+\item Jednolična korozija - je ona korozija kod koje postepeno raste sloj koji propada.
+\item Rupičasta korozija - kada se korozija ograničava samo na pojedine dijelove predmeta i to uzrokuje brzo prodiranje u dubinu i nastaju rupice.
+\item Interkristalična korozija ili korozija na granici kristala. Ta vrsta korozije uzrokuje slabljenje veza između kristala što dovodi do mravljenja materijala.
+\item Selektivna korozija - je korozija kod koje pojedini dijelovi brže porpadaju kod drugih npr. cink u mjedi.
+\item Korozija zamorenog materijala - materijali koji su pod stalnim opterećenjem i to naročito onih kod kojih je smijer opterećenja promjenjiv doživanjavaju zamaranje tj. smanjuje im se trajna čvrstoća na neznatni dio statičke čvrstoće.
+\item Korozija zbognaprezanja materijala - svaki materijal kada je pod opterećenje proživi izvjesnu elastičnu promjenu. Ukoliko se sada pojavi korozija, ona svojim razaranjem omogučava daljnje eastične deformacije, jer slabi i dovodi do preranog razaranja i pojave pukotina duž granica kristala.
+\end{enumerate}
+Uzroci korozije mogu biti:
+\begin{itemize}
+\item kemijske reakcije koje izazivaju oksidaciju tj. spajanje s kiskom. Neki materijali se spajaju pri tome tvore opnu koja štiti od daljnjeg širenja korozije. 
+\item elektrokemijska korozija, kod koje zbog razlika upotencijalima uz djelovanje elektrolita dolazi do galvanskih članaka i propadanja jednog metala na konto drugih.
+\end{itemize}
+U prirodi je obično prisutna elektrokemijska korozija, kao elektrolit je uloga. \par
+Da bi predmete zaštitili od korozije moramo spriječiti i pistaviti prepreke koje onemogučavaju proces korozije. Materijale podložne površinskoj koroziji zaštićujemo:
+\begin{itemize}
+\item nekovinskim prevlakama
+\item kovinskim prevlakama
+\item elektrolitičkim prevlakama
+\item zaštita promjenom slitina.
+\end{itemize} 
+Materijale izložene izgaranju, eroziji, kavitaciji nastojimo primjeniti da takvi predmeti budu minimalno izloženi tim vrstama krozije. U nekovinske prevlake za zaštitu protiv površinske korozije spadaju:
+\begin{enumerate}
+\item Ličenje ili bojenje - kod čega je važno da se s materijala skinu sve nečistoće u vidu oksida i masnoća, a to se postiže fosfatiranjem i pasiviranjem. Nakon toga se nanose slojevi boja od kojih je prva tkz. temelja boja a zatim, već ovisno o proizvodu dolaze jedan ili više slojeva završne boje. U najnovije vrijeme koriste se tkz. \textbf{vodotopivi lakovi} koji se peku u pečima
+\item Katraniranje - je postupak kojim se zaštićuju predmeti od ijevanog željeza o napose cijevi. Kod toga se predmet predgrije na cca 250$^{\circ}$C a katran se rastopi. U rastopljeni katrean mueću se predmeti i postave nakon izvlačenja da se katran odcijedi. Koi puta se kod katraniziranja predmeti obaviju i jutom namoćenom u bitumen.
+\item Emajliranje - jedna od najstarijih metoda zaštite od korozije. Emajliranje uz zaštitu od korozije ima i niz drugih razloga za svoju primjenu to su: zaštita od kemijskog utjecaja, ako sredstvo za poljepšavanje površine, za zaštitu posuđa, iz zdravstvenih razloga za lakše održavanje higijene, itd.\par
+Emajlrianje se u principu sastoji od sva sloja, temeljnog i pokrovnog. Nakon što je predmet dobro očišćen nanose sloj emajla i nakon toga sve ide u peć gdje se to osuši i ispeće. Za postizanje glađe površine sastavljaju se dva ili više slojeva.
+\item Bromiranje - je površinska zaštita koja se koristi za zaštitu oružja i ostalih predemta. Postupak bromiranja se sastoji u tome da se predmeti više puta premažu antimonovim kloridom SbCl$_{3}$ i izvrgavaju se dijelovanju zraka, te se stvara Fe$_{3}$O$_{4}$ kao orevlaka. Konačno se topli predmeti premazuju voskom.
+\item Plavo bojanje - se sastoji od toga da se predmet umočo u toplu otopinu olovnog acetata i natrijevog sulfida a poslje toga suši.
+\item Fosfatiranje - je postupak kada se željeni predmet umoči u vruću otopinu fosforne kiseline s još nekim dodatcima. Površina predmeta se prevuće slojem fosfata. Ovaj sloj je postojan dok ga se ne ošteti, a uz to je i veoma tanak svega 5 - 10 $\mu$m. Zbog toga se on koristi kao podloga za bojanje.
+\item Maštenje - je postupak gdje se predmeti premazuju bilo organskim ili mineralnim mastima. To se obično izvodi na predmetima koji se odpremaju. Predmeti se moraju dobro osušiti a zatim se poprskaju. Najponatiji je \textbf{TECTYL}. 
+\end{enumerate} 
+Kovinske prevlake mogu služiti kao zaštita od korozije, a drugi puta da svojim elektrokemijskim svojsvima štite površinu od mogućnosti nastanka galvanskih članaka i kao treće, da nanešeni materijal smanji utijecaj erozionog i kavitacionog utjecaja korozije.
+Kovinske prevlake na predmet možemo najeti na
+\begin{enumerate}
+\item Galvanskim postupkom
+\item Uronjavanjem u rastaljenu kovinu
+\item Difuzione prevlake (šerardiziranje) a nanosi se sličnim postupkom kao i cementiranje s time da premalaka može biti debela i nekoliko desetima mm.
+\item Nalivene prevlake (šopiziranje) a drži se na osnovu trenja, nije urasla u materijal i može biti debela nekoliko mm. Izvodi se siezemom taljenja metala i njegovim prskanje na površinu koju zaštićujemo.
+\item Platiranje postupak kojim se platina zaštitnog lima oblaže oko lima kojeg želimo zaštiti. Najbolje i najsigurnija zaštita debela često i nekoliko mm.
+\item Kemijskim putem KANIGEN - hladno niklanje 
+\end{enumerate} 
+\textbf{Galvanski postupak} nanašanja sastoji se u tome da se na katodu objesi predmet koji želimo zaštititi dok je onuda materijal koji želimo predmet zaštititi. Posredstvom elektrolita, koji je vodljiva rastopina i priključkom istosmjerne struje dolazi do elektrolitskog raspadanja i taloženja materijala na katodu. Takvim postupkom se izvode prevlake od: nikla, bakra, kositra, kroma, srebra, zlata, itd.\\
+\textbf{Cinčanje} kao metalna prevlaka izvodi se na taj način da se dobro očišćeni predmet uroni u rastaljenu kupku cinka na temperaturi od 440 - 470$^{\circ}$C. Predmet se zatim hladi u vreloj vodi te se ispere lužinom, a zatim vodom na kraju očisti krpom.\\
+\textbf{Kositrenje} se izvodi sličnim postupkom kao i cinčanje. Kositrenje se najviše koristi za zaštitu limova od koji se rade konzerve. Sloj kositra mora biti potpun i homogen. Katkada se željezni predmeti prvo pobakre a zatim pokositre.\par
+Jedan od posljednjih postupaka kovinskih prevlaka je tkz. \textbf{kemijsko hladno niklanje - KANIGEN postupak}. Ovaj postupak daje bolju površinu od tvrdog kromiranja a monogo je jeftiniji. Postupak je u SAD zaštićen s 50 patenata a zaštita se izvodi u Jugoslavenskom poduzeću koje je odkupilo licencu. \par
+Zaštita lakihkovina Al i magnezija (Mg) od korozije može se izvesti nekim od unaprijed spomenutih postupaka. Oksidne kožice, koje se pojavljuju na površinama dobra zaštita od korozije ali ih je potrebno ojačati. Aluminijski predmeti se na zraku presvlače oksidnim slojem debljine 9,3 $\mu$m. Da bi pojačali slojeve možemo to ostvariti kemijskim ili elektrolitskim načinom.
+\section{Razni postupci bez oštrica}
+Razni postupci bez ođtrica, zasnovani su na skidanju strugotine \textbf{izravnim djelovanjem raznih oblika erozije}. Tu spadaju mehanički, električki, elektrokemijski, kemijski i još neki vidovi energije. Rako te postupke dijelimo na većinom nove, ali nekonvencionalne postupke erozije, te ih dijelimo na:
+\begin{enumerate}
+\item Mehaničke postupke
+\item Električke postupke koji mogu biti 
+\begin{itemize}
+\item elektrolučna erozija
+\item elektroimplusna erozija (iskrenje) [EDM]
+\end{itemize}
+Ovim postupkom mogu se obrađivati vanjske i unutarnje površine
+\item \textbf{Elektrokemijski postupci} [ECM] kod kojih razlikujemo postupke gdje se elektroda giba i tu spada
+\begin{itemize}
+\item elektrolitsko brušenje i honovanje
+\item elektrodubljenje i blanjanje
+\end{itemize}
+Ta dva postupka nazivaju se zajedničkim imenom \textbf{eliziranje} - tj. anodno mehanički postupci. Za razliku gibajućih elektroda, postoje mirujuće elektrode koje se nazivaju \textbf{polieliziranje} ili čisti anodni postupak. U tu grupu spada postupak - elektrolitskog poliranja.
+\item \textbf{Kemijski postupci} [CM] su opet u stvari elektrokemijski postupci ali bez primjene vanjskih izvora električne energije. Tu spadaju
+\begin{itemize}
+\item kemijsko poliranje
+\item površinska i reljefna obrada jetkanjem
+\end{itemize}
+\item \textbf{Novi postupci} - u tu glupu spadaju razni izvori i vidovi energije.
+\begin{itemize}
+\item \textbf{Elektronska obrada iz elektronskih generatora} to su uređaji koji primjenjuju energiju elektronskog zračenja. [EBM]
+\item \textbf{Fotonska obrada laserom} - laser je uređaj koji pojačava energiju svijetla koristeći kod toga radijaciju uzbuđenih, podesnih kristala npr. rubina. [EOM]
+\item Obrada iz plasna gorača, tj. visokogrijanim i intenzivno joniziranim plinovima upravljanih magnetskim poljima.
+\item \textbf{Foto-kemijski postupak} izrade sitnih tankih i veoma točnih predmeta. Predmeti se obično rade iz folija. Princip je sljedeći. U velikom mjerilu se izradi niz slika proizvoda. To se točno u mjerilu preslika i koristi kao negativ. Folija se prelije posebnom kemikalijom zatim se pomoću filma osvijetli površina, a pod utijecajem tog svijetla dolazi do kemijskog razaranja folije na mijestima gdje je osvijetnjena.
+\end{itemize}
+\end{enumerate}
+\subsubsection{Mehanički postupci}
+U ovu grupu obrade spada primjena alata bez izravnih oštrica. Tu se željena obrada metala ostvaruje pretvorbom energije između podesnog alata i komada kojeg režemo. Preko tog alatapretvaramo mehaničku energiju uz sudjelovanje trenja u toplinu koju vrši proces rezanja.\par
+Alat je u večini slučajeva srazmjerno velika ploča. debljine od svega nekoliko mm iz odgovarajučeg vatrostalnog materijala. Na obradu ploće nalaze se sitini zupci koji izazivaju povećano trenje između alata i predemta koji se obrađuje. Kod toga je važno konstatirati da je obodna brzina u večini slučajeva iznad 100 m/sek. \par
+Ovaj postupak se koristi za rezanje profila i češće cijevi, dokle po dimenzijama večih komada ali istovremeno manjeg presjeka.
+\subsubsection{Električni postupci}
+Osnovni princip ove metode obrade je korištenje električnih lukova, odnosno iskara između dva vodljiva predmeta. Pojava elektroerozije može se podijeliti u tri faze koje slijede jedna za drugom u vanredno karatkim vremenskim intervalima
+\begin{itemize}
+\item elektronska emisija pod djelovanjem nametnutog elektičnog polja
+\item lančana reakcija jonizacijom napadnutih čestica
+\item udarni efekt ubrzanih elektrona koji silnim elekomehaničkim udarom izaziva termičke reakcije, a sve je pojačano djelovanjem elektromagnetskog polja.
+\end{itemize}
+Gustoča struje kod ovog postupka je 10$^{4}$ - 10$^{6}$ A/cm$^{2}$ a temperatura u koncentriranoj jezgri zbivanja od 6000 do 11000$^{\circ}$C a prema autorima i 50000$^{\circ}$C.\par
+Izvori električnog potencijala su generatori i to
+\begin{enumerate}
+\item LUČNI GENERATORI
+\item AUTOIMPULSNI GENERATORI -ili relaksacioni generatori, koji imaju u vlastitom krugu kondenzator
+\item ELEKTROIMPULSNI ili impulsni generator koji umjesto kondenzatora imaju poseban upravljački uređaj za impulse određenog karaktera.
+\end{enumerate}
+\subsubsection{Elektrokemijski postupci}
+Ovi postupci su zasnovani na poznatom Faraday-evom principu elektrolize. Kod toga se pomoću vanjskog izvora istosmjerne struje kroz elektrolit, vrši obrada \textbf{anodnim rastvaranjem ili katodnim izlučivanjem}.
+\subsubsection{Kemijski postupci}
+Baziraju se na kemijskom nagrizanju materijala u kupkama bez stvarnog izvora struje. Kao kemijsko sredstvo za nagrizanje dolaze u obzir jaka oksidaciona sredstva kao npr. dušična kiselina HNO$_{3}$, fosforna kiselina H$_{3}$PO$_{4}$, octana kiselina CH$_{3}$COOH. Koriste se i kombinacije tih drugih kemijskih sredstava. \par
+Kod kemijskog nagrizanja, dijelove koji trebaju ostati nenagriženi prelrivaju se plastičnim maskama. Dubina nagrizanja ovisi o vremenu držanja predmeta u kupki.
+\subsection{Još nekoliko metoda za skidanje strugotina}
+\begin{enumerate}
+\item Tokarska obrada rotirajućim nožem \\
+Rotacijom noža, od momenta do momenta u zahvat dolazi novi dio alata, a prethodni se ohladi dok ponovno dođe u zahvat. Takovi noževi su znatno dugotrajniji a povrđina predmeta je kvalitetnija uz veće brzine rezanja. Izdašnjost ove obrade je 5 do 7 puta veća od klasične.
+\item Obrada uz niskofrekventne oscilacije \\
+Iako nam je trakasta ili kontinuirana strugotina povoljna s obzirom  na kvalitetu površine, ona nam stvara velike probleme kod rada automata, jer nam smeta. Za rad na automatima koriste se materijali s viškom sumpora, koji čini strugotinu krutom pa se lomi. Ako se nožu dadu niskofrekventne oscilacije u smjeru napredovanja, dolazi do stanjenja strugotine, koja se sama lomi u smjeru odlaženja.
+\item Obrada visokofrekventnim oscilacijama\\
+Dodavanjem visokofrekventnih oscilacija od 10 - 30 kHz sitnih amplituda izazvane ultrazvučnim oscilatorima i to u tangencijalnom smjeru, poboljšana je kvaliteta površine, smanjene sile rezanja i povečana trajnost oštrice. Ovaj princip koristi se kod tokarskih noževa i kod glodala a razio se u SSSR-u.
+\item Obrada pri povišenim temperaturama\\
+Kod povišenih temperatura, materijali postaju plastičniji lakše se obrađuju. Postignuto je da se zagriju samo tanki slojevi koj se skidaju da toplina ne prodre duboko u predmet. Tim postupkom se obrađuju inaće nepovoljni materijali za obradu i postiže se i 100$\%$ povećenje [roduktivnosti.
+\item Obrada eksternim brzinama\\
+Da bi se povećala produktivnost, davno je poznato i težilo se povećanju brzina. Ali to je bilo ograničeno s materijalima reznih alata, koji nisu dozvoljavali veća zagrijavanja. Prelazom na brzine rezanja od 5 - 70 km/min, koje se postižu balističko energetskim postupcima, s brzoreznim čelicima moguće je ostvariti obradu. Kod tako velikih brzina rezanja javljaju se nove osebine, koje su dosada bile nepoznate, kao npr. debljina odlazeće strugotine je manja od postavljane, a brzina veća od brzine rada.
+\end{enumerate}
 
 
 
