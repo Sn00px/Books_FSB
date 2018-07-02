@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  28 JUN 2018 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  2 JUL 2018 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1843,7 +1843,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 ...mberline {5.9}Brusevi}{41}{subsection.5.9}
+l.42 ...mberline {5.9}Brusevi}{42}{subsection.5.9}
                                                    [1
 
 ] [2])
@@ -2017,14 +2017,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--347
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 34
 7.
 
-<./Dino/image_12.png, id=320, 1159.33125pt x 804.00375pt>
-File: ./Dino/image_12.png Graphic file (type png)
+<./Dino/image_12-1.png, id=320, 963.6pt x 825.0825pt>
+File: ./Dino/image_12-1.png Graphic file (type png)
 
-<use ./Dino/image_12.png>
-Package pdftex.def Info: ./Dino/image_12.png used on input line 352.
-(pdftex.def)             Requested size: 360.00137pt x 249.6557pt.
- [17 <./Dino/image_11-2.png (PNG copy)> <./Dino/image_12.png (PNG copy)>] <./Di
-no/image_13.png, id=331, 1827.82875pt x 689.57625pt>
+<use ./Dino/image_12-1.png>
+Package pdftex.def Info: ./Dino/image_12-1.png used on input line 352.
+(pdftex.def)             Requested size: 270.00275pt x 231.1852pt.
+ [17 <./Dino/image_11-2.png (PNG copy)> <./Dino/image_12-1.png (PNG copy)>]
+<./Dino/image_13.png, id=331, 1827.82875pt x 689.57625pt>
 File: ./Dino/image_13.png Graphic file (type png)
 
 <use ./Dino/image_13.png>
@@ -2062,694 +2062,749 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 38
 8.
 
 [19 <./Dino/image_14-1.png (PNG copy)> <./Dino/image_14-2.png (PNG copy)>]
-<./Dino/image_15-1.png, id=352, 846.16125pt x 828.09375pt>
+<./Dino/image_15-1.png, id=351, 846.16125pt x 828.09375pt>
 File: ./Dino/image_15-1.png Graphic file (type png)
 
 <use ./Dino/image_15-1.png>
-Package pdftex.def Info: ./Dino/image_15-1.png used on input line 417.
-(pdftex.def)             Requested size: 126.9187pt x 124.2087pt.
+Package pdftex.def Info: ./Dino/image_15-1.png used on input line 419.
+(pdftex.def)             Requested size: 135.00137pt x 132.11864pt.
 
-<./Dino/image_15-2.png, id=353, 843.15pt x 955.57pt>
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+428.
+
+<./Dino/image_15-2.png, id=352, 843.15pt x 955.57pt>
 File: ./Dino/image_15-2.png Graphic file (type png)
 
 <use ./Dino/image_15-2.png>
-Package pdftex.def Info: ./Dino/image_15-2.png used on input line 423.
-(pdftex.def)             Requested size: 101.17363pt x 114.66345pt.
- [20 <./Dino/image_15-1.png (PNG copy)> <./Dino/image_15-2.png (PNG copy)>]
+Package pdftex.def Info: ./Dino/image_15-2.png used on input line 430.
+(pdftex.def)             Requested size: 135.00137pt x 152.99638pt.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 43
+2.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 43
+8.
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 440--441
+[][]\T1/lmr/m/n/12 Dijagram br-zina kod ku-lis-nog me-ha-nizma iz-gleda
+ []
+
+[20 <./Dino/image_15-1.png (PNG copy)> <./Dino/image_15-2.png (PNG copy)>]
 <./Dino/image_16-1.png, id=360, 1072.005pt x 849.1725pt>
 File: ./Dino/image_16-1.png Graphic file (type png)
 
 <use ./Dino/image_16-1.png>
-Package pdftex.def Info: ./Dino/image_16-1.png used on input line 435.
+Package pdftex.def Info: ./Dino/image_16-1.png used on input line 449.
 (pdftex.def)             Requested size: 160.79381pt x 127.37038pt.
 
 <./Dino/image_16-2.png, id=361, 686.565pt x 749.80125pt>
 File: ./Dino/image_16-2.png Graphic file (type png)
 
 <use ./Dino/image_16-2.png>
-Package pdftex.def Info: ./Dino/image_16-2.png used on input line 443.
+Package pdftex.def Info: ./Dino/image_16-2.png used on input line 456.
 (pdftex.def)             Requested size: 102.9803pt x 112.46533pt.
- [21 <./Dino/image_16-1.png (PNG copy)>]
-<./Dino/image_16-3.png, id=368, 767.86874pt x 737.75626pt>
+
+<./Dino/image_16-3.png, id=362, 767.86874pt x 737.75626pt>
 File: ./Dino/image_16-3.png Graphic file (type png)
 
 <use ./Dino/image_16-3.png>
-Package pdftex.def Info: ./Dino/image_16-3.png used on input line 455.
+Package pdftex.def Info: ./Dino/image_16-3.png used on input line 462.
 (pdftex.def)             Requested size: 115.17534pt x 110.65866pt.
- [22 <./Dino/image_16-2.png (PNG copy)> <./Dino/image_16-3.png (PNG copy)>] [23
-] [24]
-<./Dino/image_18-1.png, id=394, 2252.415pt x 673.51625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21 <./Dino/image_16-1.png (PNG copy)> <./Dino/image_16-2.png (PNG copy)>]
+<./Dino/image_17.png, id=369, 1612.0225pt x 585.18625pt>
+File: ./Dino/image_17.png Graphic file (type png)
+
+<use ./Dino/image_17.png>
+Package pdftex.def Info: ./Dino/image_17.png used on input line 474.
+(pdftex.def)             Requested size: 241.79294pt x 87.77414pt.
+ [22 <./Dino/image_16-3.png (PNG copy)> <./Dino/image_17.png (PNG copy)>] [23] 
+[24]
+<./Dino/image_18-1.png, id=395, 2252.415pt x 673.51625pt>
 File: ./Dino/image_18-1.png Graphic file (type png)
 
 <use ./Dino/image_18-1.png>
-Package pdftex.def Info: ./Dino/image_18-1.png used on input line 527.
+Package pdftex.def Info: ./Dino/image_18-1.png used on input line 545.
 (pdftex.def)             Requested size: 360.00137pt x 107.64146pt.
 
-<./Dino/image_18-2.png, id=395, 761.84625pt x 581.17125pt>
+<./Dino/image_18-2.png, id=396, 761.84625pt x 581.17125pt>
 File: ./Dino/image_18-2.png Graphic file (type png)
 
 <use ./Dino/image_18-2.png>
-Package pdftex.def Info: ./Dino/image_18-2.png used on input line 540.
-(pdftex.def)             Requested size: 76.18909pt x 58.12053pt.
+Package pdftex.def Info: ./Dino/image_18-2.png used on input line 558.
+(pdftex.def)             Requested size: 114.272pt x 87.17192pt.
  [25
 
  <./Dino/image_18-1.png> <./Dino/image_18-2.png>] <./Dino/image_19-1.png, id=40
-4, 2290.5575pt x 1120.185pt>
+5, 2290.5575pt x 1120.185pt>
 File: ./Dino/image_19-1.png Graphic file (type png)
 
 <use ./Dino/image_19-1.png>
-Package pdftex.def Info: ./Dino/image_19-1.png used on input line 546.
+Package pdftex.def Info: ./Dino/image_19-1.png used on input line 564.
 (pdftex.def)             Requested size: 360.00137pt x 176.05403pt.
 
-<./Dino/image_19-2.png, id=405, 673.51625pt x 618.31pt>
+<./Dino/image_19-2.png, id=406, 673.51625pt x 618.31pt>
 File: ./Dino/image_19-2.png Graphic file (type png)
 
 <use ./Dino/image_19-2.png>
-Package pdftex.def Info: ./Dino/image_19-2.png used on input line 555.
-(pdftex.def)             Requested size: 67.35556pt x 61.83461pt.
+Package pdftex.def Info: ./Dino/image_19-2.png used on input line 573.
+(pdftex.def)             Requested size: 101.02307pt x 92.7425pt.
  [26
 
- <./Dino/image_19-1.png (PNG copy)> <./Dino/image_19-2.png (PNG copy)>] <./Dino
-/image_20.png, id=413, 1678.27pt x 601.24625pt>
+ <./Dino/image_19-1.png (PNG copy)> <./Dino/image_19-2.png (PNG copy)>] [27]
+<./Dino/image_20.png, id=419, 1678.27pt x 601.24625pt>
 File: ./Dino/image_20.png Graphic file (type png)
 
 <use ./Dino/image_20.png>
-Package pdftex.def Info: ./Dino/image_20.png used on input line 607.
+Package pdftex.def Info: ./Dino/image_20.png used on input line 626.
 (pdftex.def)             Requested size: 360.00137pt x 128.97183pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[27]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28 <./Dino/image_20.png (PNG copy)>]
-<./Dino/image_21.png, id=431, 2462.19875pt x 800.9925pt>
+ [28 <./Dino/image_20.png (PNG copy)>] [29]
+<./Dino/image_21.png, id=437, 2462.19875pt x 800.9925pt>
 File: ./Dino/image_21.png Graphic file (type png)
 
 <use ./Dino/image_21.png>
-Package pdftex.def Info: ./Dino/image_21.png used on input line 676.
+Package pdftex.def Info: ./Dino/image_21.png used on input line 703.
 (pdftex.def)             Requested size: 404.99725pt x 131.74251pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[29] [30 <./Dino/image_21.png (PNG copy)>]
-<./Dino/image_22-1.png, id=443, 542.025pt x 536.0025pt>
+ [30 <./Dino/image_21.png (PNG copy)>]
+<./Dino/image_22-1.png, id=444, 542.025pt x 536.0025pt>
 File: ./Dino/image_22-1.png Graphic file (type png)
 
 <use ./Dino/image_22-1.png>
-Package pdftex.def Info: ./Dino/image_22-1.png used on input line 703.
+Package pdftex.def Info: ./Dino/image_22-1.png used on input line 730.
 (pdftex.def)             Requested size: 65.04019pt x 64.31752pt.
 
-<./Dino/image_22-2.png, id=444, 2362.8275pt x 2073.7475pt>
+<./Dino/image_22-2.png, id=445, 2362.8275pt x 2073.7475pt>
 File: ./Dino/image_22-2.png Graphic file (type png)
 
 <use ./Dino/image_22-2.png>
-Package pdftex.def Info: ./Dino/image_22-2.png used on input line 709.
+Package pdftex.def Info: ./Dino/image_22-2.png used on input line 736.
 (pdftex.def)             Requested size: 307.17836pt x 269.59663pt.
 
-<./Dino/image_23.png, id=445, 1923.185pt x 1080.035pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31 <./Dino/image_22-1.png (PNG copy)>]
+<./Dino/image_23.png, id=453, 1923.185pt x 1080.035pt>
 File: ./Dino/image_23.png Graphic file (type png)
 
 <use ./Dino/image_23.png>
-Package pdftex.def Info: ./Dino/image_23.png used on input line 717.
+Package pdftex.def Info: ./Dino/image_23.png used on input line 744.
 (pdftex.def)             Requested size: 288.4653pt x 161.99826pt.
- [31 <./Dino/image_22-1.png (PNG copy)> <./Dino/image_22-2.png (PNG copy)>] [32
- <./Dino/image_23.png>]
-<./Dino/image_24-1.png, id=461, 1509.64pt x 762.85pt>
+ [32 <./Dino/image_22-2.png (PNG copy)> <./Dino/image_23.png>] <./Dino/image_24
+-1.png, id=462, 1509.64pt x 762.85pt>
 File: ./Dino/image_24-1.png Graphic file (type png)
 
 <use ./Dino/image_24-1.png>
-Package pdftex.def Info: ./Dino/image_24-1.png used on input line 743.
+Package pdftex.def Info: ./Dino/image_24-1.png used on input line 770.
 (pdftex.def)             Requested size: 196.26009pt x 99.17398pt.
 
-<./Dino/image_24-2.png, id=462, 2296.58pt x 598.235pt>
+<./Dino/image_24-2.png, id=463, 2296.58pt x 598.235pt>
 File: ./Dino/image_24-2.png Graphic file (type png)
 
 <use ./Dino/image_24-2.png>
-Package pdftex.def Info: ./Dino/image_24-2.png used on input line 749.
+Package pdftex.def Info: ./Dino/image_24-2.png used on input line 776.
 (pdftex.def)             Requested size: 298.56589pt x 77.77327pt.
 
-<./Dino/image_25-1.png, id=463, 767.86874pt x 536.0025pt>
+<./Dino/image_25-1.png, id=464, 767.86874pt x 536.0025pt>
 File: ./Dino/image_25-1.png Graphic file (type png)
 
 <use ./Dino/image_25-1.png>
-Package pdftex.def Info: ./Dino/image_25-1.png used on input line 756.
+Package pdftex.def Info: ./Dino/image_25-1.png used on input line 783.
 (pdftex.def)             Requested size: 99.82643pt x 69.68277pt.
 
-<./Dino/image_25-2.png, id=464, 624.3325pt x 839.135pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33 <./Dino/image_24-1.png (PNG copy)> <./Dino/image_24-2.png (PNG copy)>]
+<./Dino/image_25-2.png, id=471, 624.3325pt x 839.135pt>
 File: ./Dino/image_25-2.png Graphic file (type png)
 
 <use ./Dino/image_25-2.png>
-Package pdftex.def Info: ./Dino/image_25-2.png used on input line 762.
+Package pdftex.def Info: ./Dino/image_25-2.png used on input line 789.
 (pdftex.def)             Requested size: 62.4369pt x 83.91841pt.
 
-<./Dino/image_25-3.png, id=465, 485.815pt x 353.32pt>
+<./Dino/image_25-3.png, id=472, 485.815pt x 353.32pt>
 File: ./Dino/image_25-3.png Graphic file (type png)
 
 <use ./Dino/image_25-3.png>
-Package pdftex.def Info: ./Dino/image_25-3.png used on input line 769.
+Package pdftex.def Info: ./Dino/image_25-3.png used on input line 796.
 (pdftex.def)             Requested size: 63.15816pt x 45.93321pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33 <./Dino/image_24-1.png (PNG copy)> <./Dino/image_24-2.png (PNG copy)> <./Di
-no/image_25-1.png (PNG copy)> <./Dino/image_25-2.png (PNG copy)>]
-<./Dino/image_25-4.png, id=474, 1380.15625pt x 601.24625pt>
+<./Dino/image_25-4.png, id=473, 1380.15625pt x 601.24625pt>
 File: ./Dino/image_25-4.png Graphic file (type png)
 
 <use ./Dino/image_25-4.png>
-Package pdftex.def Info: ./Dino/image_25-4.png used on input line 775.
+Package pdftex.def Info: ./Dino/image_25-4.png used on input line 802.
 (pdftex.def)             Requested size: 179.4266pt x 78.16475pt.
 
-<./Dino/image_26.png, id=475, 1557.82pt x 389.455pt>
+<./Dino/image_26.png, id=474, 1557.82pt x 389.455pt>
 File: ./Dino/image_26.png Graphic file (type png)
  <use ./Dino/image_26.png>
-Package pdftex.def Info: ./Dino/image_26.png used on input line 788.
+Package pdftex.def Info: ./Dino/image_26.png used on input line 816.
 (pdftex.def)             Requested size: 202.52371pt x 50.63092pt.
 
-[34 <./Dino/image_25-3.png (PNG copy)> <./Dino/image_25-4.png (PNG copy)> <./Di
-no/image_26.png (PNG copy)>]
-<./Dino/image_27.png, id=483, 2439.1125pt x 1099.10625pt>
+[34 <./Dino/image_25-1.png (PNG copy)> <./Dino/image_25-2.png (PNG copy)> <./Di
+no/image_25-3.png (PNG copy)> <./Dino/image_25-4.png (PNG copy)>] [35 <./Dino/i
+mage_26.png (PNG copy)>]
+<./Dino/image_27.png, id=488, 2439.1125pt x 1099.10625pt>
 File: ./Dino/image_27.png Graphic file (type png)
 
 <use ./Dino/image_27.png>
-Package pdftex.def Info: ./Dino/image_27.png used on input line 797.
+Package pdftex.def Info: ./Dino/image_27.png used on input line 831.
 (pdftex.def)             Requested size: 317.09576pt x 142.88882pt.
- [35
 
- <./Dino/image_27.png (PNG copy)>]
-<./Dino/image_28-1.png, id=490, 2316.655pt x 835.12pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36
+
+ <./Dino/image_27.png (PNG copy)>] [37]
+<./Dino/image_28-1.png, id=501, 2316.655pt x 835.12pt>
 File: ./Dino/image_28-1.png Graphic file (type png)
 
 <use ./Dino/image_28-1.png>
-Package pdftex.def Info: ./Dino/image_28-1.png used on input line 853.
+Package pdftex.def Info: ./Dino/image_28-1.png used on input line 889.
 (pdftex.def)             Requested size: 347.48326pt x 125.26259pt.
- [36]
-<./Dino/image_28-2.png, id=498, 1345.025pt x 706.64pt>
+
+<./Dino/image_28-2.png, id=502, 1345.025pt x 706.64pt>
 File: ./Dino/image_28-2.png Graphic file (type png)
 
 <use ./Dino/image_28-2.png>
-Package pdftex.def Info: ./Dino/image_28-2.png used on input line 859.
+Package pdftex.def Info: ./Dino/image_28-2.png used on input line 895.
 (pdftex.def)             Requested size: 201.74504pt x 105.99142pt.
-
-<./Dino/image_29.png, id=499, 2413.015pt x 1156.32pt>
+ [38 <./Dino/image_28-1.png (PNG copy)> <./Dino/image_28-2.png (PNG copy)>] <./
+Dino/image_29.png, id=509, 2413.015pt x 1156.32pt>
 File: ./Dino/image_29.png Graphic file (type png)
 
 <use ./Dino/image_29.png>
-Package pdftex.def Info: ./Dino/image_29.png used on input line 868.
+Package pdftex.def Info: ./Dino/image_29.png used on input line 904.
 (pdftex.def)             Requested size: 361.93663pt x 173.4405pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[37 <./Dino/image_28-1.png (PNG copy)> <./Dino/image_28-2.png (PNG copy)>]
-<./Dino/image_30-1.png, id=506, 1072.005pt x 461.725pt>
+<./Dino/image_30-1.png, id=510, 1072.005pt x 461.725pt>
 File: ./Dino/image_30-1.png Graphic file (type png)
 
 <use ./Dino/image_30-1.png>
-Package pdftex.def Info: ./Dino/image_30-1.png used on input line 875.
+Package pdftex.def Info: ./Dino/image_30-1.png used on input line 911.
 (pdftex.def)             Requested size: 160.79381pt x 69.25575pt.
 
-<./Dino/image_30-2.png, id=507, 1059.96pt x 895.345pt>
+<./Dino/image_30-2.png, id=511, 1059.96pt x 895.345pt>
 File: ./Dino/image_30-2.png Graphic file (type png)
 
 <use ./Dino/image_30-2.png>
-Package pdftex.def Info: ./Dino/image_30-2.png used on input line 887.
+Package pdftex.def Info: ./Dino/image_30-2.png used on input line 923.
 (pdftex.def)             Requested size: 158.98714pt x 134.29594pt.
- [38 <./Dino/image_29.png (PNG copy)> <./Dino/image_30-1.png> <./Dino/image_30-
-2.png (PNG copy)>]
-<./Dino/image_31.png, id=519, 2313.64375pt x 1865.97125pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39 <./Dino/image_29.png (PNG copy)> <./Dino/image_30-1.png>]
+<./Dino/image_31.png, id=522, 2313.64375pt x 1865.97125pt>
 File: ./Dino/image_31.png Graphic file (type png)
 
 <use ./Dino/image_31.png>
-Package pdftex.def Info: ./Dino/image_31.png used on input line 897.
+Package pdftex.def Info: ./Dino/image_31.png used on input line 933.
 (pdftex.def)             Requested size: 347.03159pt x 279.8836pt.
- [39 <./Dino/image_31.png (PNG copy)>]
-<./Dino/image_32.png, id=525, 2412.01125pt x 1080.035pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40 <./Dino/image_30-2.png (PNG copy)>]
+<./Dino/image_32.png, id=528, 2412.01125pt x 1080.035pt>
 File: ./Dino/image_32.png Graphic file (type png)
 
 <use ./Dino/image_32.png>
-Package pdftex.def Info: ./Dino/image_32.png used on input line 908.
+Package pdftex.def Info: ./Dino/image_32.png used on input line 949.
 (pdftex.def)             Requested size: 361.78607pt x 161.99826pt.
- [40 <./Dino/image_32.png (PNG copy)>] [41]
-<./Dino/image_33.png, id=538, 2285.53876pt x 833.1125pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41 <./Dino/image_31.png (PNG copy)>] [42 <./Dino/image_32.png (PNG copy)>]
+[43] <./Dino/image_33.png, id=548, 2285.53876pt x 833.1125pt>
 File: ./Dino/image_33.png Graphic file (type png)
 
 <use ./Dino/image_33.png>
-Package pdftex.def Info: ./Dino/image_33.png used on input line 984.
+Package pdftex.def Info: ./Dino/image_33.png used on input line 1034.
 (pdftex.def)             Requested size: 342.81602pt x 124.96147pt.
- [42 <./Dino/image_33.png>]
-<./Dino/image_34.png, id=548, 2301.59875pt x 872.25874pt>
+
+<./Dino/image_34.png, id=549, 2301.59875pt x 872.25874pt>
 File: ./Dino/image_34.png Graphic file (type png)
 
 <use ./Dino/image_34.png>
-Package pdftex.def Info: ./Dino/image_34.png used on input line 993.
+Package pdftex.def Info: ./Dino/image_34.png used on input line 1043.
 (pdftex.def)             Requested size: 345.22491pt x 130.83316pt.
- [43 <./Dino/image_34.png (PNG copy)>] [44]
-<./Dino/image_35.png, id=559, 2288.55pt x 794.97pt>
+ [44 <./Dino/image_33.png>] [45 <./Dino/image_34.png (PNG copy)>] [46] <./Dino/
+image_35.png, id=567, 2288.55pt x 794.97pt>
 File: ./Dino/image_35.png Graphic file (type png)
- <use ./Dino/image_35.png>
-Package pdftex.def Info: ./Dino/image_35.png used on input line 1040.
+
+<use ./Dino/image_35.png>
+Package pdftex.def Info: ./Dino/image_35.png used on input line 1094.
 (pdftex.def)             Requested size: 343.26768pt x 119.24036pt.
 
-<./Dino/image_36.png, id=560, 2485.285pt x 943.525pt>
+<./Dino/image_36.png, id=568, 2485.285pt x 943.525pt>
 File: ./Dino/image_36.png Graphic file (type png)
 
 <use ./Dino/image_36.png>
-Package pdftex.def Info: ./Dino/image_36.png used on input line 1047.
+Package pdftex.def Info: ./Dino/image_36.png used on input line 1101.
 (pdftex.def)             Requested size: 372.77667pt x 141.52264pt.
+ [47
 
-<./Dino/image_37.png, id=561, 2383.90625pt x 770.88pt>
+ <./Dino/image_35.png> <./Dino/image_36.png (PNG copy)>] <./Dino/image_37.png, 
+id=576, 2383.90625pt x 770.88pt>
 File: ./Dino/image_37.png Graphic file (type png)
 
 <use ./Dino/image_37.png>
-Package pdftex.def Info: ./Dino/image_37.png used on input line 1060.
+Package pdftex.def Info: ./Dino/image_37.png used on input line 1120.
 (pdftex.def)             Requested size: 357.57051pt x 115.627pt.
- [45
 
- <./Dino/image_35.png> <./Dino/image_36.png (PNG copy)>] <./Dino/image_38.png, 
-id=569, 1389.19pt x 1104.125pt>
+<./Dino/image_38.png, id=577, 1389.19pt x 1104.125pt>
 File: ./Dino/image_38.png Graphic file (type png)
 
 <use ./Dino/image_38.png>
-Package pdftex.def Info: ./Dino/image_38.png used on input line 1084.
+Package pdftex.def Info: ./Dino/image_38.png used on input line 1144.
 (pdftex.def)             Requested size: 208.3695pt x 165.6116pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[46 <./Dino/image_37.png (PNG copy)>] [47 <./Dino/image_38.png (PNG copy)>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1103.
-
-<./Dino/image_39.png, id=580, 2312.64pt x 1108.14pt>
+ [48 <./Dino/image_37.png (PNG copy)>] [49 <./Dino/image_38.png (PNG copy)>] <.
+/Dino/image_39.png, id=590, 2312.64pt x 1108.14pt>
 File: ./Dino/image_39.png Graphic file (type png)
- <use ./Dino/image_39.png>
-Package pdftex.def Info: ./Dino/image_39.png used on input line 1123.
+
+<use ./Dino/image_39.png>
+Package pdftex.def Info: ./Dino/image_39.png used on input line 1183.
 (pdftex.def)             Requested size: 346.88103pt x 166.21382pt.
 
-[48 <./Dino/image_39.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49] <./Dino/image_40-1.png, id=601, 508.90125pt x 593.21625pt>
+[50] [51 <./Dino/image_39.png (PNG copy)>]
+<./Dino/image_40-1.png, id=604, 508.90125pt x 593.21625pt>
 File: ./Dino/image_40-1.png Graphic file (type png)
 
 <use ./Dino/image_40-1.png>
-Package pdftex.def Info: ./Dino/image_40-1.png used on input line 1176.
+Package pdftex.def Info: ./Dino/image_40-1.png used on input line 1237.
 (pdftex.def)             Requested size: 76.3319pt x 88.97859pt.
-
-<./Dino/image_40.png, id=602, 1816.7875pt x 544.0325pt>
+ [52 <./Dino/image_40-1.png (PNG copy)>]
+<./Dino/image_40.png, id=612, 1816.7875pt x 544.0325pt>
 File: ./Dino/image_40.png Graphic file (type png)
 
 <use ./Dino/image_40.png>
-Package pdftex.def Info: ./Dino/image_40.png used on input line 1194.
+Package pdftex.def Info: ./Dino/image_40.png used on input line 1255.
 (pdftex.def)             Requested size: 272.50636pt x 81.60135pt.
- [50 <./Dino/image_40-1.png (PNG copy)>] [51 <./Dino/image_40.png (PNG copy)>]
-<./Dino/image_41-1.png, id=621, 2038.61626pt x 361.35pt>
+ [53 <./Dino/image_40.png (PNG copy)>]
+<./Dino/image_41-1.png, id=622, 2038.61626pt x 361.35pt>
 File: ./Dino/image_41-1.png Graphic file (type png)
 
 <use ./Dino/image_41-1.png>
-Package pdftex.def Info: ./Dino/image_41-1.png used on input line 1231.
+Package pdftex.def Info: ./Dino/image_41-1.png used on input line 1292.
 (pdftex.def)             Requested size: 305.77925pt x 54.20015pt.
 
-<./Dino/image_42.png, id=622, 1180.41pt x 1068.99374pt>
+<./Dino/image_41-2.png, id=623, 572.1375pt x 391.4625pt>
+File: ./Dino/image_41-2.png Graphic file (type png)
+
+<use ./Dino/image_41-2.png>
+Package pdftex.def Info: ./Dino/image_41-2.png used on input line 1298.
+(pdftex.def)             Requested size: 57.21709pt x 39.14853pt.
+ [54 <./Dino/image_41-1.png (PNG copy)> <./Dino/image_41-2.png (PNG copy)>]
+<./Dino/image_42.png, id=633, 1180.41pt x 1068.99374pt>
 File: ./Dino/image_42.png Graphic file (type png)
 
 <use ./Dino/image_42.png>
-Package pdftex.def Info: ./Dino/image_42.png used on input line 1239.
+Package pdftex.def Info: ./Dino/image_42.png used on input line 1306.
 (pdftex.def)             Requested size: 177.05386pt x 160.34213pt.
- [52 <./Dino/image_41-1.png (PNG copy)> <./Dino/image_42.png (PNG copy)>] <./Di
-no/image_43-1.png, id=629, 1067.99pt x 598.235pt>
+
+<./Dino/image_43-1.png, id=634, 1067.99pt x 598.235pt>
 File: ./Dino/image_43-1.png Graphic file (type png)
 
 <use ./Dino/image_43-1.png>
-Package pdftex.def Info: ./Dino/image_43-1.png used on input line 1249.
+Package pdftex.def Info: ./Dino/image_43-1.png used on input line 1315.
 (pdftex.def)             Requested size: 160.19159pt x 89.73137pt.
 
-<./Dino/image_43-2.png, id=630, 686.565pt x 293.095pt>
+<./Dino/image_43-2.png, id=635, 686.565pt x 293.095pt>
 File: ./Dino/image_43-2.png Graphic file (type png)
 
 <use ./Dino/image_43-2.png>
-Package pdftex.def Info: ./Dino/image_43-2.png used on input line 1254.
+Package pdftex.def Info: ./Dino/image_43-2.png used on input line 1320.
 (pdftex.def)             Requested size: 102.9803pt x 43.96234pt.
 
-<./Dino/image_43-3.png, id=631, 851.18pt x 453.695pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55 <./Dino/image_42.png (PNG copy)> <./Dino/image_43-1.png (PNG copy)>]
+<./Dino/image_43-3.png, id=642, 851.18pt x 453.695pt>
 File: ./Dino/image_43-3.png Graphic file (type png)
 
 <use ./Dino/image_43-3.png>
-Package pdftex.def Info: ./Dino/image_43-3.png used on input line 1259.
+Package pdftex.def Info: ./Dino/image_43-3.png used on input line 1325.
 (pdftex.def)             Requested size: 127.67148pt x 68.0513pt.
 
-<./Dino/image_44.png, id=632, 2364.835pt x 586.19pt>
+<./Dino/image_44.png, id=643, 2364.835pt x 586.19pt>
 File: ./Dino/image_44.png Graphic file (type png)
  <use ./Dino/image_44.png>
-Package pdftex.def Info: ./Dino/image_44.png used on input line 1267.
+Package pdftex.def Info: ./Dino/image_44.png used on input line 1333.
 (pdftex.def)             Requested size: 354.70995pt x 87.9247pt.
 
-[53 <./Dino/image_43-1.png (PNG copy)> <./Dino/image_43-2.png (PNG copy)> <./Di
-no/image_43-3.png (PNG copy)>] [54 <./Dino/image_44.png (PNG copy)>]
-<./Dino/image_45-1.png, id=646, 1047.915pt x 620.3175pt>
+[56 <./Dino/image_43-2.png (PNG copy)> <./Dino/image_43-3.png (PNG copy)> <./Di
+no/image_44.png (PNG copy)>]
+<./Dino/image_45-1.png, id=651, 1047.915pt x 620.3175pt>
 File: ./Dino/image_45-1.png Graphic file (type png)
 
 <use ./Dino/image_45-1.png>
-Package pdftex.def Info: ./Dino/image_45-1.png used on input line 1279.
+Package pdftex.def Info: ./Dino/image_45-1.png used on input line 1353.
 (pdftex.def)             Requested size: 157.18047pt x 93.04361pt.
 
-<./Dino/image_45-2.png, id=647, 762.85pt x 488.82625pt>
+<./Dino/image_45-2.png, id=652, 762.85pt x 488.82625pt>
 File: ./Dino/image_45-2.png Graphic file (type png)
 
 <use ./Dino/image_45-2.png>
-Package pdftex.def Info: ./Dino/image_45-2.png used on input line 1289.
+Package pdftex.def Info: ./Dino/image_45-2.png used on input line 1363.
 (pdftex.def)             Requested size: 114.42256pt x 73.32077pt.
- [55
 
- <./Dino/image_45-1.png (PNG copy)> <./Dino/image_45-2.png (PNG copy)>] [56]
-<./Dino/image_47.png, id=658, 1589.94pt x 654.445pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57 <./Dino/image_45-1.png (PNG copy)>] [58 <./Dino/image_45-2.png (PNG copy)>]
+<./Dino/image_47.png, id=663, 1589.94pt x 654.445pt>
 File: ./Dino/image_47.png Graphic file (type png)
  <use ./Dino/image_47.png>
-Package pdftex.def Info: ./Dino/image_47.png used on input line 1311.
+Package pdftex.def Info: ./Dino/image_47.png used on input line 1385.
 (pdftex.def)             Requested size: 238.48071pt x 98.1625pt.
 
-[57
+[59
 
- <./Dino/image_47.png>] <./Dino/image_48-1.png, id=667, 722.7pt x 449.68pt>
+ <./Dino/image_47.png>] <./Dino/image_48-1.png, id=672, 722.7pt x 449.68pt>
 File: ./Dino/image_48-1.png Graphic file (type png)
 
 <use ./Dino/image_48-1.png>
-Package pdftex.def Info: ./Dino/image_48-1.png used on input line 1333.
+Package pdftex.def Info: ./Dino/image_48-1.png used on input line 1407.
 (pdftex.def)             Requested size: 108.40031pt x 67.44908pt.
 
-<./Dino/image_48-2.png, id=668, 734.745pt x 417.56pt>
+<./Dino/image_48-2.png, id=673, 734.745pt x 417.56pt>
 File: ./Dino/image_48-2.png Graphic file (type png)
 
 <use ./Dino/image_48-2.png>
-Package pdftex.def Info: ./Dino/image_48-2.png used on input line 1340.
+Package pdftex.def Info: ./Dino/image_48-2.png used on input line 1414.
 (pdftex.def)             Requested size: 110.20699pt x 62.63129pt.
 
-<./Dino/image_48-3.png, id=669, 750.805pt x 511.9125pt>
+<./Dino/image_48-3.png, id=674, 750.805pt x 511.9125pt>
 File: ./Dino/image_48-3.png Graphic file (type png)
 
 <use ./Dino/image_48-3.png>
-Package pdftex.def Info: ./Dino/image_48-3.png used on input line 1347.
+Package pdftex.def Info: ./Dino/image_48-3.png used on input line 1421.
 (pdftex.def)             Requested size: 112.61589pt x 76.78355pt.
 
-<./Dino/image_49-1.png, id=670, 779.91376pt x 484.81125pt>
+<./Dino/image_49-1.png, id=675, 779.91376pt x 484.81125pt>
 File: ./Dino/image_49-1.png Graphic file (type png)
 
 <use ./Dino/image_49-1.png>
-Package pdftex.def Info: ./Dino/image_49-1.png used on input line 1353.
+Package pdftex.def Info: ./Dino/image_49-1.png used on input line 1427.
 (pdftex.def)             Requested size: 116.98201pt x 72.71854pt.
- [58
+ [60
 
  <./Dino/image_48-1.png (PNG copy)> <./Dino/image_48-2.png (PNG copy)> <./Dino/
-image_48-3.png (PNG copy)>]
-<./Dino/image_49-2.png, id=680, 903.375pt x 436.63126pt>
+image_48-3.png>]
+<./Dino/image_49-2.png, id=687, 903.375pt x 436.63126pt>
 File: ./Dino/image_49-2.png Graphic file (type png)
 
 <use ./Dino/image_49-2.png>
-Package pdftex.def Info: ./Dino/image_49-2.png used on input line 1360.
+Package pdftex.def Info: ./Dino/image_49-2.png used on input line 1434.
 (pdftex.def)             Requested size: 135.5004pt x 65.49185pt.
 
-<./Dino/image_49-3.png, id=681, 1173.38374pt x 539.01375pt>
+<./Dino/image_49-3.png, id=688, 1173.38374pt x 539.01375pt>
 File: ./Dino/image_49-3.png Graphic file (type png)
 
 <use ./Dino/image_49-3.png>
-Package pdftex.def Info: ./Dino/image_49-3.png used on input line 1369.
+Package pdftex.def Info: ./Dino/image_49-3.png used on input line 1443.
 (pdftex.def)             Requested size: 140.79997pt x 64.67885pt.
 
-<./Dino/image_50.png, id=682, 2384.91pt x 1634.105pt>
+<./Dino/image_50.png, id=689, 2384.91pt x 1634.105pt>
 File: ./Dino/image_50.png Graphic file (type png)
 
 <use ./Dino/image_50.png>
-Package pdftex.def Info: ./Dino/image_50.png used on input line 1376.
+Package pdftex.def Info: ./Dino/image_50.png used on input line 1450.
 (pdftex.def)             Requested size: 357.72107pt x 245.10518pt.
- [59 <./Dino/image_49-1.png> <./Dino/image_49-2.png> <./Dino/image_49-3.png (PN
-G copy)>] [60 <./Dino/image_50.png (PNG copy)>]
-<./Dino/image_51-1.png, id=699, 2216.28pt x 1525.7pt>
+ [61 <./Dino/image_49-1.png> <./Dino/image_49-2.png> <./Dino/image_49-3.png (PN
+G copy)>] [62 <./Dino/image_50.png (PNG copy)>]
+<./Dino/image_51-1.png, id=705, 2216.28pt x 1525.7pt>
 File: ./Dino/image_51-1.png Graphic file (type png)
 
 <use ./Dino/image_51-1.png>
-Package pdftex.def Info: ./Dino/image_51-1.png used on input line 1382.
+Package pdftex.def Info: ./Dino/image_51-1.png used on input line 1456.
 (pdftex.def)             Requested size: 310.27708pt x 213.59654pt.
 
-<./Dino/image_51-2.png, id=700, 1184.425pt x 501.875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1461
+
+ []
+
+<./Dino/image_51-2.png, id=706, 1184.425pt x 501.875pt>
 File: ./Dino/image_51-2.png Graphic file (type png)
 
 <use ./Dino/image_51-2.png>
-Package pdftex.def Info: ./Dino/image_51-2.png used on input line 1390.
+Package pdftex.def Info: ./Dino/image_51-2.png used on input line 1465.
 (pdftex.def)             Requested size: 165.81836pt x 70.26201pt.
 
-<./Dino/image_52-1.png, id=701, 891.33pt x 340.27126pt>
+<./Dino/image_52-1.png, id=707, 891.33pt x 340.27126pt>
 File: ./Dino/image_52-1.png Graphic file (type png)
 
 <use ./Dino/image_52-1.png>
-Package pdftex.def Info: ./Dino/image_52-1.png used on input line 1398.
+Package pdftex.def Info: ./Dino/image_52-1.png used on input line 1474.
 (pdftex.def)             Requested size: 89.13821pt x 34.02911pt.
-
-<./Dino/image_52-2.png, id=702, 858.20625pt x 349.305pt>
-File: ./Dino/image_52-2.png Graphic file (type png)
-
-<use ./Dino/image_52-2.png>
-Package pdftex.def Info: ./Dino/image_52-2.png used on input line 1404.
-(pdftex.def)             Requested size: 85.82565pt x 34.93254pt.
- [61
-
- <./Dino/image_51-1.png (PNG copy)> <./Dino/image_51-2.png (PNG copy)> <./Dino/
-image_52-1.png>]
-<./Dino/image_52-3.png, id=712, 641.39626pt x 292.09125pt>
-File: ./Dino/image_52-3.png Graphic file (type png)
-
-<use ./Dino/image_52-3.png>
-Package pdftex.def Info: ./Dino/image_52-3.png used on input line 1410.
-(pdftex.def)             Requested size: 64.14337pt x 29.21083pt.
- [62 <./Dino/image_52-2.png> <./Dino/image_52-3.png>] <./Dino/image_53-1.png, i
-d=724, 706.64pt x 485.815pt>
-File: ./Dino/image_53-1.png Graphic file (type png)
-
-<use ./Dino/image_53-1.png>
-Package pdftex.def Info: ./Dino/image_53-1.png used on input line 1422.
-(pdftex.def)             Requested size: 105.99142pt x 72.8691pt.
-
-<./Dino/image_53-2.png, id=725, 650.43pt x 489.83pt>
-File: ./Dino/image_53-2.png Graphic file (type png)
-
-<use ./Dino/image_53-2.png>
-Package pdftex.def Info: ./Dino/image_53-2.png used on input line 1428.
-(pdftex.def)             Requested size: 97.56029pt x 73.47133pt.
-
-<./Dino/image_53-3.png, id=726, 694.595pt x 457.71pt>
-File: ./Dino/image_53-3.png Graphic file (type png)
-
-<use ./Dino/image_53-3.png>
-Package pdftex.def Info: ./Dino/image_53-3.png used on input line 1434.
-(pdftex.def)             Requested size: 104.18475pt x 68.65353pt.
-
-<./Dino/image_53-4.png, id=727, 2107.875pt x 762.85pt>
-File: ./Dino/image_53-4.png Graphic file (type png)
-
-<use ./Dino/image_53-4.png>
-Package pdftex.def Info: ./Dino/image_53-4.png used on input line 1441.
-(pdftex.def)             Requested size: 316.1676pt x 114.42256pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [63
 
+ <./Dino/image_51-1.png (PNG copy)> <./Dino/image_51-2.png>]
+<./Dino/image_52-2.png, id=716, 858.20625pt x 349.305pt>
+File: ./Dino/image_52-2.png Graphic file (type png)
+
+<use ./Dino/image_52-2.png>
+Package pdftex.def Info: ./Dino/image_52-2.png used on input line 1480.
+(pdftex.def)             Requested size: 85.82565pt x 34.93254pt.
+
+<./Dino/image_52-3.png, id=717, 641.39626pt x 292.09125pt>
+File: ./Dino/image_52-3.png Graphic file (type png)
+
+<use ./Dino/image_52-3.png>
+Package pdftex.def Info: ./Dino/image_52-3.png used on input line 1486.
+(pdftex.def)             Requested size: 64.14337pt x 29.21083pt.
+ [64 <./Dino/image_52-1.png> <./Dino/image_52-2.png> <./Dino/image_52-3.png>]
+<./Dino/image_53-1.png, id=731, 706.64pt x 485.815pt>
+File: ./Dino/image_53-1.png Graphic file (type png)
+
+<use ./Dino/image_53-1.png>
+Package pdftex.def Info: ./Dino/image_53-1.png used on input line 1498.
+(pdftex.def)             Requested size: 105.99142pt x 72.8691pt.
+
+<./Dino/image_53-2.png, id=732, 650.43pt x 489.83pt>
+File: ./Dino/image_53-2.png Graphic file (type png)
+
+<use ./Dino/image_53-2.png>
+Package pdftex.def Info: ./Dino/image_53-2.png used on input line 1504.
+(pdftex.def)             Requested size: 97.56029pt x 73.47133pt.
+
+<./Dino/image_53-3.png, id=733, 694.595pt x 457.71pt>
+File: ./Dino/image_53-3.png Graphic file (type png)
+
+<use ./Dino/image_53-3.png>
+Package pdftex.def Info: ./Dino/image_53-3.png used on input line 1510.
+(pdftex.def)             Requested size: 104.18475pt x 68.65353pt.
+
+<./Dino/image_53-4.png, id=734, 2107.875pt x 762.85pt>
+File: ./Dino/image_53-4.png Graphic file (type png)
+
+<use ./Dino/image_53-4.png>
+Package pdftex.def Info: ./Dino/image_53-4.png used on input line 1517.
+(pdftex.def)             Requested size: 316.1676pt x 114.42256pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[65
+
  <./Dino/image_53-1.png (PNG copy)> <./Dino/image_53-2.png (PNG copy)> <./Dino/
-image_53-3.png (PNG copy)>] [64 <./Dino/image_53-4.png>]
-<./Dino/image_54-1.png, id=748, 1365.1pt x 501.875pt>
+image_53-3.png (PNG copy)>] [66 <./Dino/image_53-4.png>]
+<./Dino/image_54-1.png, id=753, 1365.1pt x 501.875pt>
 File: ./Dino/image_54-1.png Graphic file (type png)
 
 <use ./Dino/image_54-1.png>
-Package pdftex.def Info: ./Dino/image_54-1.png used on input line 1477.
+Package pdftex.def Info: ./Dino/image_54-1.png used on input line 1553.
 (pdftex.def)             Requested size: 273.01517pt x 100.37321pt.
 
-<./Dino/image_54-2.png, id=749, 839.135pt x 638.385pt>
+<./Dino/image_54-2.png, id=754, 839.135pt x 638.385pt>
 File: ./Dino/image_54-2.png Graphic file (type png)
 
 <use ./Dino/image_54-2.png>
-Package pdftex.def Info: ./Dino/image_54-2.png used on input line 1489.
+Package pdftex.def Info: ./Dino/image_54-2.png used on input line 1569.
 (pdftex.def)             Requested size: 167.82402pt x 127.67473pt.
- [65
+ [67
 
  <./Dino/image_54-1.png (PNG copy)> <./Dino/image_54-2.png (PNG copy)>] <./Dino
-/image_54-3.png, id=759, 630.355pt x 598.235pt>
+/image_54-3.png, id=764, 630.355pt x 598.235pt>
 File: ./Dino/image_54-3.png Graphic file (type png)
 
 <use ./Dino/image_54-3.png>
-Package pdftex.def Info: ./Dino/image_54-3.png used on input line 1502.
+Package pdftex.def Info: ./Dino/image_54-3.png used on input line 1584.
 (pdftex.def)             Requested size: 126.06876pt x 119.64487pt.
 
-<./Dino/image_55-1.png, id=760, 987.69pt x 546.04pt>
+<./Dino/image_55-1.png, id=765, 987.69pt x 546.04pt>
 File: ./Dino/image_55-1.png Graphic file (type png)
 
 <use ./Dino/image_55-1.png>
-Package pdftex.def Info: ./Dino/image_55-1.png used on input line 1514.
+Package pdftex.def Info: ./Dino/image_55-1.png used on input line 1600.
 (pdftex.def)             Requested size: 197.5345pt x 109.20605pt.
 
-<./Dino/image_55-2.png, id=761, 923.45pt x 574.145pt>
+<./Dino/image_55-2.png, id=766, 923.45pt x 574.145pt>
 File: ./Dino/image_55-2.png Graphic file (type png)
 
 <use ./Dino/image_55-2.png>
-Package pdftex.def Info: ./Dino/image_55-2.png used on input line 1528.
+Package pdftex.def Info: ./Dino/image_55-2.png used on input line 1614.
 (pdftex.def)             Requested size: 184.68672pt x 114.82697pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[66 <./Dino/image_54-3.png (PNG copy)> <./Dino/image_55-1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
+[68 <./Dino/image_54-3.png (PNG copy)> <./Dino/image_55-1.png (PNG copy)>]
+[69 <./Dino/image_55-2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1617--1618
 
  []
 
-<./Dino/image_55-3.png, id=772, 899.36pt x 594.22pt>
+<./Dino/image_55-3.png, id=781, 899.36pt x 594.22pt>
 File: ./Dino/image_55-3.png Graphic file (type png)
 
 <use ./Dino/image_55-3.png>
-Package pdftex.def Info: ./Dino/image_55-3.png used on input line 1541.
+Package pdftex.def Info: ./Dino/image_55-3.png used on input line 1627.
 (pdftex.def)             Requested size: 179.8688pt x 118.84189pt.
 
-<./Dino/image_56-1.png, id=773, 907.39pt x 525.965pt>
+<./Dino/image_56-1.png, id=782, 907.39pt x 525.965pt>
 File: ./Dino/image_56-1.png Graphic file (type png)
 
 <use ./Dino/image_56-1.png>
-Package pdftex.def Info: ./Dino/image_56-1.png used on input line 1549.
+Package pdftex.def Info: ./Dino/image_56-1.png used on input line 1635.
 (pdftex.def)             Requested size: 181.47478pt x 105.19113pt.
 
-<./Dino/image_56-2.png, id=774, 2445.135pt x 2034.60126pt>
+<./Dino/image_56-2.png, id=783, 2445.135pt x 2034.60126pt>
 File: ./Dino/image_56-2.png Graphic file (type png)
 
 <use ./Dino/image_56-2.png>
-Package pdftex.def Info: ./Dino/image_56-2.png used on input line 1555.
+Package pdftex.def Info: ./Dino/image_56-2.png used on input line 1641.
 (pdftex.def)             Requested size: 415.66745pt x 345.87764pt.
- [67 <./Dino/image_55-2.png (PNG copy)> <./Dino/image_55-3.png (PNG copy)> <./D
-ino/image_56-1.png (PNG copy)>] [68 <./Dino/image_56-2.png (PNG copy)>] <./Dino
-/image_57.png, id=788, 1629.08624pt x 743.77875pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[70 <./Dino/image_55-3.png (PNG copy)> <./Dino/image_56-1.png (PNG copy)>]
+[71 <./Dino/image_56-2.png (PNG copy)>]
+<./Dino/image_57.png, id=796, 1629.08624pt x 743.77875pt>
 File: ./Dino/image_57.png Graphic file (type png)
 
 <use ./Dino/image_57.png>
-Package pdftex.def Info: ./Dino/image_57.png used on input line 1574.
+Package pdftex.def Info: ./Dino/image_57.png used on input line 1660.
 (pdftex.def)             Requested size: 244.35239pt x 111.562pt.
- [69 <./Dino/image_57.png (PNG copy)>] [70]
-<./Dino/image_58.png, id=798, 2478.25874pt x 2302.6025pt>
+ [72 <./Dino/image_57.png (PNG copy)>] [73]
+<./Dino/image_58.png, id=807, 2478.25874pt x 2302.6025pt>
 File: ./Dino/image_58.png Graphic file (type png)
 
 <use ./Dino/image_58.png>
-Package pdftex.def Info: ./Dino/image_58.png used on input line 1625.
+Package pdftex.def Info: ./Dino/image_58.png used on input line 1711.
 (pdftex.def)             Requested size: 421.29842pt x 391.43726pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 1629--1638
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1629--1638
-
- []
-
-[72 <./Dino/image_58.png (PNG copy)>]
-<./Dino/image_59.png, id=809, 1308.89pt x 517.935pt>
+[74] [75 <./Dino/image_58.png (PNG copy)>]
+<./Dino/image_59.png, id=817, 1308.89pt x 517.935pt>
 File: ./Dino/image_59.png Graphic file (type png)
  <use ./Dino/image_59.png>
-Package pdftex.def Info: ./Dino/image_59.png used on input line 1650.
+Package pdftex.def Info: ./Dino/image_59.png used on input line 1736.
 (pdftex.def)             Requested size: 222.50835pt x 88.04778pt.
 
-[73 <./Dino/image_59.png (PNG copy)>] [74]
-<./Dino/image_60-1.png, id=819, 1084.05pt x 1136.245pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[76] [77 <./Dino/image_59.png (PNG copy)>]
+<./Dino/image_60-1.png, id=827, 1084.05pt x 1136.245pt>
 File: ./Dino/image_60-1.png Graphic file (type png)
 
 <use ./Dino/image_60-1.png>
-Package pdftex.def Info: ./Dino/image_60-1.png used on input line 1687.
+Package pdftex.def Info: ./Dino/image_60-1.png used on input line 1777.
 (pdftex.def)             Requested size: 184.28606pt x 193.15909pt.
 
-<./Dino/image_60-2.png, id=820, 1203.49625pt x 511.9125pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[78] <./Dino/image_60-2.png, id=833, 1203.49625pt x 511.9125pt>
 File: ./Dino/image_60-2.png Graphic file (type png)
 
 <use ./Dino/image_60-2.png>
-Package pdftex.def Info: ./Dino/image_60-2.png used on input line 1694.
+Package pdftex.def Info: ./Dino/image_60-2.png used on input line 1784.
 (pdftex.def)             Requested size: 204.59166pt x 87.02397pt.
- [75 <./Dino/image_60-1.png (PNG copy)>] [76 <./Dino/image_60-2.png (PNG copy)>
-]
-<./Dino/image_61.png, id=831, 1071.00125pt x 921.4425pt>
+ [79 <./Dino/image_60-1.png (PNG copy)> <./Dino/image_60-2.png (PNG copy)>]
+<./Dino/image_61.png, id=840, 1071.00125pt x 921.4425pt>
 File: ./Dino/image_61.png Graphic file (type png)
 
 <use ./Dino/image_61.png>
-Package pdftex.def Info: ./Dino/image_61.png used on input line 1713.
+Package pdftex.def Info: ./Dino/image_61.png used on input line 1803.
 (pdftex.def)             Requested size: 182.0678pt x 156.64314pt.
- [77 <./Dino/image_61.png (PNG copy)>]
-<./Dino/image_65.png, id=837, 1792.6975pt x 1025.8325pt>
+ [80 <./Dino/image_61.png (PNG copy)>]
+<./Dino/image_65.png, id=846, 1792.6975pt x 1025.8325pt>
 File: ./Dino/image_65.png Graphic file (type png)
 
 <use ./Dino/image_65.png>
-Package pdftex.def Info: ./Dino/image_65.png used on input line 1729.
+Package pdftex.def Info: ./Dino/image_65.png used on input line 1819.
 (pdftex.def)             Requested size: 304.75455pt x 174.38922pt.
- [78 <./Dino/image_65.png (PNG copy)>] [79] [80]
-[81] [82] [83] [84] [85]
-<./Dino/image_63-1.png, id=904, 2389.92876pt x 1082.0425pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[81] [82 <./Dino/image_65.png (PNG copy)>] [83] [84] [85] [86] [87] [88]
+<./Dino/image_63-1.png, id=911, 2389.92876pt x 1082.0425pt>
 File: ./Dino/image_63-1.png Graphic file (type png)
 
 <use ./Dino/image_63-1.png>
-Package pdftex.def Info: ./Dino/image_63-1.png used on input line 1886.
+Package pdftex.def Info: ./Dino/image_63-1.png used on input line 1979.
 (pdftex.def)             Requested size: 406.28252pt x 183.9448pt.
 
-<./Dino/image_63-2.png, id=905, 2279.51625pt x 856.19875pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[89] <./Dino/image_63-2.png, id=920, 2279.51625pt x 856.19875pt>
 File: ./Dino/image_63-2.png Graphic file (type png)
 
 <use ./Dino/image_63-2.png>
-Package pdftex.def Info: ./Dino/image_63-2.png used on input line 1892.
+Package pdftex.def Info: ./Dino/image_63-2.png used on input line 1985.
 (pdftex.def)             Requested size: 387.51263pt x 145.55185pt.
- [86 <./Dino/image_63-1.png (PNG copy)> <./Dino/image_63-2.png (PNG copy)>] <./
-Dino/image_64-1.png, id=914, 610.28pt x 542.025pt>
+ [90 <./Dino/image_63-1.png (PNG copy)> <./Dino/image_63-2.png (PNG copy)>] <./
+Dino/image_64-1.png, id=931, 610.28pt x 542.025pt>
 File: ./Dino/image_64-1.png Graphic file (type png)
 
 <use ./Dino/image_64-1.png>
-Package pdftex.def Info: ./Dino/image_64-1.png used on input line 1913.
+Package pdftex.def Info: ./Dino/image_64-1.png used on input line 2012.
 (pdftex.def)             Requested size: 91.53804pt x 81.30023pt.
 
-<./Dino/image_64-2.png, id=915, 554.07pt x 513.92pt>
+<./Dino/image_64-2.png, id=932, 554.07pt x 513.92pt>
 File: ./Dino/image_64-2.png Graphic file (type png)
 
 <use ./Dino/image_64-2.png>
-Package pdftex.def Info: ./Dino/image_64-2.png used on input line 1920.
+Package pdftex.def Info: ./Dino/image_64-2.png used on input line 2019.
 (pdftex.def)             Requested size: 83.1069pt x 77.08467pt.
 
-<./Dino/image_64-3.png, id=916, 598.235pt x 445.665pt>
+<./Dino/image_64-3.png, id=933, 598.235pt x 445.665pt>
 File: ./Dino/image_64-3.png Graphic file (type png)
 
 <use ./Dino/image_64-3.png>
-Package pdftex.def Info: ./Dino/image_64-3.png used on input line 1927.
+Package pdftex.def Info: ./Dino/image_64-3.png used on input line 2026.
 (pdftex.def)             Requested size: 89.73137pt x 66.84686pt.
- [87 <./Dino/image_64-1.png (PNG copy)> <./Dino/image_64-2.png (PNG copy)>]
-Package atenddvi Info: Last page = 89.
- [88 <./Dino/image_64-3.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1942.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1942.
 
-(./ObradaMetala.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1942.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1942.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[91 <./Dino/image_64-1.png (PNG copy)> <./Dino/image_64-2.png (PNG copy)>]
+Package atenddvi Info: Last page = 93.
+
+[92 <./Dino/image_64-3.png (PNG copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2041.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 2041.
+ (./ObradaMetala.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2041.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2041.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1942.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2041.
  ) 
 Here is how much of TeX's memory you used:
- 44778 strings out of 493029
- 980736 string characters out of 6136235
- 1089118 words of memory out of 5000000
- 47080 multiletter control sequences out of 15000+600000
+ 44785 strings out of 493029
+ 980892 string characters out of 6136235
+ 1090118 words of memory out of 5000000
+ 47084 multiletter control sequences out of 15000+600000
  58905 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,20n,77p,10390b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2759,18 +2814,17 @@ hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/f
 onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
-pfb>
-Output written on ObradaMetala.pdf (89 pages, 69293981 bytes).
+type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/symbols/msam10.pfb>
+Output written on ObradaMetala.pdf (93 pages, 69094827 bytes).
 PDF statistics:
- 1340 PDF objects out of 1440 (max. 8388607)
- 1103 compressed objects within 12 object streams
- 416 named destinations out of 1000 (max. 500000)
- 1220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1353 PDF objects out of 1440 (max. 8388607)
+ 1109 compressed objects within 12 object streams
+ 417 named destinations out of 1000 (max. 500000)
+ 1230 words of extra memory for PDF output out of 10000 (max. 10000000)
 

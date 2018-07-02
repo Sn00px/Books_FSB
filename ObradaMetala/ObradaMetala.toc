@@ -16,72 +16,72 @@
 \contentsline {subsubsection}{\numberline {3.1.1}U\IeC {\v c}vr\IeC {\v s}\IeC {\'c}ivanje predmeta izme\IeC {\dj }u \IeC {\v s}iljaka radnog vretena i konji\IeC {\'c}a}{25}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}U\IeC {\v c}vr\IeC {\v s}\IeC {\'c}enje predmeta pomo\IeC {\v c}u \IeC {\v c}eljusne plo\IeC {\v c}e}{26}{subsubsection.3.1.2}
 \contentsline {subsection}{\numberline {3.2}Pri\IeC {\v c}vr\IeC {\v s}\IeC {\'c}enje no\IeC {\v z}eva}{26}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Tokarski no\IeC {\v z}evi}{26}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Tokarski no\IeC {\v z}evi}{27}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Re\IeC {\v z}imi i njihovo odre\IeC {\dj }ivanje}{27}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Sile rezanja na tokarskom no\IeC {\v z}u}{27}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}Tokarenje konusa na tokarskom stroju}{27}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.2}Sile rezanja na tokarskom no\IeC {\v z}u}{28}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Tokarenje konusa na tokarskom stroju}{28}{subsubsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.4}Vrijeme obrade na tokarskom stroju}{28}{subsubsection.3.3.4}
 \contentsline {section}{\numberline {4}Bu\IeC {\v s}ilice}{29}{section.4}
-\contentsline {subsection}{\numberline {4.1}Vi\IeC {\v s}evretene bu\IeC {\v s}ilice}{30}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Vi\IeC {\v s}evretene bu\IeC {\v s}ilice}{31}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Koordinatna bu\IeC {\v s}ilica}{31}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Alati za bu\IeC {\v s}enje i razvrtanje}{31}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Brzina rezanja}{32}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Upu\IeC {\v s}tala}{33}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}Upu\IeC {\v s}tala}{34}{subsection.4.5}
 \contentsline {subsection}{\numberline {4.6}Razvrtava\IeC {\v c}i}{34}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}U\IeC {\v c}vr\IeC {\v s}\IeC {\'c}enje svrdla u radna vretena}{35}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Re\IeC {\v z}imi obrade kod bru\IeC {\v s}enja}{35}{subsection.4.8}
-\contentsline {section}{\numberline {5}Bru\IeC {\v s}enje}{36}{section.5}
-\contentsline {subsection}{\numberline {5.1}Brusilice}{36}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Brusilice za ravno bru\IeC {\v s}enje}{37}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Strojevi za okrugla bru\IeC {\v s}enja}{38}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Brusilice za unutarnja okrugla bru\IeC {\v s}enja}{39}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Univerzalni strojevi za okrugla bru\IeC {\v s}enja}{39}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Strojevi za bru\IeC {\v s}enje zup\IeC {\v c}anika}{39}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Brusilice za bru\IeC {\v s}enje alata}{40}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Specijalne brusilice}{40}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Brusevi}{41}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}Stezanje alata}{43}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Re\IeC {\v z}imi obrade}{43}{subsection.5.11}
-\contentsline {section}{\numberline {6}Glodanje}{44}{section.6}
-\contentsline {subsection}{\numberline {6.1}Glodalice}{46}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Diobene sprave}{47}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Re\IeC {\v z}imi obrade}{49}{subsection.6.3}
-\contentsline {section}{\numberline {7}Kovanje}{50}{section.7}
-\contentsline {subsection}{\numberline {7.1}Glavne kova\IeC {\v c}ke operacije}{52}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Kovanje u ukovnjima}{53}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Tempreture kovanja}{54}{subsubsection.7.2.1}
-\contentsline {section}{\numberline {8}Izvla\IeC {\v c}enje}{55}{section.8}
-\contentsline {section}{\numberline {9}Valjanje}{57}{section.9}
-\contentsline {section}{\numberline {10}Savijanje}{58}{section.10}
-\contentsline {subsection}{\numberline {10.1}Savijanje limova}{58}{subsection.10.1}
-\contentsline {subsubsection}{\numberline {10.1.1}Savijanje punih \IeC {\v s}iki i profila}{59}{subsubsection.10.1.1}
-\contentsline {subsubsection}{\numberline {10.1.2}Savijanje cijevi}{61}{subsubsection.10.1.2}
-\contentsline {section}{\numberline {11}Rezanje}{63}{section.11}
-\contentsline {subsection}{\numberline {11.1}Alat za odsjecanje na pre\IeC {\v s}ama}{67}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Rezanje profila}{68}{subsection.11.2}
-\contentsline {section}{\numberline {12}Lijevanje}{69}{section.12}
-\contentsline {subsection}{\numberline {12.1}Pijesak za kalupovanje}{70}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Pijesak za jezgre}{70}{subsection.12.2}
-\contentsline {subsection}{\numberline {12.3}Podjela lijeva\IeC {\v c}kog pijeska}{71}{subsection.12.3}
-\contentsline {subsection}{\numberline {12.4}Pripremanje pijeska za kalupe}{71}{subsection.12.4}
-\contentsline {subsubsection}{\numberline {12.4.1}Kalupovanje strojeva za drmanje}{74}{subsubsection.12.4.1}
-\contentsline {subsubsection}{\numberline {12.4.2}Kalupovanje strojevima za bacanje pijeska}{75}{subsubsection.12.4.2}
-\contentsline {subsection}{\numberline {12.5}Kokilno lijevanje}{75}{subsection.12.5}
-\contentsline {subsection}{\numberline {12.6}Centrifugalno lijevanje}{75}{subsection.12.6}
-\contentsline {subsection}{\numberline {12.7}Tla\IeC {\v c}ni lijev}{76}{subsection.12.7}
-\contentsline {section}{\numberline {13}Termi\IeC {\v c}ka obrada}{76}{section.13}
-\contentsline {subsection}{\numberline {13.1}Normaliziranje}{76}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}Meko \IeC {\v z}arenje}{77}{subsection.13.2}
-\contentsline {subsection}{\numberline {13.3}Iz\IeC {\v z}arivanje}{77}{subsection.13.3}
-\contentsline {subsection}{\numberline {13.4}Kaljenje}{78}{subsection.13.4}
-\contentsline {subsection}{\numberline {13.5}Napu\IeC {\v s}tanje}{79}{subsection.13.5}
-\contentsline {subsection}{\numberline {13.6}Pobolj\IeC {\v s}avanje}{79}{subsection.13.6}
-\contentsline {subsection}{\numberline {13.7}Cementiranje}{80}{subsection.13.7}
-\contentsline {section}{\numberline {14}Povr\IeC {\v s}inska za\IeC {\v s}tita}{81}{section.14}
-\contentsline {subsection}{\numberline {14.1}Op\IeC {\'c}enito o koroziji i za\IeC {\v s}tita od korozije}{81}{subsection.14.1}
-\contentsline {section}{\numberline {15}Razni postupci bez o\IeC {\v s}trica}{84}{section.15}
-\contentsline {subsubsection}{\numberline {15.0.1}Mehani\IeC {\v c}ki postupci}{85}{subsubsection.15.0.1}
-\contentsline {subsubsection}{\numberline {15.0.2}Elektri\IeC {\v c}ni postupci}{86}{subsubsection.15.0.2}
-\contentsline {subsubsection}{\numberline {15.0.3}Elektrokemijski postupci}{87}{subsubsection.15.0.3}
-\contentsline {subsubsection}{\numberline {15.0.4}Kemijski postupci}{87}{subsubsection.15.0.4}
-\contentsline {subsection}{\numberline {15.1}Jo\IeC {\v s} nekoliko metoda za skidanje strugotina}{87}{subsection.15.1}
+\contentsline {subsection}{\numberline {4.7}U\IeC {\v c}vr\IeC {\v s}\IeC {\'c}enje svrdla u radna vretena}{36}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Re\IeC {\v z}imi obrade kod bru\IeC {\v s}enja}{36}{subsection.4.8}
+\contentsline {section}{\numberline {5}Bru\IeC {\v s}enje}{37}{section.5}
+\contentsline {subsection}{\numberline {5.1}Brusilice}{37}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Brusilice za ravno bru\IeC {\v s}enje}{38}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Strojevi za okrugla bru\IeC {\v s}enja}{39}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Brusilice za unutarnja okrugla bru\IeC {\v s}enja}{40}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Univerzalni strojevi za okrugla bru\IeC {\v s}enja}{40}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Strojevi za bru\IeC {\v s}enje zup\IeC {\v c}anika}{41}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Brusilice za bru\IeC {\v s}enje alata}{41}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Specijalne brusilice}{42}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Brusevi}{42}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Stezanje alata}{45}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Re\IeC {\v z}imi obrade}{45}{subsection.5.11}
+\contentsline {section}{\numberline {6}Glodanje}{45}{section.6}
+\contentsline {subsection}{\numberline {6.1}Glodalice}{48}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Diobene sprave}{50}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Re\IeC {\v z}imi obrade}{51}{subsection.6.3}
+\contentsline {section}{\numberline {7}Kovanje}{52}{section.7}
+\contentsline {subsection}{\numberline {7.1}Glavne kova\IeC {\v c}ke operacije}{54}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Kovanje u ukovnjima}{56}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Tempreture kovanja}{56}{subsubsection.7.2.1}
+\contentsline {section}{\numberline {8}Izvla\IeC {\v c}enje}{57}{section.8}
+\contentsline {section}{\numberline {9}Valjanje}{59}{section.9}
+\contentsline {section}{\numberline {10}Savijanje}{60}{section.10}
+\contentsline {subsection}{\numberline {10.1}Savijanje limova}{60}{subsection.10.1}
+\contentsline {subsubsection}{\numberline {10.1.1}Savijanje punih \IeC {\v s}iki i profila}{61}{subsubsection.10.1.1}
+\contentsline {subsubsection}{\numberline {10.1.2}Savijanje cijevi}{63}{subsubsection.10.1.2}
+\contentsline {section}{\numberline {11}Rezanje}{65}{section.11}
+\contentsline {subsection}{\numberline {11.1}Alat za odsjecanje na pre\IeC {\v s}ama}{70}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Rezanje profila}{71}{subsection.11.2}
+\contentsline {section}{\numberline {12}Lijevanje}{72}{section.12}
+\contentsline {subsection}{\numberline {12.1}Pijesak za kalupovanje}{73}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Pijesak za jezgre}{73}{subsection.12.2}
+\contentsline {subsection}{\numberline {12.3}Podjela lijeva\IeC {\v c}kog pijeska}{74}{subsection.12.3}
+\contentsline {subsection}{\numberline {12.4}Pripremanje pijeska za kalupe}{74}{subsection.12.4}
+\contentsline {subsubsection}{\numberline {12.4.1}Kalupovanje strojeva za drmanje}{78}{subsubsection.12.4.1}
+\contentsline {subsubsection}{\numberline {12.4.2}Kalupovanje strojevima za bacanje pijeska}{78}{subsubsection.12.4.2}
+\contentsline {subsection}{\numberline {12.5}Kokilno lijevanje}{78}{subsection.12.5}
+\contentsline {subsection}{\numberline {12.6}Centrifugalno lijevanje}{79}{subsection.12.6}
+\contentsline {subsection}{\numberline {12.7}Tla\IeC {\v c}ni lijev}{79}{subsection.12.7}
+\contentsline {section}{\numberline {13}Termi\IeC {\v c}ka obrada}{80}{section.13}
+\contentsline {subsection}{\numberline {13.1}Normaliziranje}{80}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Meko \IeC {\v z}arenje}{81}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.3}Iz\IeC {\v z}arivanje}{81}{subsection.13.3}
+\contentsline {subsection}{\numberline {13.4}Kaljenje}{81}{subsection.13.4}
+\contentsline {subsection}{\numberline {13.5}Napu\IeC {\v s}tanje}{83}{subsection.13.5}
+\contentsline {subsection}{\numberline {13.6}Pobolj\IeC {\v s}avanje}{83}{subsection.13.6}
+\contentsline {subsection}{\numberline {13.7}Cementiranje}{83}{subsection.13.7}
+\contentsline {section}{\numberline {14}Povr\IeC {\v s}inska za\IeC {\v s}tita}{85}{section.14}
+\contentsline {subsection}{\numberline {14.1}Op\IeC {\'c}enito o koroziji i za\IeC {\v s}tita od korozije}{85}{subsection.14.1}
+\contentsline {section}{\numberline {15}Razni postupci bez o\IeC {\v s}trica}{88}{section.15}
+\contentsline {subsection}{\numberline {15.1}Mehani\IeC {\v c}ki postupci}{89}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}Elektri\IeC {\v c}ni postupci}{89}{subsection.15.2}
+\contentsline {subsubsection}{\numberline {15.2.1}Elektrokemijski postupci}{90}{subsubsection.15.2.1}
+\contentsline {subsubsection}{\numberline {15.2.2}Kemijski postupci}{91}{subsubsection.15.2.2}
+\contentsline {subsection}{\numberline {15.3}Jo\IeC {\v s} nekoliko metoda za skidanje strugotina}{91}{subsection.15.3}

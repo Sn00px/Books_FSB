@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  28 MAY 2018 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  2 JUL 2018 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1697,7 +1697,7 @@ Package: multimedia 2012/05/02 ver 0.02
 Writing index file AnalizaVrijendostiINjenaPrimjena.idx
 (./AnalizaVrijendostiINjenaPrimjena.aux
 
-LaTeX Warning: Label `Slika1' multiply defined.
+LaTeX Warning: Label `Slika2' multiply defined.
 
 )
 \openout1 = `AnalizaVrijendostiINjenaPrimjena.aux'.
@@ -1860,17 +1860,15 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.131 \FloatBarrier
-                    [1] [2 <./formiranje_cijene.pdf>] [3]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 190.
-
-
-Overfull \hbox (23.45383pt too wide) in paragraph at lines 193--203
+                    [1] [2 <./formiranje_cijene.pdf>]
+Overfull \hbox (23.45383pt too wide) in paragraph at lines 158--168
  [][] 
  []
 
-[4] [5] (./poslovnamapa <poslovnamapa.pdf, id=63, 423.5825pt x 76.285pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] [4] [5] (./poslovnamapa <poslovnamapa.pdf, id=61, 423.5825pt x 76.285pt>
 File: poslovnamapa.pdf Graphic file (type pdf)
 
 <use poslovnamapa.pdf>
@@ -1878,76 +1876,76 @@ Package pdftex.def Info: poslovnamapa.pdf used on input line 2.
 (pdftex.def)             Requested size: 423.58147pt x 76.2848pt.
 ) [6 <./poslovnamapa.pdf>]
 Package epstopdf Info: Source file: <abcAnaliza.eps>
-(epstopdf)                    date: 2018-05-24 12:27:26
+(epstopdf)                    date: 2018-06-04 10:13:06
 (epstopdf)                    size: 26101 bytes
 (epstopdf)             Output file: <abcAnaliza-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-28 11:37:48
+(epstopdf)                    date: 2018-06-04 10:13:06
 (epstopdf)                    size: 7819 bytes
 (epstopdf)             Command: <repstopdf --outfile=abcAnaliza-eps-converted-t
 o.pdf abcAnaliza.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
 
-<abcAnaliza-eps-converted-to.pdf, id=72, 361.35pt x 252.945pt>
+<abcAnaliza-eps-converted-to.pdf, id=71, 361.35pt x 252.945pt>
 File: abcAnaliza-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abcAnaliza-eps-converted-to.pdf>
-Package pdftex.def Info: abcAnaliza-eps-converted-to.pdf used on input line 257
+Package pdftex.def Info: abcAnaliza-eps-converted-to.pdf used on input line 255
 .
 (pdftex.def)             Requested size: 478.00812pt x 334.61018pt.
 
-Overfull \hbox (28.00812pt too wide) in paragraph at lines 257--258
+Overfull \hbox (28.00812pt too wide) in paragraph at lines 255--256
  [][] 
  []
 
-[7] [8 <./abcAnaliza-eps-converted-to.pdf>] [9] (./shema
-<shema.pdf, id=93, 670.505pt x 411.5375pt>
+[7] [8 <./abcAnaliza-eps-converted-to.pdf>]
+<../ObradaMetala/Dino/image_62.png, id=88, 1888.05376pt x 3091.55pt>
+File: ../ObradaMetala/Dino/image_62.png Graphic file (type png)
+
+<use ../ObradaMetala/Dino/image_62.png>
+Package pdftex.def Info: ../ObradaMetala/Dino/image_62.png used on input line 2
+74.
+(pdftex.def)             Requested size: 415.37311pt x 680.14311pt.
+
+
+LaTeX Warning: Float too large for page by 30.14311pt on input line 275.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9] [10 <../ObradaMetala/Dino/image_62.png>] (./shema
+<shema.pdf, id=100, 670.505pt x 411.5375pt>
 File: shema.pdf Graphic file (type pdf)
  <use shema.pdf>
 Package pdftex.def Info: shema.pdf used on input line 2.
 (pdftex.def)             Requested size: 670.50337pt x 411.5365pt.
 )
-Overfull \hbox (20.5166pt too wide) in paragraph at lines 3--278
+Overfull \hbox (20.5166pt too wide) in paragraph at lines 3--281
 [][][] 
  []
 
-[10 <./shema.pdf>]
-<../ObradaMetala/Dino/image_62.png, id=101, 1888.05376pt x 3091.55pt>
-File: ../ObradaMetala/Dino/image_62.png Graphic file (type png)
-
-<use ../ObradaMetala/Dino/image_62.png>
-Package pdftex.def Info: ../ObradaMetala/Dino/image_62.png used on input line 2
-84.
-(pdftex.def)             Requested size: 415.37311pt x 680.14311pt.
-
-
-LaTeX Warning: Float too large for page by 30.14311pt on input line 285.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <../ObradaMetala/Dino/image_62.png>]
-<../ObradaMetala/Dino/image_66.png, id=109, 873.2625pt x 728.7225pt>
+[11 <./shema.pdf>]
+<../ObradaMetala/Dino/image_66.png, id=108, 873.2625pt x 728.7225pt>
 File: ../ObradaMetala/Dino/image_66.png Graphic file (type png)
 
 <use ../ObradaMetala/Dino/image_66.png>
-Package pdftex.def Info: ../ObradaMetala/Dino/image_66.png used on input line 3
-00.
+Package pdftex.def Info: ../ObradaMetala/Dino/image_66.png used on input line 2
+98.
 (pdftex.def)             Requested size: 130.98372pt x 109.30365pt.
  (./vijak
-<vijak.pdf, id=110, 87.32625pt x 154.5775pt>
+<vijak.pdf, id=109, 87.32625pt x 154.5775pt>
 File: vijak.pdf Graphic file (type pdf)
  <use vijak.pdf>
 Package pdftex.def Info: vijak.pdf used on input line 2.
 (pdftex.def)             Requested size: 87.32603pt x 154.5771pt.
 )
-Underfull \hbox (badness 1436) in paragraph at lines 305--313
+Underfull \hbox (badness 1436) in paragraph at lines 303--311
 []\T1/lmr/bx/n/12 Vijak M3x6 JUS M.81.200 \T1/lmr/m/n/12 svi-je-tlo po-nik-lan.
  Na-bavna ci-jena je 0,65
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 305--313
+Underfull \hbox (badness 4429) in paragraph at lines 303--311
 \T1/lmr/m/n/12 din/kom a iz-ra-žuje se po na-rudºbi. Go-di²-nja po-treba je 170
  000 kom.
  []
@@ -1957,68 +1955,69 @@ Underfull \hbox (badness 4429) in paragraph at lines 305--313
 
 
 
+
  <../ObradaMetala/Dino/image_66.png (PNG copy)> <./vijak.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 328.
+               Default added (so using `tbp') on input line 326.
 
 
-Overfull \hbox (19.33897pt too wide) in paragraph at lines 330--348
+Overfull \hbox (19.33897pt too wide) in paragraph at lines 328--346
  [][] 
  []
 
 [13] [14]
 
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 354.
+put line 352.
 
-(./vijakx <vijakx.pdf, id=133, 87.32625pt x 121.45375pt>
+(./vijakx <vijakx.pdf, id=132, 87.32625pt x 121.45375pt>
 File: vijakx.pdf Graphic file (type pdf)
  <use vijakx.pdf>
 Package pdftex.def Info: vijakx.pdf used on input line 2.
 (pdftex.def)             Requested size: 87.32603pt x 121.45343pt.
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 369
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 367
 .
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Warning: Command \v invalid in math mode on input line 369.
+LaTeX Warning: Command \v invalid in math mode on input line 367.
 
 
-LaTeX Warning: Command \v invalid in math mode on input line 369.
+LaTeX Warning: Command \v invalid in math mode on input line 367.
 
 
-LaTeX Warning: Command \v invalid in math mode on input line 369.
+LaTeX Warning: Command \v invalid in math mode on input line 367.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
 Package atenddvi Info: Last page = 16.
 [15 <./vijakx.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 408.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 408.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 406.
  (./AnalizaVrijendostiINjenaPrimjena.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 408.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 408.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 406.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 408.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
  ) 
 Here is how much of TeX's memory you used:
- 43856 strings out of 493029
- 965280 string characters out of 6136234
- 1081175 words of memory out of 5000000
+ 43855 strings out of 493029
+ 965273 string characters out of 6136235
+ 1080178 words of memory out of 5000000
  46611 multiletter control sequences out of 15000+600000
  48608 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,77p,10410b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,77p,10410b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2026,11 +2025,11 @@ hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on AnalizaVrijendostiINjenaPrimjena.pdf (16 pages, 8607249 bytes
+Output written on AnalizaVrijendostiINjenaPrimjena.pdf (16 pages, 8607156 bytes
 ).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
