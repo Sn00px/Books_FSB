@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  2 JUL 2018 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 JUL 2018 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2521,12 +2521,12 @@ File: ./Dino/image_49-3.png Graphic file (type png)
 Package pdftex.def Info: ./Dino/image_49-3.png used on input line 1443.
 (pdftex.def)             Requested size: 140.79997pt x 64.67885pt.
 
-<./Dino/image_50.png, id=689, 2384.91pt x 1634.105pt>
+<./Dino/image_50.png, id=689, 2312.64pt x 2203.23125pt>
 File: ./Dino/image_50.png Graphic file (type png)
 
 <use ./Dino/image_50.png>
 Package pdftex.def Info: ./Dino/image_50.png used on input line 1450.
-(pdftex.def)             Requested size: 357.72107pt x 245.10518pt.
+(pdftex.def)             Requested size: 346.88103pt x 330.47043pt.
  [61 <./Dino/image_49-1.png> <./Dino/image_49-2.png> <./Dino/image_49-3.png (PN
 G copy)>] [62 <./Dino/image_50.png (PNG copy)>]
 <./Dino/image_51-1.png, id=705, 2216.28pt x 1525.7pt>
@@ -2802,8 +2802,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2041.
  ) 
 Here is how much of TeX's memory you used:
  44785 strings out of 493029
- 980892 string characters out of 6136235
- 1090118 words of memory out of 5000000
+ 980892 string characters out of 6136234
+ 1090115 words of memory out of 5000000
  47084 multiletter control sequences out of 15000+600000
  58905 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2821,7 +2821,7 @@ e/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb>
-Output written on ObradaMetala.pdf (93 pages, 69094827 bytes).
+Output written on ObradaMetala.pdf (93 pages, 70085123 bytes).
 PDF statistics:
  1353 PDF objects out of 1440 (max. 8388607)
  1109 compressed objects within 12 object streams
